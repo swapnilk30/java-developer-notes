@@ -1,3 +1,10 @@
+### The Main Objective of Lambda Expression is to bring benefits of functional programming into Java.
+### What is Lambda Expression (λ):
+
+    • Lambda Expression is just an anonymous (nameless) function. That means the function which
+    doesn’t have the name, return type and access modifiers.
+    • Lambda Expression also known as anonymous functions or closures.
+
 
 # Java 8
 
