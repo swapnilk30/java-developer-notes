@@ -75,3 +75,15 @@ public class SumOfEvenOdd {
 		System.out.println(sumOfOddNumbers);
 	}
 }
+
+-----------------------------------------
+
+Given an array of integers , write a java 8 program to find the second smallest element.
+int[] numbers = {5,2,8,3,1};
+
+
+Given two arrays of integers, write a java 8 program to find the common elements between them.
+int [] array1 = {1,2,3,4,5};
+int [] array2 = {4,5,6,7,8};
+
+//https://www.youtube.com/watch?v=RynqGUbgw9k
