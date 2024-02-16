@@ -8,3 +8,9 @@ https://javatechonline.com/blogs/
 JIRA
 https://www.youtube.com/watch?v=-PALqe_FkKg
 https://www.youtube.com/watch?v=kAp3gxN7D40&t=2s
+
+Spring Boot : How to connect with multiple databases using Spring Data JPA
+https://www.youtube.com/watch?v=mIFIb_JE47U
+https://www.youtube.com/watch?v=M6y5J-qar5A&t=1512s
+
+https://www.youtube.com/watch?v=W3S0SzYWKvA&t=16s
