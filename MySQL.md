@@ -48,3 +48,12 @@
     Write a SQL Query to find those employee whose salary exists between 35000 and 90000 with the department and manager name 
 
 
+```sql
+CREATE TABLE Employee (    
+    id INT PRIMARY KEY,    
+    name VARCHAR(45),
+    email VARCHAR(45),
+    manager_id INT,
+   country VARCHAR(45),	      
+);
+```
