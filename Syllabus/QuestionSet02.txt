@@ -1024,8 +1024,7 @@ WAP to identify string with more than specified lenght , replace that with const
 
 
 
-7> what is primary key ? what is foreing ?
-3> find  max 5 marks from student table ?
+
 10> suppose u have 10lac customers in DB can they be fetched in that PDF 
 
 
@@ -1045,3 +1044,13 @@ WAP to identify string with more than specified lenght , replace that with const
 6> what exception u faced , how u handled them ?
 7> what is VCS version control systeam?
 -------------------------------------------------------------
+
+
+
+-what is primary key ? what is foreing ?
+
+- find  max 5 marks from student table ?
+	SELECT marks
+	FROM student
+	ORDER BY marks DESC
+	LIMIT 5;
