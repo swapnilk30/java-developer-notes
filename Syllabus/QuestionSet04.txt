@@ -1,0 +1,44 @@
+
+-Query for 1st 10 records from the table ?
+    
+    SELECT * FROM YourTableName LIMIT 10;
+    
+    SELECT * FROM YourTableName ORDER BY SomeColumn LIMIT 10;
+
+
+- Query for top 10 records sort by ascending order age above 30 ?
+
+    SELECT *
+    FROM YourTableName
+    WHERE Age > 30
+    ORDER BY Age ASC
+    LIMIT 10;
+
+
+-Query for unique name of employee ?
+    SELECT DISTINCT Name FROM Employees;
+
+-Query to write the all the employees who have age above 30 ?
+    SELECT Name
+    FROM Employees
+    WHERE Age > 30;
+
+
+
+
+
+
+- find  max 5 marks from student table ?
+
+	SELECT marks
+	FROM student
+	ORDER BY marks DESC
+	LIMIT 5;
+
+
+-write a SQL Query to find fifth highest salary
+
+    SELECT DISTINCT Salary
+    FROM Employee
+    ORDER BY Salary DESC
+    LIMIT 1 OFFSET 4;

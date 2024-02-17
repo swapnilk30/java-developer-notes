@@ -119,7 +119,6 @@ GO;
 EXEC procedure_name;
 
 ------------
-write a SQL Query to find fifth highest salary
-SELECT DISTINCT * FROM employee ORDER BY salary desc LIMIT 4,1;
+
 
 do you know about unions what is Union

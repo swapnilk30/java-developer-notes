@@ -146,10 +146,6 @@ difference between delete truncate and drop
 what is stored procedure
 Query from select highest salary
 Explain groupby clause
-13. Query to write the all the employees who have age above 30 ?
-14. Query for unique name of employee ?
-15. Query for 1st 10 records from the table ?
-16. Query for top 10 records sort by ascending order age above 30 ?
 
 
 Spring Boot
@@ -1049,8 +1045,4 @@ WAP to identify string with more than specified lenght , replace that with const
 
 -what is primary key ? what is foreing ?
 
-- find  max 5 marks from student table ?
-	SELECT marks
-	FROM student
-	ORDER BY marks DESC
-	LIMIT 5;
+
