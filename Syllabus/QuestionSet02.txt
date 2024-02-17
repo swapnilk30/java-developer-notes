@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
+https://www.youtube.com/watch?v=1B_j8LmTUZg
+
 Core Java
 
 what is oops? explain 4 pillers of oops with real time example?
@@ -1040,6 +1043,40 @@ WAP to identify string with more than specified lenght , replace that with const
 6> what exception u faced , how u handled them ?
 7> what is VCS version control systeam?
 -------------------------------------------------------------
+
+package com.exception;
+
+//parent class
+class A {
+	
+	void m1() throws ArrayIndexOutOfBoundsException{
+		System.out.println("Inside m1 of A class");
+	}
+
+}
+
+//child class
+class B extends A{
+	
+	void m1()throws IndexOutOfBoundsException{
+		System.out.println("inside m1 of B class");
+	}
+}
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		A a =new B();
+		a.m1();
+	}
+
+}
+
+//https://www.youtube.com/watch?v=rqBM4TNzWi0&t=51s
+-------------
+
+
 
 
 

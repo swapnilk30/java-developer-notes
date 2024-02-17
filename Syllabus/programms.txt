@@ -81,6 +81,8 @@ public class SumOfEvenOdd {
 
 -----------------------------------------
 
+you have a list of employees and you want to filter out the ones whose phone numbers start with "+1" using Java Stream API
+
 Given an array of integers , write a java 8 program to find the second smallest element.
 int[] numbers = {5,2,8,3,1};
 
