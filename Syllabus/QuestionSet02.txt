@@ -140,12 +140,7 @@ have you work on rest API,which tool is used to test
 
 MySQL
 
-what is normalization 
-what is difference between primary key and foreign key
-difference between delete truncate and drop
-what is stored procedure
-Query from select highest salary
-Explain groupby clause
+
 
 
 Spring Boot
@@ -937,7 +932,7 @@ QuessCorp_28Dec
 
 			output: aaeglmnopp
 3> what is are internal annotations of @Serviece ?
-4> Write query to find max salary from every dept ?
+
 ------------------------------------------------------------------
 16 Dec NEC
  
@@ -1043,6 +1038,5 @@ WAP to identify string with more than specified lenght , replace that with const
 
 
 
--what is primary key ? what is foreing ?
 
 

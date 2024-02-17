@@ -1,33 +1,42 @@
 Q.1 String str = "abc test abc test test ";
 find the occurrence of each character without writing any hard code ?
+
 Q.2 Write one Employee class that creates variables such as employee, id, salary etc.
 1.Fetch the greatest salary. 
-Q.3 What is @SpringBootApplication ?
-Q.4 What is Primary key and Unique ?
 
-Q.5 Last SQL
+Q.3 What is @SpringBootApplication ?
+
+
+
 1)core java basics
 2)what is git?
 3)jre vs jvm
 4)oops concept with example.
 5)exception handling
-6)db queries to find out 3 highest salary
+
 
 1.Introduce yourself.
 2.Program - A string having different words and split into a list/ array and find each occurrence of word in a string  
-3.Query to join table ( employee, department) show department name, salary 
+
+
 4.Pgm - Using Java 8 stream, an employee having name, id , employee list ->  group employees by  department name and count of employees in each department.
+
 Tell me the project work you've done till now/technologies used. 
 Tell/draw the workflow of AML (my current project) application. 
+
 How session management is done in the app?
-Tell a SQL query to find duplicates in a table that doesn't have a primary key.
+
+
 What is the formula to calculate the name match percentage (in the name screening module).
 What is the business logic/code for uploading the SDN list in the AML app?
 Is there a better way to upload the list?
+
 How is authentication and authorization done in your app?
 How do you deploy the application at the client environment?
+
 What is the command for running the jar file?
 What is the command to build the project using Maven?
+
 How can memory leakage happen in java?
 Do you use a load balancer in your app?
 How do you display the alerts in your app (technically)?
@@ -35,6 +44,6 @@ How do you display the alerts in your app (technically)?
 Note: App is the spring boot application. 
 
 1)What is core java?
-2)SQL Queries
+
 3)Springboot Annotations
 4)Logical Programs

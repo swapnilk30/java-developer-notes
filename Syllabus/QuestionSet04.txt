@@ -1,3 +1,16 @@
+-What is Primary key and Unique ?
+-db queries to find out 3 highest salary
+-Query to join table ( employee, department) show department name, salary 
+-Tell a SQL query to find duplicates in a table that doesn't have a primary key.
+what is normalization 
+what is difference between primary key and foreign key
+difference between delete truncate and drop
+what is stored procedure
+Query from select highest salary
+Explain groupby clause
+4> Write query to find max salary from every dept ?
+-what is primary key ? what is foreing ?
+
 
 -Query for 1st 10 records from the table ?
     
