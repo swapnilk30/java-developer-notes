@@ -1,0 +1,44 @@
+
+-What is Hibernate ?
+-What is Spring ?
+-What is Spring MVC ?
+-What is Spring Boot ?
+
+
+-What is Stereotype Annotaions
+
+    Stereotype Annotaions are used to indicate the roles of classes in the application.
+    these are nothing but an extension to @Component Annotaion
+
+    @Controller is used on classes which are directly used to handle Http Requests.
+
+    @Service is used on classes which are responsible for having business logic.
+
+    @Repository is used on classes which are responsible for having database operations.
+
+
+
+-Difference between @Component vs @Bean in Spring Boot
+
+    @Component - class level annotation.
+
+    @Bean - method level (not class level ) annotation.
+            it is used to create custom objects by IOC Container.
+            it is usaully declared in Configuration Class to create Spring Bean definations.
+
+-What is Spring Bean ?
+    a "Spring Bean" refers to an object managed by the Spring IoC (Inversion of Control) container. Spring IoC container is responsible for instantiating, configuring, and managing the lifecycle of these objects, known as beans.
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+Stereotype Annotations SpringBoot | Interview Series | @Controller | @Service | @Repository
+    https://www.youtube.com/watch?v=jfMRnmSoA6g
+
+Difference between @Component vs @Bean in Spring Boot | Interview Questions @JavaExpress
+    https://www.youtube.com/watch?v=QNP3fS6PJZY

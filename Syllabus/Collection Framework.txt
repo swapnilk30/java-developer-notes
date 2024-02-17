@@ -1,3 +1,6 @@
+How Custom Java Object will be used as key in HashMap. 
+https://www.youtube.com/watch?v=626jyt0yN4M
+
 How to Iterate Map in Java Example
 5 Best Ways to Iterate Over HashMap in Java
     1. Iterate through a HashMap EntrySet using Iterator
