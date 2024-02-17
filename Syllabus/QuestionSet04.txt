@@ -1,3 +1,7 @@
+-The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+-The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
+
 -What is Primary key and Unique ?
 -what is difference between primary key and foreign key
 

@@ -40,3 +40,6 @@ Use Collections.unmodifiableList() method.
                     }
 
                 }				
+
+-Which collections you used in your project?
+-Explain ConcurrentHashMap class.

@@ -36,7 +36,12 @@ what is try and catch
 what doed catch block do?
 what is try with resources? what doed it do?
 when do we get ioexception
+
 when do we get null ponter exception?
+	you might encounter a Null Pointer Exception when you try to invoke a method or access a field on a variable that is null. Here's an example in Java:
+	String str = null;
+	int length = str.length(); // This line will throw a NullPointerException
+
 can you use try and finally 
 7. Exception handling , throw keyword, we can used it at checked exception?
 8. Difference between try catch and throw keyword.
@@ -59,12 +64,12 @@ Multiple thread occure in collection how to resolve it.
 5. Hashmap and hashtable difference ?
 6. Different scenarios on hashmap ?
 - Explain internal working of TreeMap.
-- Which collections you used in your project?
+
 - Difference between HashSet & ArrayList
 - Explain the difference between ArrayList & LinkedList according to the use of them.
 7)Differenciate between ArrayList and Linked List? 
 8)Difference between List and Set.
-9)Explain Concurrent HashMap,
+
 10)What do u know about HashMap?
 11)What is Iterator ?
 
