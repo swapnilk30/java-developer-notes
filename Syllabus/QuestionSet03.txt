@@ -1,0 +1,125 @@
+Programms
+
+Q. PRINT Even Number using java 8
+-----------
+Q. Convert Map To List Using Java 8
+Input : Map<Integer,String > map =new HashMap<>();
+        map.put(1,"Jay");
+        map.put(2,"Raj");
+        map.put(3,"John");
+
+Output: [1,2,3]
+        [Jay,Raj,John]
+-------------
+java program to count the occurances of each character in a string
+String str="ilovejavapython"
+
+
+// java program to count the occurances of each character in a string
+// String str="ilovejavapython"
+public class OccuranceString {
+
+	public static void main(String[] args) {
+		String str ="ilovejavapython";
+		//char[] ch = str.toCharArray();
+		//System.out.println(Arrays.toString(ch));
+		String[] result = str.split("");
+		//System.out.println(Arrays.toString(result));
+		Map<String, Long> map = Arrays.stream(result).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+		System.out.println(map);	
+	}
+}
+-------------
+Generate Random integers within a specific range in java?
+
+// Generate Random integers within a specific range in java?
+public class RandomNum {
+	public static void main(String[] args) {
+		Random random=new Random();
+		random.ints(1,100).distinct().limit(10).sorted().forEach(System.out::println);;
+	}
+}
+-----------
+
+java 8 program to count Strings whose length is greater than 3 in list ?
+["java","php","angular","python","R","c++"]
+
+
+public class StringCount {
+
+	public static void main(String[] args) {
+        
+		List<String> list=Arrays.asList("java","php","angular","python","R","c++");
+
+		long count = list.stream().filter(e->e.length()>3).count();
+		System.out.println(count);
+	}
+}
+
+------------
+
+
+
+WAP to obtain below pattern.
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+How to reverse String in Java {String str = "my name is khan";}
+1) By StringBuilder / StringBuffer {by reverse()}
+2) By Reverse Iteration {charAt() toCharArray() split()}
+3) By Recursion 
+4) By Using Java8
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+Exception Handling
+
+What happens behind the code int data=50/0;?
+Exception Handling with Method Overriding in Java
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Serialization
+
+-what do you understand by serialzation and purpose of that ,have you used in anywhere
+
+Serialization is a mechanism of converting the state of an object into a byte stream.
+Deserialization is the reverse process where the byte stream is used to recreate the actual 
+Java object in memory.
+
+Why we need Serialization in java?
+• To transfer objects through a network.
+• To keep Java objects in memory.
+• To save Java objects in files.
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------
+Design patterns are the well proved solution of commonly occurring problems in software design.
+
+what is singleton design pattern ?
+    it means define the class which has single instance that provide the global point of access to it ,called as singleton design pattern
+--------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------
+MySQL
+
+What is a Stored Procedure?
+A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
+//Stored Procedure Syntax
+CREATE PROCEDURE procedure_name
+AS
+sql_statement
+GO;
+//Execute a Stored Procedure
+EXEC procedure_name;
+
+------------
+write a SQL Query to find fifth highest salary
+SELECT DISTINCT * FROM employee ORDER BY salary desc LIMIT 4,1;
+
+do you know about unions what is Union
