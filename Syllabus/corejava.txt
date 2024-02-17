@@ -1,3 +1,7 @@
+Create an Object without ‘new’ Keyword
+
+
+
 Differences between Abstraction and Encapsulation
 Differences between Interface and Abstract Class
 Difference between StringBuffer and StringBuilder

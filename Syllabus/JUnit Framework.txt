@@ -1,0 +1,34 @@
+Junit 5
+
+What is Junit ?
+	- Junit is a unit testing open-source framework for the java programming language.
+	- Java Developers use this framework to write and execute automated tests.
+
+Software Testing ?
+	-End to End Test
+	-Integration Tests
+	-Unit Test
+
+Unit Testing ( white box testing. )
+	- refers to the testing of small segments of code.
+	-here unit indicates the smallest bit of code that can be fetched oout of the system.
+	-this small bit can be a line of the code ,method or class.
+
+
+Integration Testing ?
+What is the need for JUnit Testing ?
+
+
+
+H2 database - on demand database. we can use for test cases
+
+	#Database configuration
+	spring.datasource.url = jdbc:h2:mem:testdb
+	spring.datasource.driverClassName = org.h2.Driver
+	spring.datasource.username = sa
+	spring.datasource.password = password
+
+	spring.jpa.database-platform = org.hibernate.dialect.H2Dialect
+
+	#Accessing the H2 Console
+	spring.h2.console.enbled = true
