@@ -10,4 +10,4 @@
 ## Design Patterns
 
 
-![java](/Users/swapnilk/Desktop/GITHUB/java-developer-notes/images/java.svg)
+![java](images/java.png)
