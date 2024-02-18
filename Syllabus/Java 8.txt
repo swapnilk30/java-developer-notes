@@ -1,0 +1,6 @@
+Predefined Functional Interfaces  :
+
+    Predicate 
+    Function
+    Consumer
+    Supplier
