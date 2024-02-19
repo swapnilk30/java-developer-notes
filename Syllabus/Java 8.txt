@@ -4,3 +4,4 @@ Predefined Functional Interfaces  :
     Function
     Consumer
     Supplier
+

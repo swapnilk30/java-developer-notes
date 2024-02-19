@@ -43,3 +43,27 @@ public class SumOfEvenOdd {
 	}
 }
 ```
+### How to convert primitive data type arrays to Wrapper arrays in Java.
+
+```java
+public class PrimitiveArrayToStream {
+	
+	public static void main(String[] args) {
+		
+		//primitive data type array
+		int[] arr = {10,20,30,40,60,30,40,50,60,};
+		
+		IntStream stream = Arrays.stream(arr);
+		
+		Stream<Integer> boxed = stream.boxed();
+		
+		//convert to Wrapper Array
+		
+		Integer[] array = boxed.toArray(Integer[]::new);
+		
+		System.out.println(Arrays.toString(arr));
+		
+		//Integer[] array2 = Arrays.stream(arr).boxed().toArray(Integer[] :: new);	
+	}
+}
+```
