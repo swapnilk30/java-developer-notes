@@ -67,3 +67,53 @@ public class PrimitiveArrayToStream {
 	}
 }
 ```
+
+### What is the Optional class in Java 8?
+
+    The Optional class in Java 8 is a container object that may or may not contain a value.
+    It is used to avoid null pointer exceptions.
+
+    If a value is present, isPresent() will return true.
+    get() will return the value otherwise throws NoSuchElementException.
+
+```java
+/*you might encounter a Null Pointer Exception when you try to invoke a method or access a field on a variable that is null.
+ Null Pointer Exceptions can be common sources of bugs in programs,
+ especially if proper null checks are not performed before accessing object references.
+*/
+public class OptionalExample {
+	
+	public static void main(String[] args) {
+		
+		String str = null;
+		int length = str.length(); // This line will throw a NullPointerException
+	}
+}
+
+// To Handle Above NullPointerException we have to Check null using if else 
+
+public class OptionalExample {
+	
+	public static void main(String[] args) {
+		
+		String str = null;
+		//int length = str.length(); // This line will throw a NullPointerException
+	
+		if(str == null) {
+			System.out.println("this is null object");
+		}else {
+			System.out.println(str.length());
+		}
+	}
+}
+```
+```java
+// Example : Used in project 
+
+@Repository
+public interface UserRepository extends JpaRepository<User, String>{
+
+	Optional<User> findByEmail(String username);
+
+}
+```
