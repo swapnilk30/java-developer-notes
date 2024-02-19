@@ -107,6 +107,26 @@ public class OptionalExample {
 	}
 }
 ```
+#### Handle Using Optional Class
+```java
+public class OptionalExample {
+	
+	public static void main(String[] args) {
+		
+		String str = null;
+		//int length = str.length(); // This line will throw a NullPointerException
+		
+		Optional<String> optional = Optional.ofNullable(str);
+		
+		System.out.println(optional.isPresent());// false
+		
+		//System.out.println(optional.get());// Exception in thread "main" java.util.NoSuchElementException: No value present
+		
+		System.out.println(optional.orElse("No value present"));
+	}
+}
+```
+
 ```java
 // Example : Used in project 
 
