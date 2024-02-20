@@ -136,4 +136,9 @@ public interface UserRepository extends JpaRepository<User, String>{
 	Optional<User> findByEmail(String username);
 
 }
+
+
+{
+	User user = userRepository.findById(userId).orElseThrow(()-> new ResourceNotFoundException("User not found by Given Id !!"));
+}
 ```
