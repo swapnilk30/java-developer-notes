@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=0B1M7TUE360&list=PLQTYNpk8jwk2StWpxZU93ZdVC14OVKNED
+
+
+Spring Security is a Java/Java EE framework that provides authentication, authorization, and other security features for enterprise applications.
+
+Authentication 
+    Authentication verifies the identity of a user or service i.e Authenticate user and 
+Authorization
+    Authorization determines their access rights i.e give permission to access
+
+
+Add Spring Security to Spring Boot Application
+    Add maven dependencies
+    Open pom.xml and add the following dependencies –
+
+        add spring-boot-starter-security dependency, which will help to implement spring security.
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+
+Run the app
+    Run the application using the below maven command –
+        mvn spring-boot:run
