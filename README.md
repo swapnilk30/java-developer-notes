@@ -9,5 +9,13 @@
 
 ## Design Patterns
 
+## Hibernate
+## Spring Boot
+
+
+## MultiThreading
+## Spring Security
+## MicroServices
+
 
 ![java](images/java.png)
