@@ -1,0 +1,605 @@
++++++++++++Interview Programs For Java Dev++++++++
+1. 	public class CalculatorusingSwitchCase {
+
+	public static void main(String[] args) {
+
+		String yn;
+		do {
+			Scanner s = new Scanner(System.in);
+			System.out.println("Enter First Number");
+			int no1 = s.nextInt();
+			System.out.println("Enter Second Number");
+			int no2 = s.nextInt();
+			System.out.println("Select Symbol(+,-,*,/)");
+			String sym = s.next();
+			int res;
+			switch (sym) {
+			case "+":
+				res = no1 + no2;
+				System.out.println("Add is :" + res);
+				break;
+			case "-":
+				res = no1 - no2;
+				System.out.println("Sub is :" + res);
+				break;
+			case "*":
+				res = no1 * no2;
+				System.out.println("Multi is :" + res);
+				break;
+			case "/":
+				res = no1 / no2;
+				System.out.println("Div is :" + res);
+				break;
+			default:
+				System.out.println("invalid Symbol");
+				break;
+
+			}
+			System.out.println("Do you want to continue(Press y for Yes and n for No)");
+			yn = s.next();
+		} while (yn.equals("y") || yn.equals("Y"));
+
+	}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2.	public class EvenOdd {
+
+	public static void main(String[] args) {
+
+		int no = 24;
+		if (no % 2 == 0) {
+			System.out.println("Number is even");
+		} else {
+			System.out.println("Number is odd");
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3.	public class Greatertwo {
+
+	public static void main(String[] args) {
+		int a = 10, b = 20;
+		if (a > b) {
+			System.out.println("a is greater");
+		} else {
+			System.out.println("b is greater");
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4.	public class IfElseIfStatement {
+//Greater Three Number
+	public static void main(String[] args) {
+
+		int a = 100;
+		int b = 80;
+		int c = 150;
+		if (a > b && a > c) {
+			System.out.println("The Greatest number amoung given three numbers is >>" + a);
+		} else if (b > a && b > c) {
+			System.out.println("The Greatest number amoung given three numbers is >>" + b);
+		} else if (c > a && c > b) {
+			System.out.println("The Greatest number amoung given three numbers is >>" + c);
+		} else {
+			System.out.println("Invalid input");
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+5.	public class LeapYear {
+
+	public static void main(String[] args) {
+
+		int year = 2023;
+		if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0)) {
+			System.out.println("its leap year");
+		} else {
+			System.out.println("it's not leap year");
+		}
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+6.	public class SwapNumber {
+//Swap Numbers with Third Variable
+	public static void main(String[] args) {
+
+		int a = 40;
+		int b = 50;
+		int t;
+//    Before Swapping
+		System.out.println("Before swapping");
+		System.out.println("a : " + a + " & b :" + b);
+
+// After Swapping
+		t = a;
+		a = b;
+		b = t;
+
+//  Swap Numbers without Third Variable  
+//	a= a+b;
+//	b=a-b;
+//	a=a-b;
+		System.out.println("After swapping");
+		System.out.println("a : " + a + " & b :" + b);
+	}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+7.	public class UserInputScanner {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter your name");
+		String name = s.next();
+		System.out.println("Enter your age");
+		int age = s.nextInt();
+		System.out.println("Enter your Gender");
+		char gender = s.next().charAt(0);
+		System.out.println("enter your Phone no");
+		long phno = s.nextLong();
+		System.out.println("--------------------------------------");
+		System.out.println("Name :" + name);
+		System.out.println("Age :" + age);
+		System.out.println("Gender :" + gender);
+		System.out.println("Phone no :" + phno);
+	}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+8.	public class FibonaccoSeries {
+
+	public static void main(String[] args) {
+
+		int n1 = 0, n2 = 1, sum = 0;
+		System.out.print(n1 + " " + n2);
+		for (int i = 2; i < 20; i++) {
+			sum = n1 + n2;
+			System.out.print(" " + sum);
+			n1 = n2;
+			n2 = sum;
+		}
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+9.	public class LargestOf3Numbers {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter First Number:");
+		int a = sc.nextInt();
+
+		System.out.println("Enter Sceond Number :");
+		int b = sc.nextInt();
+
+		System.out.println("Enter Third Number :");
+		int c = sc.nextInt();
+
+//		Ternary Operator
+		int largest1 = a > b ? a : b;
+		int largest2 = c > largest1 ? c : largest1;
+		System.out.println(largest2 + " is largest Number");
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10.	public class CheckArraysEquals {
+
+	public static void main(String[] args) {
+
+		int a1[] = { 1, 2, 3, 4, 5 };
+		int a2[] = { 1, 2, 3, 4, 5 };
+
+		boolean status = Arrays.equals(a1, a2);
+		if (status == true) {
+			System.out.println("Arrays are Equal");
+		} else {
+			System.out.println("Arrays are Not Equal");
+		}
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+11.	public class DuplicateElementsinArray {
+
+	public static void main(String[] args) {
+		String arr[] = { "java", "C", "C++", "Python", "java" };
+		HashSet<String> langs = new HashSet();
+		boolean flag = false;
+		for (String l : arr) {
+			if (langs.add(l) == false) {
+				System.out.println("Found Duplicate Element:" + l);
+				flag = true;
+			}
+		}
+		if (flag == false) {
+			System.out.println("Not found Duplicates");
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+12.	public class LinearSearch {
+
+	public static void main(String[] args) {
+
+		int a[] = { 10, 20, 30, 40, 50 };
+		int search_ele = 50;
+		boolean flag = false;
+		for (int i = 0; i < a.length; i++) {
+			if (search_ele == a[i]) {
+				System.out.println("Element found at:" + i);
+				flag = true;
+				break;
+			}
+		}
+		if (flag == false) {
+			System.out.println("Element Not Found");
+		}
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++
+13.	public class EvenOddfromArray {
+
+	public static void main(String[] args) {
+
+		int a[] = { 1, 2, 3, 4, 5, 6 };
+		System.out.println("Even numbers in array..");
+		for (int value : a) {
+			if (value % 2 == 0)
+				System.out.println(value);
+		}
+		System.out.println("Odd numbers in array..");
+		for (int value : a) {
+			if (value % 2 != 0)
+				System.out.println(value);
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+14.	public class MaxAndMinElementsinArray {
+
+	public static void main(String[] args) {
+
+		/*
+		 * int a[]= {50,100,40,20,60}; int max=a[0]; for(int i=1; i<a.length;i++) {
+		 * if(a[i]>max) { max=a[i]; } }
+		 * System.out.println("Maximum Element is array is:"+ max);
+		 */
+		int a[] = { 50, 100, 40, 20, 60 };
+		int min = a[0];// 50
+		for (int i = 1; i < a.length; i++) {
+			if (a[i] < min) // 20<40
+			{
+				min = a[i];// 20
+			}
+		}
+		System.out.println("Minimum Element is array is:" + min);
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+15.	public class MissingNumberunArray {
+
+	public static void main(String[] args) {
+		int a[] = { 1, 2, 3, 4, 5, 7, 8, 9, 10 };
+		int sum1 = 0;
+		for (int i = 0; i < a.length; i++) {
+			sum1 = sum1 + a[i];
+		}
+		System.out.println("Sum of elements in array :" + sum1);
+		int sum2 = 0;
+		for (int i = 1; i <= 10; i++) {
+			sum2 = sum2 + i;
+		}
+		System.out.println("Sum of range of elements in array:" + sum2);
+		System.out.println("Missing Number is:" + (sum2 - sum1));
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+16.	public class SumofArray {
+
+	public static void main(String[] args) {
+
+		int a[] = { 5, 6, 7, 9, 2 };
+		int sum = 0;
+		for (int i = 0; i <= a.length - 1; i++) {
+			sum = sum + a[i];// 5+6+7+9+2
+		}
+		System.out.println("Sum of Array elements :" + sum);
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+17.	public class CountCharacterOccurance {
+
+	public static void main(String[] args) {
+
+		String s = "Java Programming Java oops";
+		int totalcount = s.length();
+		int totalcount_afterRemove = s.replace("a", "").length();
+		int count = totalcount - totalcount_afterRemove;
+		System.out.println("Number occurances of a is:" + count);
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+18.	public class CountCharacterOccurance {
+
+	public static void main(String[] args) {
+
+		String s = "Java Programming Java oops";
+		int totalcount = s.length();
+		int totalcount_afterRemove = s.replace("a", "").length();
+		int count = totalcount - totalcount_afterRemove;
+		System.out.println("Number occurances of a is:" + count);
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+19.	public class CountTheWords {
+
+	public static void main(String[] args) {
+		System.out.println("Enter the String:");
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine(); // Welcome to Java
+		int count = 1;
+		for (int i = 0; i < s.length() - 1; i++) {
+			if ((s.charAt(i) == ' ') && (s.charAt(i + 1) != ' ')) {
+				count++;
+			}
+		}
+		System.out.println("Number of words in a string:" + count);
+
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+20.	public class PalindromeNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Number:");
+		int num = sc.nextInt();
+		int org_num = num;
+		int rev = 0;
+
+		while (num != 0) {
+			rev = rev * 10 + num % 10;
+			num = num / 10;// RevserseNumber
+		}
+		if (org_num == rev) {
+			System.out.println(org_num + "Palindrome Number");
+		} else {
+			System.out.println(org_num + "Not Palindrome Number");
+		}
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+21.	public class PalindromeString {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter you String:");
+		String str = sc.next();
+		String org_str = str;
+		String rev = "";
+
+		int len = str.length();
+		for (int i = len - 1; i >= 0; i--) {
+			rev = rev + str.charAt(i);
+		}
+		if (org_str.equals(rev)) {
+			System.out.println(org_str + " is Palindrome Number ");
+		} else {
+			System.out.println(org_str + " is Not Palindrome Number ");
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+22.	public class RemoveJunk {
+
+	public static void main(String[] args) {
+
+		String s = "@!#$%^&* latin String 0123456789";
+		s = s.replaceAll("[^a-zA-Z0-9]", "");
+		System.out.println(s);
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+23.	public class RemoveWhitSpaces {
+
+	public static void main(String[] args) {
+
+		String str = "Java     Programming ";
+		System.out.println("Before removing white spaces:" + str);
+
+		str = str.replaceAll("\\s", "");
+		System.out.println("After removing white spaces:" + str);
+
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+24.	public class ReverseEachWord {
+
+	public static void main(String[] args) {
+
+//		Approach 1 By 
+		String str = "Welcome To Java";
+		String[] words = str.split("\\s");
+		String reverseword = "";
+
+		for (String w : words) {
+			/*
+			 * StringBuilder sb=new StringBuilder(w); sb.reverse();
+			 * reverseword=reverseword+sb.toString()+" ";
+			 */
+//			Approach 2
+			StringBuffer sb = new StringBuffer(str);
+			System.out.println(sb.reverse());
+			break;
+		}
+		System.out.println(reverseword);
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+25.	public class ReverseNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Scanner sc= new Scanner(System.in);
+     System.out.println("Enter a Number:");
+     String str= sc.next();
+
+//       Method 1:  Using StringBuffer Class
+
+          StringBuffer sb= new StringBuffer(String.valueOf(str));
+          StringBuffer rev =sb.reverse();
+
+     System.out.println("Reverse Number is:"+rev);
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+26.	public class ReverString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Sudhanssu Jirange";
+		String rev = "";
+
+//     Method 1: StringBuffer Class
+		StringBuffer sb = new StringBuffer(str);
+		System.out.println(sb.reverse());
+
+//		 Method 2: StringBuilder Class
+		/*
+		 * StringBuilder sbl= new StringBuilder(); sbl.append(str); StringBuilder
+		 * rev1=sbl.reverse(); System.out.println("Reverse String is:"+rev1);
+		 */
+	}
+
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+27.	public class Anagram {
+
+	public static void main(String[] args) {
+		String x = "He is aRAdHYA";
+		String y = "is he HRADAYA";
+		x = x.replace(" ", "");
+		y = y.replace(" ", "");
+		x = x.toLowerCase();
+		y = y.toLowerCase();
+		char a[] = x.toCharArray();
+		char b[] = y.toCharArray();
+		Arrays.sort(a);
+		Arrays.sort(b);
+		Boolean result = Arrays.equals(a, b);
+		if (result == true) {
+			System.out.println("Strings are anagram");
+		} else {
+			System.out.println("Strings are not anagram");
+		}
+	}
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+28.	public class Anagram2 {
+
+	public static void main(String[] args) {
+		String x = "SILENT";
+		String y = "HILTER";
+		x = x.replace(" ", "");
+		y = y.replace(" ", "");
+		x = x.toLowerCase();
+		y = y.toLowerCase();
+		char a[] = x.toCharArray();
+		char b[] = y.toCharArray();
+		Arrays.sort(a);
+		Arrays.sort(b);
+		Boolean result = Arrays.equals(a, b);
+		if (result == true) {
+			System.out.println("Strings are anagram");
+		} else {
+			System.out.println("Strings are not anagram");
+		}
+	}
+
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+29.	public class Frequencyofcharacters {
+
+	public static void main(String[] args) {
+
+		String s = "ShriRamKrishnaHari";
+		char[] c = s.toCharArray();
+
+		for (int i = 0; i < s.length(); i++) {
+			int freq = 1;
+
+			for (int j = i + 1; j < s.length(); j++) {
+
+				if (s.charAt(i) == s.charAt(j)) {
+
+					freq++;
+				}
+			}
+			System.out.println("Frequency is >> " + s.charAt(i) + " is -- " + freq);
+		}
+	}
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+30.	
+public class Nonrepeatingcharacter {
+
+	public static void main(String[] args) {
+		String s = "Sudhanssu";
+		boolean flag = true;
+		for (char i : s.toCharArray()) {
+			if (s.indexOf(i) == s.lastIndexOf(i)) {
+				System.out.println("First non-repeating character is:" + i);
+				flag = false;
+				break;
+			}
+		}
+		if (flag) {
+			System.out.println("There is no non repeatinh character");
+		}
+	}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
