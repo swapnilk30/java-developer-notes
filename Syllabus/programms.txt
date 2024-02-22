@@ -1,3 +1,7 @@
+Program to find the minimum (or maximum) element of an array
+--------------------------------------------
+
+
 Java program to check whether a string is a Palindrome.
 --------------------------------------------
 

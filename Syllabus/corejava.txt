@@ -1,4 +1,5 @@
 
+
 -how memory management or Garbage collection works in java?
 Garbage collection
     Java provides automatic memory management through a program called Garbage collector.
