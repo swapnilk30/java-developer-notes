@@ -217,3 +217,5 @@ public class SortEmployee {
 	}
 }
 ```
+
+### Design Class for CustomSorting Using nested static classes(classes like NameComparator,SalaryComparator,IdComparator)
