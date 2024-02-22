@@ -49,9 +49,10 @@ public class Employee implements Comparable<Employee>{
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
 	}
 
+    // logic to sort the data Ascending
 	@Override
 	public int compareTo(Employee employee) {
-		// logic to sort the data
+		 
 		if(salary == employee.getSalary()) {
 			return 0;
 		}else if (salary > employee.getSalary()) {
@@ -59,6 +60,20 @@ public class Employee implements Comparable<Employee>{
 		}else
 			return -1;
 	}
+
+    //Sorting By Reverse Order
+    /*	
+    @Override
+	public int compareTo(Employee employee) {
+		// logic to sort the data Ascending 
+		if(salary == employee.getSalary()) {
+			return 0;
+		}else if (salary > employee.getSalary()) {
+			return -1; // changed to -1
+		}else
+			return 1; // changed to 1
+	}
+    */
 }
 ```
 ```java
