@@ -3,7 +3,7 @@
 
 ## Core Java
 
-## java 8
+## Java 8
 ## MySQL
 ## Collection Framework
 
