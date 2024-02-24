@@ -9,7 +9,9 @@
 
 ### How to represent java class as Spring Bean?
 - Using Xml configuration
-        <bean id="car" class="com.algowebpro.Car" />
+```
+<bean id="car" class="com.algowebpro.Car" />
+```
 - Using Annotations
 
 ## Frequently Used Annotations From Spring Framework.
