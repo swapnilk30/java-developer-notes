@@ -13,12 +13,15 @@
 <bean id="car" class="com.algowebpro.Car" />
 ```
 - Using Annotations
+```
+@Component , @Service , @Repository
+```
 
 ## Frequently Used Annotations From Spring Framework.
 
 - @Component
-@Service 
-@Repository
+- @Service 
+- @Repository
 
 @Configuration
 @Bean
