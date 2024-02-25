@@ -23,3 +23,7 @@ https://www.youtube.com/watch?v=u4VMZ9kXGCA&t=20s
 Frequently Asked Core Java Interview Questions For Freshers | Part - 1 | Ashok IT
 https://www.youtube.com/watch?v=qw_eBjArmzY&t=7090s
 https://www.youtube.com/watch?v=AfpuuGUBTIQ&t=671s
+
+
+Batch Processing Spring Boot
+https://www.youtube.com/watch?v=EpxNRGcriuA
