@@ -1,5 +1,6 @@
 ## String str = "abc test abc test test ";
 find the occurrence of each character without writing any hard code ?
+
 ## Write program to find occurences of Characters in string
 
 ## Write one Employee class that creates variables such as  id, salary etc.
@@ -9,24 +10,35 @@ find the occurrence of each character without writing any hard code ?
 
 ## Pgm - Using Java 8 stream, an employee having name, id , employee list ->  group employees by  department name and count of employees in each department.
 
+## Program on array need to extract duplicate 
+
 ---
+
 ## how many objects is creating when 
-String s1= "abc";
-String s2=new String("abc");
+    String s1= "abc";
+    String s2=new String("abc");
     and with some other scenarios
+
 
 
 --- MYSQL---
 
+## What is diff between primary and unique key
+## What is trigger
+
 ## write SQL query to get name starts with "a"
 ## write SQL query to get unique name from table
 ## How to move data from one table to another table
+## Sql query to Update empname based on empid.
 
 
 ---
 ## Introduce yourself.
 ## tell project description and your role in the project
+## What was your roles and responsibilities 
 ## Explain last project and technology used?
+## What all technologies u have used in your project
+
 
 ## how to debug code in eclipse
 
@@ -39,25 +51,37 @@ String s2=new String("abc");
 ## oops concept with example.
 ## in project -where u use encapsulation, Abstraction.
 ## why need polymorphism.
+## What is overriding n overloading 
 ## different scenarios based on method overload and override - which method call
 ## when we use Abstract class & Interface
 ## diamond problem in java
 
+## What is marker interface
+
+## What is difference between string buffer and string builder
 
 ## what is immutable ,which class is immutable
+## How to create immutable class in java
 
 ## exception handling
 ## Diff between throw and throws 
+## How to do custom exception
+## Diff Errors and exception
 
 
 
 ## how internally hashset works
+## Internal working of hashmap
 ## time complexity of hashmap for getting element and different scenarios
 ## diff between hashmap and hashtable
+## Diff bet Hashmap and linkedhashmap
 
 ## diff between comparator and comparable
 
+## What is volatile keyword
 ## what is thread, how to acheive in java.
+
+## What is daemon thread
 ---
 
 ## what is optional 
@@ -86,52 +110,18 @@ Amdocs
 Company: crop data 
 
 Q. what is diff between jpa and hibernate 
-
 Q. What is nosql
 Q. Do you have any idea on mangodb 
 
-Q. What is lamba
-Q. What is marker interface
-Q. How to create immutable class in java
 Q. Difference between controller and rest controller
 Q. How tomcat server knows that it's requesting for that any specific request 
-Q. What is volatile keyword
-Q. How to do custom exception
+
 Q. What is circular dependency
 
 Company name: Avizva
-1. Introduction 
-2. What all technologies u have used in your project
-3. What is difference between string buffer and string builder
-4. Program on array need to extract duplicate 
-5. Difference between controller and restcontroller
-6. What is overriding n overloading 
-7. What is autowiring 
-8. Sql query to Update empname based on empid.
-9. What is nosql
-10. What was your roles and responsibilities 
-11. What is diff between primary and unique key
-12. What is trigger
-13. What is daemon thread
 
-Company: Crop Data 
-1. Tell me about Yourself and And your Company Last project.
-2. What technology you have used? 
-3.Internal working of hashmap
-4. Difference between Hashmap and hashtable
-5.Diff bet Hashmap and linkedhashmap
-6. Diff between throw and throws 
-7.Diff Errors and exception
-8. what is diff between jpa and hibernate 
-9. What is nosql
-10. Do you have any idea on mangodb 
-11. New features of java 8
-12. What is lamba
-13. What is marker interface
-14. How to create immutable class in java
-15. Difference between controller and rest controller
-16. What is volatile keyword
-17. sceniore based programs
+5. Difference between controller and restcontroller
+7. What is autowiring
 
 
 

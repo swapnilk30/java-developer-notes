@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
 Create Thread Safe Singleton Class | Java Interview Questions
 https://www.youtube.com/watch?v=1B_j8LmTUZg
 
+
+
 Core Java
 
 what is oops? explain 4 pillers of oops with real time example?
