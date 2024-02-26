@@ -1,1 +1,61 @@
-- Consume Third Party API in Spring Boot Application
+## Consume Third Party API in Spring Boot Application
+
+    To consume a third-party API in a Spring Boot application, you typically follow these steps:
+        1.Add Dependency:
+            Include any necessary dependencies in your pom.xml or build.gradle file to enable HTTP client functionality.
+            For example, you can use Apache HttpClient, OkHttp, or Spring's own RestTemplate or WebClient.
+        2.Create Configuration:
+            Configure the HTTP client or RestTemplate bean in your Spring Boot application.
+            This typically involves creating a @Configuration class where you define and configure the RestTemplate or WebClient bean.
+        3.Invoke the API:
+            Use the configured HTTP client or RestTemplate to make requests to the third-party API.
+            This could be done in a service class or a controller depending on your application's design.
+
+Here's a basic example using Spring's RestTemplate:
+
+1.Add Dependency:
+
+<!-- If using Maven -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+2.Create Configuration:
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class AppConfig {
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+}
+
+3.Invoke the API:
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class MyService {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    public String callThirdPartyAPI() {
+        String apiUrl = "https://api.example.com/data";
+        return restTemplate.getForObject(apiUrl, String.class);
+    }
+}
+
+In this example, RestTemplate is injected into the MyService class and used to make a GET request to a hypothetical third-party API.
+
+Alternatively, you can use Spring's WebClient, which is a more modern and reactive way to consume RESTful services in Spring.
+
+---
