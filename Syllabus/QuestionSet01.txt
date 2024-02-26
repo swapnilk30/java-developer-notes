@@ -20,18 +20,21 @@ String s2=new String("abc");
 
 ## write SQL query to get name starts with "a"
 ## write SQL query to get unique name from table
+## How to move data from one table to another table
 
 
 ---
 ## Introduce yourself.
 ## tell project description and your role in the project
+## Explain last project and technology used?
 
 ## how to debug code in eclipse
 
 ---
 ## jre vs jvm
 
-## static block 
+## static block
+## What is final class and static class is it possible?
 
 ## oops concept with example.
 ## in project -where u use encapsulation, Abstraction.
@@ -44,6 +47,9 @@ String s2=new String("abc");
 ## what is immutable ,which class is immutable
 
 ## exception handling
+## Diff between throw and throws 
+
+
 
 ## how internally hashset works
 ## time complexity of hashmap for getting element and different scenarios
@@ -65,24 +71,22 @@ String s2=new String("abc");
 
 
 
--------------------------------------------------------------
-10.how u write code for rest api to get student by id 
-11.requestmapping annotation in detail
-12.explain all different annotation you used in restcontroller.
+
+
 -----------------------------------------------------------
 
 Amdocs
+
+10.how u write code for rest api to get student by id 
+11.requestmapping annotation in detail
+12.explain all different annotation you used in restcontroller.
 12.spring mvc lifecycle
 13.what is Dependency Injection and what is its benefits
 
 Company: crop data 
-Q. Explain last project and technology used?
 
-Q. Difference between Hashmap and hashtable
-Q. Diff between throw and throws 
-Q. What is final class and static class is it possible?
 Q. what is diff between jpa and hibernate 
-Q. How to move data from one table to another table
+
 Q. What is nosql
 Q. Do you have any idea on mangodb 
 
