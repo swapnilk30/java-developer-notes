@@ -39,3 +39,21 @@ Do you use a load balancer in your app?
 How do you display the alerts in your app (technically)?
 Note: App is the spring boot application. 
 ---
+
+
+-------------------------------------------------------------
+Niyuj
+Round 1
+1.tell project description and your role in the project
+2.oops features in details
+3.diamond problem in java
+4.different scenarios based on method overload and override - which method call
+5.why need polymorphism.
+6.how internally hashset works
+7.time complexity of hashmap for getting element and different scenarios
+8.Write program to find occurences of Characters in string
+9.what is optional 
+10.how u write code for rest api to get student by id 
+11.requestmapping annotation in detail
+12.explain all different annotation you used in restcontroller.
+-----------------------------------------------------------

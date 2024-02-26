@@ -1,4 +1,8 @@
+How One Singleton Bean handles 1000X Requests concurrently in a Spring Boot App?
 https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
+
+
+Create Thread Safe Singleton Class | Java Interview Questions
 https://www.youtube.com/watch?v=1B_j8LmTUZg
 
 Core Java
@@ -215,22 +219,7 @@ have you work on jquery
 18)What are other different design Patterns?
 19)Explain multithreading?
 20)explain One-to-many mapping in hibernate
--------------------------------------------------------------
-Niyuj
-Round 1
-1.tell project description and your role in the project
-2.oops features in details
-3.diamond problem in java
-4.different scenarios based on method overload and override - which method call
-5.why need polymorphism.
-6.how internally hashset works
-7.time complexity of hashmap for getting element and different scenarios
-8.Write program to find occurences of Characters in string
-9.what is optional 
-10.how u write code for rest api to get student by id 
-11.requestmapping annotation in detail
-12.explain all different annotation you used in restcontroller.
------------------------------------------------------------
+--------------------------------------
 Date : 18.09.2021
 Company : Cognizant Round -2
 Questions 
