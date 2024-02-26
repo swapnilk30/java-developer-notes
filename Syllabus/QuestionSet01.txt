@@ -4,7 +4,7 @@ find the occurrence of each character without writing any hard code ?
 Q.2 Write one Employee class that creates variables such as employee, id, salary etc.
 1.Fetch the greatest salary. 
 
-Q.3 What is @SpringBootApplication ?
+
 
 
 
@@ -31,7 +31,7 @@ What is the formula to calculate the name match percentage (in the name screenin
 What is the business logic/code for uploading the SDN list in the AML app?
 Is there a better way to upload the list?
 
-How is authentication and authorization done in your app?
+
 How do you deploy the application at the client environment?
 
 
