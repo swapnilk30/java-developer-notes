@@ -784,24 +784,7 @@ Question in interview:::
 12-diff abstract class and interface
 13-java8 features
 --------------------------------------
-Company: Crop Data 
-1. Tell me about Yourself and And your Company Last project.
-2. What technology you have used? 
-3.Internal working of hashmap
-4. Difference between Hashmap and hashtable
-5.Diff bet Hashmap and linkedhashmap
-6. Diff between throw and throws 
-7.Diff Errors and exception
-8. what is diff between jpa and hibernate 
-9. What is nosql
-10. Do you have any idea on mangodb 
-11. New features of java 8
-12. What is lamba
-13. What is marker interface
-14. How to create immutable class in java
-15. Difference between controller and rest controller
-16. What is volatile keyword
-17. sceniore based programs
+
 --------------------------------------------------------
 1. Please tell me about yourself?
 2. So this your project was on springboot from start or you have moved to springboot?
@@ -870,40 +853,9 @@ c.	String str3 = “name”;
 21.	 Why can’t we use a static class instead of a singleton?
 22.	 How to prevent the cloning of a singleton object?
 ----------------------------------------------------------------------------
-Company name: Avizva
-1. Introduction 
-2. What all technologies u have used in your project
-3. What is difference between string buffer and string builder
-4. Program on array need to extract duplicate 
-5. Difference between controller and restcontroller
-6. What is overriding n overloading 
-7. What is autowiring 
-8. Sql query to Update empname based on empid.
-9. What is nosql
-10. What was your roles and responsibilities 
-11. What is diff between primary and unique key
-12. What is trigger
-13. What is daemon thread
+
 ----------------------------------------------------------------------------
-Company: crop data 
-Q. Explain last project and technology used?
 
-Q. Difference between Hashmap and hashtable
-Q. Diff between throw and throws 
-Q. What is final class and static class is it possible?
-Q. what is diff between jpa and hibernate 
-Q. How to move data from one table to another table
-Q. What is nosql
-Q. Do you have any idea on mangodb 
-
-Q. What is lamba
-Q. What is marker interface
-Q. How to create immutable class in java
-Q. Difference between controller and rest controller
-Q. How tomcat server knows that it's requesting for that any specific request 
-Q. What is volatile keyword
-Q. How to do custom exception
-Q. What is circular dependency
 ----------------------------------------------------------------
 QuessCorp_28Dec
 
