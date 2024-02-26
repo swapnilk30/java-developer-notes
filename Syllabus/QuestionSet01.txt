@@ -57,3 +57,21 @@ Round 1
 11.requestmapping annotation in detail
 12.explain all different annotation you used in restcontroller.
 -----------------------------------------------------------
+
+Amdocs
+1.oops concept
+2.in project -where u use encapsulation, Abstraction.
+3.when we use Abstract class & Interface
+
+6.what is immutable ,which class is immutable
+7.diff between hashmap and hashtable
+8.diff between comparator and comparable
+9.what is thread, how to acheive in java.
+10.how many objects is creating when String s1= "abc",String s2=new String("abc") and with some other scenarios
+11.static block 
+12.spring mvc lifecycle
+13.what is Dependency Injection and what is its benefits
+14.write SQL query to get name starts with "a"
+15.write SQL query to get unique name from table
+16.how to debug code in eclipse
+17.diff between Soap and rest
