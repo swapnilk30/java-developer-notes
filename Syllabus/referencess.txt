@@ -27,3 +27,7 @@ https://www.youtube.com/watch?v=AfpuuGUBTIQ&t=671s
 
 Batch Processing Spring Boot
 https://www.youtube.com/watch?v=EpxNRGcriuA
+
+How to connect with multiple databases using Spring Data JPA
+https://www.youtube.com/watch?v=mIFIb_JE47U&t=44s
+https://www.youtube.com/watch?v=M6y5J-qar5A&t=19s
