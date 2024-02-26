@@ -321,48 +321,7 @@ Infogain- 17-09-21
 10 how do you reserve the number(123=321)
 11 swaping without 3rd variable
 ------------------------------------------------------------------------
-1st round
-Kiwi Technologies 
-1)what is encapsulation?write a scenario of encapsulation?
-2)difference between polymorphism and inheritance?
-3)write a scenario of ploymorphism?and real time example?
-4)difference between encapsulation and abstarction?
-5)what is the use of interface?
-6)what is exception hamdling?what are the to handle exception?
-7)which java version you have used ?
-8)When we use string buffer n builder?
-9)write a scenario of exception handling?
-10)difference between try and catch block?
-11)difference between finall finally and finalize?
-12)write a program of factorial using recursion?
-13) Search an element in rotated and sorted array.
-14)Find the number occurring odd number of times in an array
-15)Separate odd and even numbers in an array
-16)Find the second-highest number when all are negatives.
-17)What is string constant pool?
-18)what is immutable?
-19)how to reverse string?
-20)write sql query to to fetch all data from specific column?
-21)If given no is Even divide by 2, If odd multiply by 3 & add 1 
-and given number is from (10-1000)?
-22)internal workiing of hashmap?
-23)internal working of hashset?
-24)what is use of @servlet annotation?
-25)what is status code?
-26)write code for method overloading?
-27)How to consume the created Rest services
-28)difference between comparable and comparator?
-29)diffeence betwen fail safe and fail fast?give some example?
-30)difference between string builder and string buffer
-31)) Is Session a thread-safe object?
-32)Project architecture
-33)How u provide security to ur project
-34)Which database used  in project and why
-35)how to confugure logger in your project?write a code on notepad?
-36)which mapping is used in your project?perform on notepad?
-37)which module have u design in project?explain
-38)which dependencies use in your project?explain each?
-39)project flow?what is ur roles and responsibility?
+
 -------------------------------------
 Company- RIA Advisory
 1) Java 8 features
