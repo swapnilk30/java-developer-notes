@@ -34,16 +34,10 @@ Is there a better way to upload the list?
 How is authentication and authorization done in your app?
 How do you deploy the application at the client environment?
 
-What is the command for running the jar file?
-What is the command to build the project using Maven?
+
 
 How can memory leakage happen in java?
 Do you use a load balancer in your app?
 How do you display the alerts in your app (technically)?
  
 Note: App is the spring boot application. 
-
-1)What is core java?
-
-3)Springboot Annotations
-4)Logical Programs
