@@ -1,3 +1,12 @@
 
-What is the command for running the jar file?
-What is the command to build the project using Maven?
+## What is the command for running the jar file?
+    java -jar yourfile.jar
+
+
+## What is the command to build the project using Maven?
+    
+    mvn package
+    mvn clean package
+
+    This command will compile the source code, run tests, and package the project into the specified format (usually a JAR file).
+
