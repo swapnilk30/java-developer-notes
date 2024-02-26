@@ -1,5 +1,6 @@
 ## String str = "abc test abc test test ";
 find the occurrence of each character without writing any hard code ?
+## Write program to find occurences of Characters in string
 
 ## Write one Employee class that creates variables such as  id, salary etc.
 1.Fetch the greatest salary. 
@@ -9,24 +10,105 @@ find the occurrence of each character without writing any hard code ?
 ## Pgm - Using Java 8 stream, an employee having name, id , employee list ->  group employees by  department name and count of employees in each department.
 
 ---
+## how many objects is creating when 
+String s1= "abc";
+String s2=new String("abc");
+    and with some other scenarios
 
----
-## what is git?
+
+--- MYSQL---
+
+## write SQL query to get name starts with "a"
+## write SQL query to get unique name from table
+
 
 ---
 ## Introduce yourself.
+## tell project description and your role in the project
+
+## how to debug code in eclipse
 
 ---
 ## jre vs jvm
+
+## static block 
+
 ## oops concept with example.
+## in project -where u use encapsulation, Abstraction.
+## why need polymorphism.
+## different scenarios based on method overload and override - which method call
+## when we use Abstract class & Interface
+## diamond problem in java
+
+
+## what is immutable ,which class is immutable
+
 ## exception handling
+
+## how internally hashset works
+## time complexity of hashmap for getting element and different scenarios
+## diff between hashmap and hashtable
+
+## diff between comparator and comparable
+
+## what is thread, how to acheive in java.
+---
+
+## what is optional 
+
+---
+
+## diff between Soap and rest
+## what is git?
+
 ---
 
 
----
+
+-------------------------------------------------------------
+10.how u write code for rest api to get student by id 
+11.requestmapping annotation in detail
+12.explain all different annotation you used in restcontroller.
+-----------------------------------------------------------
+
+Amdocs
+12.spring mvc lifecycle
+13.what is Dependency Injection and what is its benefits
 
 
----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------
 Tell me the project work you've done till now/technologies used. 
 Tell/draw the workflow of AML (my current project) application. 
 How session management is done in the app?
@@ -37,41 +119,4 @@ How do you deploy the application at the client environment?
 How can memory leakage happen in java?
 Do you use a load balancer in your app?
 How do you display the alerts in your app (technically)?
-Note: App is the spring boot application. 
----
-
-
--------------------------------------------------------------
-Niyuj
-Round 1
-1.tell project description and your role in the project
-2.oops features in details
-3.diamond problem in java
-4.different scenarios based on method overload and override - which method call
-5.why need polymorphism.
-6.how internally hashset works
-7.time complexity of hashmap for getting element and different scenarios
-8.Write program to find occurences of Characters in string
-9.what is optional 
-10.how u write code for rest api to get student by id 
-11.requestmapping annotation in detail
-12.explain all different annotation you used in restcontroller.
------------------------------------------------------------
-
-Amdocs
-1.oops concept
-2.in project -where u use encapsulation, Abstraction.
-3.when we use Abstract class & Interface
-
-6.what is immutable ,which class is immutable
-7.diff between hashmap and hashtable
-8.diff between comparator and comparable
-9.what is thread, how to acheive in java.
-10.how many objects is creating when String s1= "abc",String s2=new String("abc") and with some other scenarios
-11.static block 
-12.spring mvc lifecycle
-13.what is Dependency Injection and what is its benefits
-14.write SQL query to get name starts with "a"
-15.write SQL query to get unique name from table
-16.how to debug code in eclipse
-17.diff between Soap and rest
+Note: App is the spring boot application.
