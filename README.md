@@ -1,7 +1,4 @@
-# Syllabus
-
-
-## Core Java
+# Core Java
 
 ## Java 8
 ## MySQL
