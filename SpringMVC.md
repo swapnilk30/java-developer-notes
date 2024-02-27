@@ -30,6 +30,13 @@
 ### What is the front controller class of Spring MVC?
 - The **DispatcherServlet** class works as the front controller in Spring MVC.
 
+### What does the ViewResolver class?
+- The **View Resolver** class resolves the view component to be invoked for the request.
+- It defines prefix and suffix properties to resolve the view component.
+
+### Which ViewResolver class is widely used?
+- The **org.springframework.web.servlet.view.InternalResourceViewResolver** class is widely used.
+
 
 ---
 
