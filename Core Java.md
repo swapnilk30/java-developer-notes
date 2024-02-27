@@ -1,5 +1,12 @@
 # CORE JAVA
 
+## Type Of Application:
+- Standalone application
+- Web Application
+- Enterprice Application
+- Mobile Application
+
+
 ## MultiThreading
 ### What is Thread ?
     What are the different Thread states
