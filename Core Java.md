@@ -1,6 +1,6 @@
 # CORE JAVA
 
-## Type Of Application:
+## Type Of Application :
 - Standalone application
 - Web Application
 - Enterprice Application
