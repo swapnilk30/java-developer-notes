@@ -13,6 +13,8 @@
 3. It is sub framework of Spring Framework. Use of Spring core features like IOC etc.
 4. Rapid application development.
 5. Spring MVC is flexible , easy to test and much features.
+6. Spring MVC is highly flexible and can be integrated with various view technologies, such as JSP, Thymeleaf, FreeMarker, etc. 
+7. It also supports validation, data binding, internationalization, and other features to simplify web application development.
 
 ### MVC Design Pattern.
     MVC design pattern - way of organize the code in our application
