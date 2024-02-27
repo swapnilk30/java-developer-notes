@@ -17,6 +17,12 @@
 ### MVC Design Pattern.
     MVC design pattern - way of organize the code in our application
 
+- **Model**: Represents the data and business logic of the application. It encapsulates the application's data and behavior, providing services to access and manipulate this data.
+
+- **View**: Represents the presentation layer of the application. It is responsible for rendering the user interface and presenting data to the user in a format that is easy to understand and interact with.
+
+- **Controller**: Acts as an intermediary between the model and the view. It handles user requests, processes input, and updates the model accordingly. It also selects the appropriate view to display the response to the user.
+
 # Spring MVC Interview Questions
 
 ### What is the front controller class of Spring MVC?
