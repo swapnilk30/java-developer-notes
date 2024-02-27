@@ -1,10 +1,10 @@
 # CORE JAVA
 
 ## Type Of Application :
-- Standalone application
-- Web Application
-- Enterprice Application
-- Mobile Application
+- Standalone application -> desktop application,which need to be installed on desktop.
+- Web Application -> application which are made to run on internet via server connection with dynamic web pages support
+- Enterprice Application -> distributed in nature
+- Mobile Application -> created for mobile devices.
 
 
 ## MultiThreading
