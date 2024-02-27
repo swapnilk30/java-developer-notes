@@ -24,7 +24,7 @@
 
 ## Operators 
     operators are symbols that perform operations on variables and values.
-    
+
 - Arithmetic operators
 - Logical operators
 - Relational operators
@@ -36,6 +36,23 @@
 - New operator
 - Dot operator
 - InstanceOf operators
+
+
+## Access Modifiers
+## Static
+## Constructor
+
+## Encapsulation
+
+- Binding of data into a single entity(class) is called as encapsulation.
+- In Other words it is a programming technique that binds the class members (Variable + methods) together and prevent them from direct access.
+- Every java class is an example of encapsulation.
+
+## Inheritance
+
+- Inheritance is creating a new class from the existing class functionality.
+- it means reusability.
+- it shows `IS-A` relationship.
 
 ## MultiThreading
 ### What is Thread ?
