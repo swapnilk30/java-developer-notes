@@ -54,6 +54,11 @@
 - it means reusability.
 - it shows `IS-A` relationship.
 
+## Polymorphism
+## Abstraction
+
+## Object class
+
 ## MultiThreading
 ### What is Thread ?
     What are the different Thread states
