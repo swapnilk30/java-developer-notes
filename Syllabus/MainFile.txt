@@ -1,3 +1,6 @@
+### macOS command
+cd $HOME  -> Executing cd $HOME would change the current directory to your home directory.
+
 
 ## What is the command for running the jar file?
     java -jar yourfile.jar
