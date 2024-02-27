@@ -24,8 +24,18 @@
 
 ## Operators 
     operators are symbols that perform operations on variables and values.
--
-
+    
+- Arithmetic operators
+- Logical operators
+- Relational operators
+- Assignment operators
+- Bitwise operators
+- Unary operators
+- Ternary operators
+- Shift operators
+- New operator
+- Dot operator
+- InstanceOf operators
 
 ## MultiThreading
 ### What is Thread ?
