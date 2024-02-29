@@ -124,3 +124,4 @@ public class Test {
 - Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
 
 ## What is the difference between Iterator and ListIterator in java.
+## Comparable vs Comparator with Example.
