@@ -20,7 +20,7 @@
 - Transactions
 - lazy loading
 
-# Creating MAVEN Project for hibernate and Adding dependencies
+# Creating MAVEN Project for hibernate and Adding dependencies (Eclipse)
 - To create a Maven project for Hibernate and add the necessary dependencies, you can follow these steps:
 1. Create Maven Project:
 2. Add Hibernate Dependencies: 
@@ -44,3 +44,23 @@
     </dependency>
 ```
 3. Hibernate Configuration:
+- This configuration file will be used to store database connection information and schema level settings.
+**hibernate.cfg.xml**
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">Skmania@1234</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="show_sql">true</property>
+	</session-factory>
+</hibernate-configuration>
+```
