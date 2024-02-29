@@ -6,3 +6,16 @@
 3. CallableStatement : java.sql.CallableStatement
 
 # Hibernate Framework
+
+### ORM
+### JPA 
+- it is a Specification that defines how to persist data in java application.
+
+### Hibernate features :
+- ORM 
+- DatabaseIndependence
+- Automatic table generation
+- Caching
+- query langauge - HQL is similar to sql
+- Transactions
+- lazy loading
