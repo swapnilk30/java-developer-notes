@@ -45,7 +45,8 @@
 ```
 3. Hibernate Configuration:
 - This configuration file will be used to store database connection information and schema level settings.
-**hibernate.cfg.xml**
+- Create a hibernate.cfg.xml file in the **src/main/resources** directory with your database connection details and **entity mappings**.
+- **hibernate.cfg.xml**
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE hibernate-configuration PUBLIC
