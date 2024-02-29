@@ -32,3 +32,23 @@ public class MaxAndMinElementArray {
 	}
 }
 ```
+
+
+# Examples:
+```java
+
+String str1 = "hello";
+
+String str2 = new String("hello");
+
+String[] stringArray = { "apple", "banana", "orange", "kiwi", "strawberry" };
+
+int[] intArray = { 1, 2, 3, 4, 5 };
+
+List<Integer> listOfIntger = Arrays.asList();
+
+List<String> listOfString = Arrays.asList();
+
+List<Employee> employees = Arrays.asList();
+
+```
