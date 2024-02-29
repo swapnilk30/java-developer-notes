@@ -24,7 +24,7 @@
 - To create a Maven project for Hibernate and add the necessary dependencies, you can follow these steps:
 1. Create Maven Project:
 2. Add Hibernate Dependencies: 
-- Open the pom.xml file in your project and add the Hibernate dependencies within the <dependencies> tag.
+- Open the **pom.xml** file in your project and add the Hibernate dependencies within the `<dependencies>` tag.
 
 ```xml
     <!-- Hibernate Core -->
