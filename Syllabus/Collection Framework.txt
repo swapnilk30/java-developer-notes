@@ -12,9 +12,6 @@ How to Iterate Map in Java Example
 
 Internal Working of HashMap
 
-			
-What is the difference between Iterator and ListIterator in java.
-
 How to make read only ArrayList in java.
 Use Collections.unmodifiableList() method.
 

@@ -122,4 +122,5 @@ public class Test {
 ### What is the difference between Collection and Collections.
 - Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
 - Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
-	
+
+## What is the difference between Iterator and ListIterator in java.
