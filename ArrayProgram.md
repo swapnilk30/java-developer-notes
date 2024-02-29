@@ -52,3 +52,19 @@ List<String> listOfString = Arrays.asList();
 List<Employee> employees = Arrays.asList();
 
 ```
+
+
+## Merge Two Arrays Into Single Array In Java
+https://www.youtube.com/watch?v=7PJA0rwt1VQ
+
+## How to sort an array in fastest way using java program
+https://www.youtube.com/watch?v=r7-aGiHlo_Q&t=509s
+
+## Array Duplicates Printing Using Java Program
+https://www.youtube.com/watch?v=DcihmSV5ZPo
+
+## Merged two arrays into a single array with sorting and remove duplicates java8
+https://www.youtube.com/watch?v=pJbFPkHYIos
+
+## Java Program To Find Missing Number In Array
+https://www.youtube.com/watch?v=BpqhcN7Qcpk&t=47s
