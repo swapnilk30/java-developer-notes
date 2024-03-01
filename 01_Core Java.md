@@ -79,6 +79,29 @@
 1. One is by **extending java.lang.Thread class**
 2. Another is by **implementing java.lang.Runnable interface**
 
+### Can We Start Thread Twice ?
+
+- No. You can not start thread twice
+- This will result in a **IllegalThreadStateException**
+
+```java
+public class TestThread extends Thread{
+
+    @Override
+    public void run(){
+        System.out.print("Thread start");
+    }
+    
+    public static void main(String[] args){
+
+        TestThread t = new TestThread();
+        
+        t.start();
+        t.start(); // java.lang.IllegalThreadStateException
+    }
+}
+```
+
 ### Why to override run() method while creating the thread using the Runnable interface ?
     because Runnable is interface and it has abstract method called run. 
     Hence when we implement the Runnable interface we have to override run() method. 
