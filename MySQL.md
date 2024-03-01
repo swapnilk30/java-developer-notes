@@ -65,3 +65,10 @@ CREATE TABLE Employee (
 ```sql
 DELETE FROM table_name;
 ```
+- To delete the row of the table under some condtion :
+```sql
+DELETE FROM table_name WHERE condition;
+```
+## DROP
+
+## TRUNCATE
