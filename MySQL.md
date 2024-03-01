@@ -57,3 +57,11 @@ CREATE TABLE Employee (
    country VARCHAR(45),	      
 );
 ```
+
+
+
+## DELETE
+- To **delete all** the rows of the table :
+```sql
+DELETE FROM table_name;
+```
