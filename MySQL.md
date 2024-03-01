@@ -78,4 +78,4 @@ DELETE FROM table_name WHERE condition;
 TRUNCATE table table_name;
 
 TRUNCATE table_name;
-``
+```
