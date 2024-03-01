@@ -138,6 +138,10 @@ int x = 10;
 | Array | Collection |
 |---|---|
 |1.|1.|
+|1.|1.|
+|1.|1.|
+|1.|1.|
+|1.|1.|
 
 ### What is the difference between Collection and Collections.
 - Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
