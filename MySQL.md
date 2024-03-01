@@ -72,3 +72,10 @@ DELETE FROM table_name WHERE condition;
 ## DROP
 
 ## TRUNCATE
+- To truncate a table;
+
+```sql
+TRUNCATE table table_name;
+
+TRUNCATE table_name;
+``
