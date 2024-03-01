@@ -74,6 +74,11 @@
 - Waiting State (Blocked)
 - Dead State (Exit)
 
+### Different ways of creating a thread in Java
+
+1. One is by **extending java.lang.Thread class**
+2. Another is by **implementing java.lang.Runnable interface**
+
 ### Why to override run() method while creating the thread using the Runnable interface ?
     because Runnable is interface and it has abstract method called run. 
     Hence when we implement the Runnable interface we have to override run() method. 
