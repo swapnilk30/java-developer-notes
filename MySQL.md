@@ -62,10 +62,12 @@ CREATE TABLE Employee (
 
 ## DELETE
 - To **delete all** the rows of the table :
+
 ```sql
 DELETE FROM table_name;
 ```
 - To delete the row of the table under some condtion :
+
 ```sql
 DELETE FROM table_name WHERE condition;
 ```
