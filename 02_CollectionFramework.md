@@ -119,6 +119,20 @@ public class Test {
 
 
 
+### what is primitive data types ?
+- They are used to store single value in variables.
+- These primitive types are used to declare variables that hold simple values like numbers, characters, or boolean values.
+```java
+int x = 10;
+```
+
+# Array
+
+### What is Array ?
+- 
+
+# Collection
+
 ### What is the difference between Collection and Collections.
 - Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
 - Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
