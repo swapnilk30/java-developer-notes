@@ -202,3 +202,29 @@ How can memory leakage happen in java?
 Do you use a load balancer in your app?
 How do you display the alerts in your app (technically)?
 Note: App is the spring boot application.
+
+
+
+
+Map<> map =new HashMap<>();
+
+
+Arrays.stream(arr).sorted().collect(new TreeMap());
+
+TreeMap<> tm = new TreeMap<>();
+
+
+how to make class synchonize
+sort hashmap
+array to treemap
+
+
+update 7th name of employyee create api
+serialization with eaxmple
+delete and truncate
+@Transiant
+@Conditionprpe
+
+static main metod 
+authentication and autherization
+executor framwork
