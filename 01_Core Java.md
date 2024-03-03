@@ -137,10 +137,9 @@ public class TestThread extends Thread{
 - Type of streams :
 1. Byte Stream
 - Input Stream - read()
-> This abstract class is the superclass of all classes representing an input stream of bytes. 
-> It's designed to read data from various sources.
-> Some common subclasses include FileInputStream, ByteArrayInputStream, and BufferedInputStream.
+> This abstract class is the superclass of all classes representing an input stream of bytes. It's designed to read data from various sources.Some common subclasses include FileInputStream, ByteArrayInputStream, and BufferedInputStream.
 - Output Stream - write()
+> This abstract class is the superclass of all classes representing an output stream of bytes. It's designed to write data to various destinations. Some common subclasses include FileOutputStream, ByteArrayOutputStream, and BufferedOutputStream.
 2. Character Stream
 3. Object
 
