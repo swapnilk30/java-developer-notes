@@ -167,3 +167,4 @@ for **deserialization** we call the **readObject()** method of **ObjectInputStre
 - Transient Keyword is a reserved keyword in Java.
 - It is used as a variable modifier at the time of the Serialization process.
 - **Declaring a variable with Transient keyword avoids the variable from being Serialized.**
+- During deserialization, the transient variable will be assigned a default value, typically null for reference types or 0 for primitive types.
