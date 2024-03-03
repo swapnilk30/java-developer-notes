@@ -141,6 +141,8 @@ public class TestThread extends Thread{
 - Output Stream - write()
 > This abstract class is the superclass of all classes representing an output stream of bytes. It's designed to write data to various destinations. Some common subclasses include FileOutputStream, ByteArrayOutputStream, and BufferedOutputStream.
 2. Character Stream
+-Reader
+-Writer
 3. Object
 
 ## 
