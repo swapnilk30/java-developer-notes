@@ -149,3 +149,5 @@ public class TestThread extends Thread{
 - Serialization is a mechanism of converting the state of an object into a byte stream.
 - Deserialization is the reverse process where the byte stream is used to recreate the actual
 Java object in memory.
+> Note: The byte stream created is platform independent. So, the object serialized on one
+platform can be deserialized on a different platform.
