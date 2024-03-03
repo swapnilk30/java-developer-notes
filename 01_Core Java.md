@@ -163,6 +163,10 @@ for **deserialization** we call the **readObject()** method of **ObjectInputStre
 2. We must implement the **Serializable interface** for serializing the object.
 
 ### What is Serial Version UID?
+- every serializable class/object gets associated
+with a unique identification number **provided by the JVM** of the host machine.This Unique ID is called Serial Version UID.
+- This UID is used as an identification by the JVM of the receiving end to confirm that the same object is being DeSerialized at the receiving end.
+
 ### What is Transient Keyword?
 - Transient Keyword is a reserved keyword in Java.
 - It is used as a variable modifier at the time of the Serialization process.
