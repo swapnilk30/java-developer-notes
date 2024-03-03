@@ -128,4 +128,10 @@ public class TestThread extends Thread{
 
 
 ## Input and Output Stream (java.io package)
+- Stream :
+1. Input and 
+2. Output
 - We can perform **File Handling** in java by java I/O API.
+- io Exception -> fully checked exception
+
+## 
