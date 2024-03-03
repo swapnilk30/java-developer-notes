@@ -134,4 +134,14 @@ public class TestThread extends Thread{
 - We can perform **File Handling** in java by java I/O API.
 - io Exception -> fully checked exception
 
+- Type of streams :
+1. Byte Stream
+- Input Stream - read()
+> This abstract class is the superclass of all classes representing an input stream of bytes. 
+> It's designed to read data from various sources.
+> Some common subclasses include FileInputStream, ByteArrayInputStream, and BufferedInputStream.
+- Output Stream - write()
+2. Character Stream
+3. Object
+
 ## 
