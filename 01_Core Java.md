@@ -132,7 +132,7 @@ public class TestThread extends Thread{
 1. Input and 
 2. Output
 - We can perform **File Handling** in java by java I/O API.
-- io Exception -> fully checked exception
+- IOException , FileNotFoundException-> fully checked exception
 
 - Type of streams :
 1. Byte Stream
