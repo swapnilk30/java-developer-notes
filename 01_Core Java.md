@@ -161,3 +161,9 @@ platform can be deserialized on a different platform.
 1. For **serializing** the **object**, we call the **writeObject()** method of **ObjectOutputStream**, and
 for **deserialization** we call the **readObject()** method of **ObjectInputStream** class.
 2. We must implement the **Serializable interface** for serializing the object.
+
+### What is Serial Version UID?
+### What is Transient Keyword?
+- Transient Keyword is a reserved keyword in Java.
+- It is used as a variable modifier at the time of the Serialization process.
+- **Declaring a variable with Transient keyword avoids the variable from being Serialized.**
