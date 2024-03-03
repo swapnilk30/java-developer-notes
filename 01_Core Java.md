@@ -123,3 +123,9 @@ public class TestThread extends Thread{
 
 ### Create an Object without ‘new’ Keyword
     Using Class.newInstance()
+
+
+
+
+## Input and Output Stream (java.io package)
+- We can perform **File Handling** in java by java I/O API.
