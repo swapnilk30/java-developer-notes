@@ -151,3 +151,13 @@ public class TestThread extends Thread{
 Java object in memory.
 > Note: The byte stream created is platform independent. So, the object serialized on one
 platform can be deserialized on a different platform.
+
+### Why we need Serialization in java?
+- To transfer objects through a network.
+- To keep Java objects in memory.
+- To save Java objects in files.
+
+### How to implement serialization in java?
+1. For **serializing** the **object**, we call the **writeObject()** method of **ObjectOutputStream**, and
+for **deserialization** we call the **readObject()** method of **ObjectInputStream** class.
+2. We must implement the **Serializable interface** for serializing the object.
