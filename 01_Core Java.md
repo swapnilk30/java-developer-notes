@@ -128,7 +128,7 @@ public class TestThread extends Thread{
 
 
 ## Input and Output Stream (java.io package)
-- Stream :
+- Stream : In Java , streams are the sequence of data that are read from the source and written to the destination.
 1. Input and 
 2. Output
 - We can perform **File Handling** in java by java I/O API.
