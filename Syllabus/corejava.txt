@@ -17,6 +17,7 @@ Top 25 Java Multi Threading Interview Questions & Answers | Ashok IT
 https://www.youtube.com/watch?v=wE0FPmq63P4
 
 -how memory management or Garbage collection works in java?
+
 Garbage collection
     Java provides automatic memory management through a program called Garbage collector.
     "Remove objects that are not used anymore."
@@ -32,6 +33,7 @@ Create an Object without ‘new’ Keyword
 Differences between Abstraction and Encapsulation
 Differences between Interface and Abstract Class
 Difference between StringBuffer and StringBuilder
+
 realtime example of final class provided by java?
 A real-time example of a final class in Java is the java.lang.String class,
 which is a final class and cannot be extended by any other class.
@@ -143,3 +145,20 @@ Thus, the constructors of an abstract class are used from constructor of its sub
 If the abstract class doesn’t have a constructor, a class that extends that abstract class will not get compiled.
 
 How to create immutable class.
+
+
+
+
+
+
+----------------------
+### Serialization task :
+-perform serialization and deserialiazation on Employee
+Employee{
+    int id;
+    String name;
+    transient double salary;
+}
+----------------------
+How to serialize objects and save to file
+https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
