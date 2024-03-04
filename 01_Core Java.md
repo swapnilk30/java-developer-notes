@@ -67,8 +67,14 @@
 ---
 
 ## String
-### Java String class methods
-
+### String class methods
+- char charAt(int index)
+- static String format(String format, Object... args)
+- String substring(int beginIndex)
+- String concat(String str)
+- String[] split(String regex)
+- static String valueOf(int value)
+- String trim()
 ---
 
 
