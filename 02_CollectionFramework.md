@@ -53,14 +53,19 @@ public class TraditionalWay {
 
 	public static void main(String[] args) {
 
-		List<Employee> listOfEmployee = Arrays.asList(new Employee("emp1 hr1", "HR"), new Employee("emp2 hr2", "HR"),
-				new Employee("emp3 hr3", "HR"), new Employee("emp4 hr4", "HR"), new Employee("emp5 admin1", "ADMIN"),
-				new Employee("emp6 admin2", "ADMIN"), new Employee("emp7 pd1", "PD"), new Employee("emp8 pd2", "PD"),
-				new Employee("emp9 pd3", "PD"));
+		List<Employee> listOfEmployee = Arrays.asList(
+			new Employee("emp1 hr1", "HR"),
+			new Employee("emp2 hr2", "HR"),
+			new Employee("emp3 hr3", "HR"),
+			new Employee("emp4 hr4", "HR"),
+			new Employee("emp5 admin1", "ADMIN"),
+			new Employee("emp6 admin2", "ADMIN"),
+			new Employee("emp7 pd1", "PD"),
+			new Employee("emp8 pd2", "PD"),
+			new Employee("emp9 pd3", "PD"));
 		
 		Map<String, List<Employee>> map = new HashMap<String, List<Employee>>();
-		
-		
+
 		for(Employee e:listOfEmployee) {
 			String deptName = e.getDeptName();//HR
 			
@@ -74,12 +79,9 @@ public class TraditionalWay {
 			System.out.println(e);
 		}
 	}
-
 }
 ```
-
 ### TestEmployee.java
-
 ```java
 package com.demo;
 
@@ -115,9 +117,6 @@ public class Test {
 	}
 }
 ```
-
-
-
 
 ### what is primitive data types ?
 - They are used to store single value in variables.
