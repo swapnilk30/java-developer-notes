@@ -218,6 +218,16 @@ s.peak()
 - the generic collection disables the type casting and there is no use of typecasting when it is used.
 - the generics collection are type-safe and checked at the complie time.
 
+## Cursors of collection framework
+- Cursors are mainly used to access the elements of any collection.
+- Cursors, also known as iterators, are used to traverse through the elements of a collection.
+- Here are some common cursors/interfaces in the Java Collection framework:
+
+1. Iterator
+2. ListIterator
+3. Enumeration
+
+
 ## What is the difference between ArrayList and Vector?
 ## What is the difference between ArrayList and LinkedList?
 
