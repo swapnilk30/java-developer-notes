@@ -79,11 +79,12 @@
 
 ### Difference between StringBuffer and StringBuilder?
 ### Why Strings are Immutable or final in Java ?
+
 ### Why java provided with String Constant Pool as we can store the objects in heap memory ?
 - String Constant Pool provides the facility of reusability of the existing string object.
-When a new string object is created using the string literals ,then JVM first checks in the pool if this string already exists or not.
+- When a new string object is created using the string literals ,then JVM first checks in the pool if this string already exists or not.
 if it exists ,then it will reference the existing string rather than creating a new object.
-this will help in the speeding up of the application and also helps in saving the memory as no two objects will have the same content.
+- this will help in the speeding up of the application and also helps in saving the memory as no two objects will have the same content.
 ---
 
 
