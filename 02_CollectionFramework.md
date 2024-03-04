@@ -143,11 +143,31 @@ int x = 10;
 |1.|1.|
 |1.|1.|
 
-### What is the difference between Collection and Collections.
-- Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
-- Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
+
 
 ## What is the difference between Iterator and ListIterator in java.
 ## Comparable vs Comparator with Example.
 
 ## Concurrent Collections
+
+
+## Collection Framework
+- It defines several classes and interface which can be used as objects as single entity.
+
+## What is the difference between Collection and Collections.
+- Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
+- Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
+
+## There are 9 key interfaces of collection framework.
+1. Collection
+2. List
+3. Set
+4. SortedSet
+5. NavigableSet
+6. Queue
+7. Map
+8. SortedMap
+9. NavigableMap
+
+
+# Map
