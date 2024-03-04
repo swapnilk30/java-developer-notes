@@ -189,7 +189,7 @@ New Capacity = (Initial_Capicity * 3/2)+1 ... 16,25...
 
 ```java
 public class ArrayList<E> extends AbstractList<E> 
-implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
+		implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
 
 }
 ```
