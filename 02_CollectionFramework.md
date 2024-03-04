@@ -144,17 +144,17 @@ int x = 10;
 |1.|1.|
 
 
-
-## What is the difference between Iterator and ListIterator in java.
 ## Comparable vs Comparator with Example.
 
 ## Concurrent Collections
 
 
-## Collection Framework
+## What is the Collection framework in Java?
 - It defines several classes and interface which can be used as objects as single entity.
 
-## What is the difference between Collection and Collections.
+## What are the main differences between array and collection?
+
+## What is the difference between Collection and Collections?
 - Collection is an **interface** which can be used to represent a group of individual objects as a single entity.
 - Collections is an utility **class** present in **java.util** package to define several utility methods (like sorting )for Collection objects.
 
@@ -169,10 +169,28 @@ int x = 10;
 8. SortedMap
 9. NavigableMap
 
-
 # List
 - ArrayList, LinkedList, Vector, Stack
 # Set
 - HashSet, LinkedHashSet, TreeSet
 # Map
 - HashMap, LinkedHashMap, TreeMap, HashTable
+
+
+## What is the difference between ArrayList and Vector?
+## What is the difference between ArrayList and LinkedList?
+
+## What is the difference between Iterator and ListIterator?
+## What is the difference between Iterator and Enumeration?
+
+## What is the difference between List and Set?
+
+## What is the difference between HashSet and TreeSet?
+## What is the difference between Set and Map?
+
+## What is the difference between HashSet and HashMap?
+## What is the difference between HashMap and TreeMap?
+
+## What is the difference between HashMap and Hashtable?
+
+## What is the difference between Comparable and Comparator?
