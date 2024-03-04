@@ -178,6 +178,20 @@ int x = 10;
 
 ## ArrayList
 - **Underlying Data Structure:** Internally backed by an array that dynamically resizes itself when needed. Elements are stored in contiguous memory locations.
+```
+ArrayList al = new ArrayList(int capacity);
+
+Initial Capacity of ArrayList is 10
+New Capacity = (Initial_Capicity * 3/2)+1 ... 16,25...
+
+```
+> ArrayList and Vector Classes Implements Serializable, Cloneable and RandomAccess Interfaces, so that random access of elements can be done.
+  
+```java
+public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
+
+}
+```
 ## LinkedList
 - **Underlying Data Structure:** Implemented as a **doubly linked list**. Each element is stored in a node that contains a reference to the previous and next elements.
 
