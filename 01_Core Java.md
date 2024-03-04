@@ -79,6 +79,9 @@
 
 
 ## MultiThreading
+
+### Realtime Example of Multithreading ?
+
 ### What is Thread ?
     What are the different Thread states
 - New State (Born)
@@ -119,26 +122,12 @@ public class TestThread extends Thread{
     because Runnable is interface and it has abstract method called run. 
     Hence when we implement the Runnable interface we have to override run() method. 
 
-### Synchronization 
-
-## Collection Framework
-
-
-
-
-
-
-
-
-
+### Synchronization
 
 
 
 ### Create an Object without ‘new’ Keyword
     Using Class.newInstance()
-
-
-
 
 ## Input and Output Stream (java.io package)
 - Stream : In Java , streams are the sequence of data that are read from the source and written to the destination.
