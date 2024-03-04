@@ -54,3 +54,12 @@ Programms
 	
 	-if I have a list of Strings ,how will you remove duplicates from it ?
 		List<String> list = Arrays.asList("Java","SpringBoot","Kafka","SpringBoot");
+
+
+
+
+# Program 
+
+```java
+List<Integer> list = Arrays.asList(9, 28, 70, 18, 49, 31, 24, 28, 70, 18, 49, 88, 34, 35);
+```
