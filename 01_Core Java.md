@@ -85,6 +85,11 @@
 - When a new string object is created using the string literals ,then JVM first checks in the pool if this string already exists or not.
 if it exists ,then it will reference the existing string rather than creating a new object.
 - this will help in the speeding up of the application and also helps in saving the memory as no two objects will have the same content.
+
+### realtime example of final class provided by java?
+- A real-time example of a final class in Java is the java.lang.String class,
+which is a final class and cannot be extended by any other class.
+- This is because the String class is complete in nature and cannot be modified
 ---
 
 
