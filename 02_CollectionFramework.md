@@ -193,9 +193,25 @@ public class ArrayList<E> extends AbstractList<E>
 
 }
 ```
+
 ## LinkedList
 - **Underlying Data Structure:** Implemented as a **doubly linked list**. Each element is stored in a node that contains a reference to the previous and next elements.
 
+## Vector
+
+## Stack
+- child class of Vector and Implements List interface.
+- stck store a group of objects by using the mechanism of LIFO(Last In First Out).
+- It means Last inserted elements will be deleted first.
+```java
+Stack s = new Stack();
+// to add element
+s.push("swapnilk");
+// delete
+s.pop()
+// 
+s.peak()
+```
 
 ## What is the difference between ArrayList and Vector?
 ## What is the difference between ArrayList and LinkedList?
