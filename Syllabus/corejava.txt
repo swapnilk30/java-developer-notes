@@ -32,7 +32,7 @@ Create an Object without ‘new’ Keyword
 
 Differences between Abstraction and Encapsulation
 Differences between Interface and Abstract Class
-Difference between StringBuffer and StringBuilder
+
 
 realtime example of final class provided by java?
 A real-time example of a final class in Java is the java.lang.String class,
