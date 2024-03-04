@@ -176,6 +176,12 @@ int x = 10;
 - HashMap, LinkedHashMap, TreeMap, HashTable
 
 
+## ArrayList
+- **Underlying Data Structure:**Internally backed by an array that dynamically resizes itself when needed. Elements are stored in contiguous memory locations.
+## LinkedList
+- **Underlying Data Structure:**Implemented as a **doubly linked list**. Each element is stored in a node that contains a reference to the previous and next elements.
+
+
 ## What is the difference between ArrayList and Vector?
 ## What is the difference between ArrayList and LinkedList?
 
