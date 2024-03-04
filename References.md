@@ -22,16 +22,7 @@ Project architecture in details
 
 How do you convert string into integer ?
 	by using - Integer.parseInt()
-
-
-Why do we need Marker Interface ?
-
-	Marker Interface is an interface with no abstract method.(empty interface)
-	It is also known as a tagging interface and is used to indicate or inform the 
-	JVM that a class implementing this interface will have some special behavior.
-	Example : Serializable, Cloneable, and Remote Interfaces
-
-
+	
 Can you tell me some of the new Features of java 8
 	
 	forEach() method in Iterbale interface

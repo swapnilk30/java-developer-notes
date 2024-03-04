@@ -57,6 +57,11 @@
 ## Polymorphism
 ## Abstraction
 
+### Why do we need Marker Interface ?
+- Marker Interface is an interface with no abstract method.(empty interface)
+- It is also known as a tagging interface and is used to indicate or inform the JVM that a class implementing this interface will have some special behavior.
+- Example : Serializable, Cloneable, and Remote Interfaces
+
 ## Object class
 ## final 
 ## this and super
