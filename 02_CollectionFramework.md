@@ -186,9 +186,10 @@ New Capacity = (Initial_Capicity * 3/2)+1 ... 16,25...
 
 ```
 > ArrayList and Vector Classes Implements Serializable, Cloneable and RandomAccess Interfaces, so that random access of elements can be done.
-  
+
 ```java
-public class ArrayList<E> extends AbstractList<E> implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
+public class ArrayList<E> extends AbstractList<E> 
+						implements List<E>, RandomAccess, Cloneable, java.io.Serializable {
 
 }
 ```
