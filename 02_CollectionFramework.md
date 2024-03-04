@@ -213,6 +213,11 @@ s.pop()
 s.peak()
 ```
 
+## What is generics in collection?
+- introduced in the java 1.5 version.
+- the generic collection disables the type casting and there is no use of typecasting when it is used.
+- the generics collection are type-safe and checked at the complie time.
+
 ## What is the difference between ArrayList and Vector?
 ## What is the difference between ArrayList and LinkedList?
 
