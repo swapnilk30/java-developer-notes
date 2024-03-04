@@ -63,8 +63,15 @@
 ## Exception Handling
 ## Serialization
 ## Array
+
+---
+
 ## String
- 
+### Java String class methods
+
+---
+
+
 ## MultiThreading
 ### What is Thread ?
     What are the different Thread states
