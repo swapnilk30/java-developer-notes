@@ -237,11 +237,16 @@ s.peak()
 ## What is the difference between List and Set?
 
 ## What is the difference between HashSet and TreeSet?
-## What is the difference between Set and Map?
+## What is the difference between Comparable and Comparator?
 
+
+
+
+
+# Map
+
+## What is the difference between Set and Map?
 ## What is the difference between HashSet and HashMap?
 ## What is the difference between HashMap and TreeMap?
-
 ## What is the difference between HashMap and Hashtable?
-
-## What is the difference between Comparable and Comparator?
+## How to Use User defined Object as key in HashMap with an example ?
