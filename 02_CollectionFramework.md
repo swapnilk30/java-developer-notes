@@ -243,13 +243,32 @@ s.peak()
 
 
 # Set
+
 - It is child interface of Collection.
 - java.util package
 - If we want to represent group of individual objects as single entity where **Duplicates are not allowed** and **Insertion Order is not preserved** then we should go for Set.
 
 ## HashSet
 
+- **Underlying Data Structure:** HashTable.
+- Duplicates are not allowed.If we are trying to insert the duplicates then we won't get any complie time error.
+- Insertion Order is not preserved.
+- Heterogenous object are allowed.
+- Null insertion is possible.(only one Null is possible)
+- It implements Serializable and Cloneable interface but not RandomAccess interface.
+- HashSet is Best Choice if Frequent Operation is **Search Operation** or **Fetch Operation**.
+
+```java
+HashSet hs = new HashSet();
+// Default Initial Capacity is 16
+// Default Fill Ratio is 0.75
+```
+
 ## LinkedHashSet
+- **Underlying Data Structure:** HashTable + LinkedList (that is hybrid data structure)
+- Insertion Order is Preserved.
+- LinkedHashSet is Best Choice if we want **to develop cache based application** where duplicates are not allowed and insertion order is not preserved.
+
 
 ## TreeSet
 
