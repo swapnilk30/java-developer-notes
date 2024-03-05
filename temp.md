@@ -253,7 +253,64 @@ public class MyClass {
 3. Consumer<T>: Represents an operation that accepts a single input argument of type T and returns no result. It has a single method accept(T t).
 4. Supplier<T>: Represents a supplier of results, producing a result of type T. It has a single method get().
 
-## 
+## filter employee data having name starts with s
+- To filter employee data where the names start with 'S', you can use the Predicate functional interface along with lambda expressions. Here's how you can achieve that in Java:
+```java
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Predicate;
+
+class Employee {
+    private String name;
+    private int age;
+    // other fields and methods
+
+    public Employee(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    // other getter and setter methods
+}
+
+public class Main {
+    public static void main(String[] args) {
+        List<Employee> employees = new ArrayList<>();
+        employees.add(new Employee("John", 30));
+        employees.add(new Employee("Sarah", 25));
+        employees.add(new Employee("Michael", 35));
+        employees.add(new Employee("Samantha", 28));
+
+        // Define a Predicate to filter employees whose name starts with 'S'
+        Predicate<Employee> startsWithS = employee -> employee.getName().startsWith("S");
+
+        // Filter the employee data
+        List<Employee> filteredEmployees = filterEmployees(employees, startsWithS);
+
+        // Print the filtered employees
+        System.out.println("Employees whose name starts with 'S':");
+        for (Employee emp : filteredEmployees) {
+            System.out.println(emp.getName());
+        }
+    }
+
+    // Method to filter employees based on the given Predicate
+    public static List<Employee> filterEmployees(List<Employee> employees, Predicate<Employee> predicate) {
+        List<Employee> filteredList = new ArrayList<>();
+        for (Employee employee : employees) {
+            if (predicate.test(employee)) {
+                filteredList.add(employee);
+            }
+        }
+        return filteredList;
+    }
+}
+
+```
 ## 
 ##
 ##
