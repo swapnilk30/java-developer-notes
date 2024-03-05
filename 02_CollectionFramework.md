@@ -278,6 +278,14 @@ HashSet hs = new HashSet();
 - Null insertion is not allowed , if we are trying to insert it then will get run time exception as **NullPointerException**.(UnChecked)
 
 # Map
+- If we want to represent group of individual objects as key value pair then should go for map.
+- Both key and values are objects, duplicated keys are not allowed, but values may be duplicated.
+
+## HashMap
+## LinkedHashMap
+## TreeMap
+## HashTable
+
 
 ## What is the difference between HashMap and TreeMap?
 ## What is the difference between HashMap and Hashtable?
