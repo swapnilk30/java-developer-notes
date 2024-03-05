@@ -1,4 +1,4 @@
-## Market Interface ?
+## Marker Interface ?
 ## Various ways to create object ?
 1. By Using new Keyword
 Employee emp = new Employee();
@@ -220,7 +220,28 @@ Stop Debugging:
 When you've finished debugging, terminate the debug session either by clicking the "Terminate" button in the Debug perspective or by stopping the server.
 Keep in mind that specific configurations might vary depending on the application server you're using. Always refer to the documentation for your application server and Eclipse for detailed instructions.
 ```
-##
+## prime number program - 
+```java
+public class MyClass {
+    public static boolean isPrime(int number) {
+        if (number <= 1) {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int num = 17;
+        System.out.println(num + " is prime? " + isPrime(num));
+    }
+}
+
+```
 ##
 ##
 ##
