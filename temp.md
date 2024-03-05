@@ -340,11 +340,96 @@ Stream<String> uppercaseStream = filteredStream.map(String::toUpperCase);
 uppercaseStream.forEach(System.out::println);
 
 ```
-##
-##
-##
-##
-##
+## example of how you can find the second highest salary using Java 8 streams:
+```java
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
+public class SecondHighestSalary {
+    public static void main(String[] args) {
+        List<Integer> salaries = Arrays.asList(10000, 5000, 8000, 15000, 12000);
+
+        Integer secondHighestSalary = salaries.stream()
+                .distinct() // Remove duplicates if any
+                .sorted(Comparator.reverseOrder()) // Sort in descending order
+                .skip(1) // Skip the first highest salary
+                .findFirst() // Get the first element, which is the second highest salary
+                .orElseThrow(() -> new RuntimeException("No second highest salary found"));
+
+        System.out.println("Second highest salary: " + secondHighestSalary);
+    }
+}
+
+```
+```java
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+
+class Employee {
+    private String name;
+    private int salary;
+
+    public Employee(String name, int salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+}
+
+public class SecondHighestSalary {
+    public static void main(String[] args) {
+        List<Employee> employees = Arrays.asList(
+                new Employee("Alice", 10000),
+                new Employee("Bob", 5000),
+                new Employee("Charlie", 8000),
+                new Employee("David", 15000),
+                new Employee("Emily", 12000)
+        );
+
+        Integer secondHighestSalary = employees.stream()
+                .map(Employee::getSalary) // Extract salaries
+                .distinct() // Remove duplicates if any
+                .sorted(Comparator.reverseOrder()) // Sort in descending order
+                .skip(1) // Skip the first highest salary
+                .findFirst() // Get the first element, which is the second highest salary
+                .orElseThrow(() -> new RuntimeException("No second highest salary found"));
+
+        System.out.println("Second highest salary: " + secondHighestSalary);
+    }
+}
+
+```
+## Comparable vs comparator
+## OOps Concept
+
+## count the occurrences of a character in a string using Java 8 streams.
+```java
+import java.util.stream.IntStream;
+
+public class Main {
+    public static void main(String[] args) {
+        String str = "hello";
+        char targetChar = 'l';
+
+        long count = str.chars()
+                       .filter(ch -> ch == targetChar)
+                       .count();
+
+        System.out.println("Number of occurrences of '" + targetChar + "' in the string: " + count);
+    }
+}
+
+```
+## 
 ##
 ##
 ##
