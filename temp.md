@@ -311,7 +311,35 @@ public class Main {
 }
 
 ```
-## 
+## Stream API, intermediate and terminal operations play crucial roles in processing streams of data.
+```
+Intermediate Operations:
+
+Intermediate operations are operations that are executed on a stream before a terminal operation is applied.
+They transform the elements of the stream into another stream or perform some other intermediate processing.
+Examples of intermediate operations include map(), filter(), sorted(), distinct(), limit(), and flatMap().
+These operations are typically lazy, meaning they don't process the entire stream until a terminal operation is invoked.
+Terminal Operations:
+
+Terminal operations are operations that produce a result or a side effect.
+They trigger the processing of the stream and produce a final result or perform some action.
+Examples of terminal operations include forEach(), collect(), reduce(), count(), min(), max(), anyMatch(), allMatch(), and noneMatch().
+Once a terminal operation is executed, the stream is consumed, and it cannot be reused.
+Here's a simple example to illustrate these concepts:
+```
+```java
+List<String> names = Arrays.asList("John", "Alice", "Bob", "Charlie");
+
+// Intermediate operation: filter names starting with 'A'
+Stream<String> filteredStream = names.stream().filter(name -> name.startsWith("A"));
+
+// Intermediate operation: convert names to uppercase
+Stream<String> uppercaseStream = filteredStream.map(String::toUpperCase);
+
+// Terminal operation: print each name in uppercase
+uppercaseStream.forEach(System.out::println);
+
+```
 ##
 ##
 ##
