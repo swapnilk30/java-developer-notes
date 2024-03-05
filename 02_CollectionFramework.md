@@ -127,11 +127,6 @@ int x = 10;
 
 # Array
 
-### What is Array ?
-- 
-
-# Collection
-
 ### Difference between Array and Collection.
 
 | Array | Collection |
@@ -278,9 +273,9 @@ HashSet hs = new HashSet();
 - All the objects will be inserted according to some sorting order.
 - Heterogenous objects are not allowed.
 
-- if we are trying to insert the heterogenous objects then we will get Runtime Exception saying **ClassCastException.**
+- if we are trying to insert the heterogenous objects then we will get Runtime Exception saying **ClassCastException.**(UnChecked)
 
-- Null insertion is not allowed , if we are trying to insert it then will get run time exception as **NullPointerException**.
+- Null insertion is not allowed , if we are trying to insert it then will get run time exception as **NullPointerException**.(UnChecked)
 
 # Map
 
