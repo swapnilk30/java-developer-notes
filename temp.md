@@ -242,6 +242,24 @@ public class MyClass {
 }
 
 ```
+## Java 8 Features
+
+### Functional Interface : A functional interface is an interface that contains only one abstract method.
+- it can contain any number of default or static methods.
+- The primary purpose of functional interfaces is to enable the use of lambda expressions, which are anonymous functions that can be passed around as arguments to methods or stored in variables. Lambda expressions provide a concise way to express instances of functional interfaces.
+- Java provides some built-in functional interfaces in the java.util.function package, such as:
+1. Predicate<T>: Represents a predicate (boolean-valued function) of one argument. It has a single method test(T t) that returns a boolean.
+2. Function<T, R>: Represents a function that accepts one argument of type T and produces a result of type R. It has a single method apply(T t).
+3. Consumer<T>: Represents an operation that accepts a single input argument of type T and returns no result. It has a single method accept(T t).
+4. Supplier<T>: Represents a supplier of results, producing a result of type T. It has a single method get().
+
+## 
+## 
+##
+##
+##
+##
+##
 ##
 ##
 ##
