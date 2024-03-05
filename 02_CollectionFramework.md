@@ -241,12 +241,16 @@ s.peak()
 
 
 
+## How to sort custom objects using java8 streams with example?
+
+## What is the difference between Set and Map?
+## What is the difference between HashSet and HashMap?
+
 
 
 # Map
 
-## What is the difference between Set and Map?
-## What is the difference between HashSet and HashMap?
 ## What is the difference between HashMap and TreeMap?
 ## What is the difference between HashMap and Hashtable?
 ## How to Use User defined Object as key in HashMap with an example ?
+## Sort Map based on Values With Custom Objects in Java
