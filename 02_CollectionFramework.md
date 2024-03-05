@@ -170,11 +170,6 @@ int x = 10;
 
 # List
 - ArrayList, LinkedList, Vector, Stack
-# Set
-- HashSet, LinkedHashSet, TreeSet
-# Map
-- HashMap, LinkedHashMap, TreeMap, HashTable
-
 
 ## ArrayList
 - **Underlying Data Structure:** Internally backed by an array that dynamically resizes itself when needed. Elements are stored in contiguous memory locations.
@@ -246,6 +241,17 @@ s.peak()
 ## What is the difference between Set and Map?
 ## What is the difference between HashSet and HashMap?
 
+
+# Set
+- It is child interface of Collection.
+- java.util package
+- If we want to represent group of individual objects as single entity where **Duplicates are not allowed** and **Insertion Order is not preserved** then we should go for Set.
+
+## HashSet
+
+## LinkedHashSet
+
+## TreeSet
 
 
 # Map
