@@ -270,8 +270,17 @@ HashSet hs = new HashSet();
 - LinkedHashSet is Best Choice if we want **to develop cache based application** where duplicates are not allowed and insertion order is not preserved.
 
 
-## TreeSet
 
+## SortedSet Interface / TreeSet Class
+- **Underlying Data Structure:** balanced tree
+- Duplicates are not allowed.
+- Insertion order is not preserved.
+- All the objects will be inserted according to some sorting order.
+- Heterogenous objects are not allowed.
+
+- if we are trying to insert the heterogenous objects then we will get Runtime Exception saying **ClassCastException.**
+
+- Null insertion is not allowed , if we are trying to insert it then will get run time exception as **NullPointerException**.
 
 # Map
 
