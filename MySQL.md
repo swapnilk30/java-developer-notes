@@ -90,3 +90,92 @@ TRUNCATE table_name;
 
 ## VIEW
 
+
+
+# Create Employee and Department Table
+```sql
+
+CREATE TABLE Department (
+    DeptID INT PRIMARY KEY,
+    DeptName VARCHAR(50) NOT NULL,
+    Location VARCHAR(100)
+);
+
+
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    DeptID INT,
+    Salary DECIMAL(10,2), -- Assuming salary is stored as a decimal value
+    FOREIGN KEY (DeptID) REFERENCES Department(DeptID)
+);
+
+
+-- Inserting data into the Department table
+INSERT INTO Department (DeptID, DeptName, Location) VALUES
+(1, 'Finance', 'New York'),
+(2, 'Human Resources', 'Los Angeles'),
+(3, 'Marketing', 'Chicago');
+
+-- Inserting data into the Employee table
+INSERT INTO Employee (EmpID, FirstName, LastName, DeptID, Salary) VALUES
+(1, 'John', 'Doe', 1, 60000.00),
+(2, 'Jane', 'Smith', 2, 55000.00),
+(3, 'Michael', 'Johnson', 3, 62000.00),
+(4, 'Emily', 'Brown', 1, 58000.00),
+(5, 'David', 'Wilson', 3, 63000.00);
+
+
+-- Inserting more data into the Department table
+INSERT INTO Department (DeptID, DeptName, Location) VALUES
+(4, 'Engineering', 'San Francisco'),
+(5, 'Operations', 'Seattle');
+
+-- Inserting more data into the Employee table
+INSERT INTO Employee (EmpID, FirstName, LastName, DeptID, Salary) VALUES
+(6, 'Sarah', 'Miller', 4, 65000.00),
+(7, 'Chris', 'Davis', 2, 55000.00),
+(8, 'Emma', 'Martinez', 5, 60000.00),
+(9, 'James', 'Wilson', 1, 60000.00),
+(10, 'Olivia', 'Taylor', 3, 62000.00),
+(11, 'William', 'Anderson', 4, 65000.00),
+(12, 'Ava', 'Thomas', 5, 58000.00),
+(13, 'Liam', 'Hernandez', 3, 62000.00);
+```
+- To fetch all data from both the Department and Employee tables, you can use a SQL SELECT statement to join the tables together. Here's how you can do it:
+```sql
+SELECT *
+FROM Department
+JOIN Employee ON Department.DeptID = Employee.DeptID;
+
+```
+- To retrieve the highest salary from the Employee table, you can use the MAX() function.
+```sql
+SELECT MAX(Salary) AS HighestSalary
+FROM Employee;
+
+```
+- To get the second-highest salary from the Employee table, you can use a subquery. 
+```sql
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary) FROM Employee);
+
+```
+- achieve this without using subqueries by utilizing the LIMIT and OFFSET clauses in combination with the ORDER BY clause. 
+
+```sql
+SELECT Salary AS ThirdHighestSalary
+FROM Employee
+ORDER BY Salary DESC
+LIMIT 1 OFFSET 2;
+
+```
+- To retrieve the highest salary from each department, you can use the MAX() function along with the GROUP BY clause to group the data by department. 
+```sql
+SELECT Department.DeptID, Department.DeptName, MAX(Employee.Salary) AS HighestSalary
+FROM Department
+JOIN Employee ON Department.DeptID = Employee.DeptID
+GROUP BY Department.DeptID, Department.DeptName;
+```
