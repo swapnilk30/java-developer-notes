@@ -30,3 +30,9 @@ spring core module related annotations
 @Autowired
 @Qualifier
 
+
+
+## Difference between heavy weight and light weight components
+
+- EJB(enterprise java bean) are **depends on application server.** So it is called as heavy weight components.
+- Spring are **not depends on application server.** They just use your JDK and jar file to run application.
