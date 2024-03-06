@@ -145,7 +145,6 @@ public interface UserRepository extends JpaRepository<User, String>{
 
 
 # Default Methods
-
 - Until 1.7 version onwards inside interface we can take only public abstract methods and public
 static final variables (every method present inside interface is always public and abstract whether
 we are declaring or not).
@@ -188,3 +187,35 @@ public class Main {
 new functionality to the interface (backward compatibility).
 
 ### Default method vs multiple inheritance
+- Two interfaces can contain default method with same signature then there may be a chance of
+ambiguity problem (diamond problem) to the implementation class.
+- To overcome this problem **compulsory** we should **override default method in the implementation class** otherwise we get **compile time error.**
+- In the implementation class we can provide complete new implementation or we can call any interface method as follows.
+- interfacename.super.m1();
+
+```java
+// 
+interface Left {
+	
+	default void m1() {
+		System.out.println("Left Default Method");
+	}
+}
+// 
+interface Right {
+	
+	default void m1() {
+		System.out.println("Right Default Method");
+	}
+}
+// 
+class Test implements Left,Right{
+
+	public Static void main(String[] args){
+
+		// we can call any interface method as follows. interfacename.super.m1();
+		Left.super.m1();
+
+	}
+
+}
