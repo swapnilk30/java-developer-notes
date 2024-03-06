@@ -184,3 +184,5 @@ public class Main {
     }
 }
 ```
+> The main advantage of default methods is without effecting implementation classes we can add
+new functionality to the interface (backward compatibility).
