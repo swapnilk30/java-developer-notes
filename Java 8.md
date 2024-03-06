@@ -7,8 +7,10 @@
     • Lambda Expression also known as anonymous functions or closures.
 
 
-# Java 8
 
+
+
+	
 ### find out all the numbers starting with 1 in a list by using Stream API ?
 
     List<Integer> list = Arrays.asList(20,15,80,11,48,25,98,32,17);
@@ -68,13 +70,11 @@ public class PrimitiveArrayToStream {
 }
 ```
 
-### What is the Optional class in Java 8?
-
-    The Optional class in Java 8 is a container object that may or may not contain a value.
-    It is used to avoid null pointer exceptions.
-
-    If a value is present, isPresent() will return true.
-    get() will return the value otherwise throws NoSuchElementException.
+# What is the Optional class in Java 8?
+- The Optional class in Java 8 is a container object that may or may not contain a value.
+- **It is used to avoid null pointer exceptions.**
+- If a value is present, isPresent() will return true.
+- get() will return the value otherwise throws **NoSuchElementException**.
 
 ```java
 /*you might encounter a Null Pointer Exception when you try to invoke a method or access a field on a variable that is null.
