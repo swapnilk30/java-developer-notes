@@ -32,6 +32,10 @@ spring core module related annotations
 
 
 
+# Spring Framework
+- the primary feature of the spring framework is **Dependency Injection.**
+- 
+
 ## Difference between heavy weight and light weight components
 
 - EJB(enterprise java bean) are **depends on application server.** So it is called as heavy weight components.
