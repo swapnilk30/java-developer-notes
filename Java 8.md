@@ -222,3 +222,9 @@ class Test implements Left,Right{
 	}
 
 }
+```
+
+> Note: We can’t override object class methods as default methods inside interface otherwise we get
+compile time error.
+Reason: Object class methods are by-default available to every Java class hence it’s not required to
+bring through default methods.
