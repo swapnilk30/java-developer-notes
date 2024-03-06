@@ -169,3 +169,18 @@ interface MyInterface{
 ```
 - Interface default methods are by-default available to all implementation classes.
 - Based on requirement implementation class can use these default methods directly or can override.
+```java
+class MyClass implements MyInterface {
+    public void myMethod() {
+        System.out.println("Implemented abstract method.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        obj.myMethod(); // Output: Implemented abstract method.
+        obj.defaultMethod(); // Output: This is a default method.
+    }
+}
+```
