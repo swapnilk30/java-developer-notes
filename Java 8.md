@@ -167,7 +167,7 @@ interface MyInterface{
     }
 }
 ```
-- Interface default methods are by-default available to all implementation classes.
+- **Interface default methods are by-default available to all implementation classes.**
 - Based on requirement implementation class can use these default methods directly or can override.
 ```java
 class MyClass implements MyInterface {
