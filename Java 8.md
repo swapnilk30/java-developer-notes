@@ -210,12 +210,15 @@ interface Right {
 }
 // 
 class Test implements Left,Right{
+	
+	public void m1() {
+		System.out.println("Test Class Method"); 
+		//  Left.super.m1(); Or Right.super.m1()
+	}
 
 	public Static void main(String[] args){
-
-		// we can call any interface method as follows. interfacename.super.m1();
-		Left.super.m1();
-
+		Test test = new Test();
+		test.m1();
 	}
 
 }
