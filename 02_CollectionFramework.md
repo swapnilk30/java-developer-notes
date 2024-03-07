@@ -138,7 +138,7 @@ int x = 10;
 |1.|1.|
 
 
-## Comparable vs Comparator with Example.
+
 
 ## Concurrent Collections
 
