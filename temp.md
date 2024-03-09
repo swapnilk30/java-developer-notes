@@ -435,6 +435,25 @@ public class Main {
 ##
 ##
 
+
+
+
+## Armstrong Number program
+https://www.youtube.com/watch?v=GxtEs1sRjv4
+
+## Java 8 Arrays Programming
+https://www.youtube.com/watch?v=RynqGUbgw9k&t=434s
+
+
+
+
+
+
+
+
+
+
+
 ### Project Details 
 |||
 |---|---|
