@@ -2,3 +2,5 @@
 
 
 ## @SpringBootApplication
+## @Transactional | @EnableTransactionManagement
+## @Configuration

@@ -451,3 +451,11 @@ public class Main {
 - Lombok
 - Spring Boot DevTools
 - Spring Security
+
+## Transaction Management in Spring boot
+- @Transactional | @EnableTransactionManagement
+- Types of Transaction Propagation
+
+https://www.youtube.com/watch?v=CokAkwI5U3s
+https://www.youtube.com/watch?v=b7Pev6i8fso
+https://www.youtube.com/watch?v=GqpQ3J40Op8
