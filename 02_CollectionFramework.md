@@ -376,3 +376,44 @@ public class MyHashMap<K, V> {
 ```
 This is a basic implementation of a HashMap using separate chaining for handling collisions. It's important to note that this implementation lacks many features present in built-in HashMap classes like resizing, concurrency handling, and hash collision strategies. Depending on your requirements, you might want to extend or modify this implementation.
 ```
+
+## If we want to Create our own ArrayList Class, Can We Create
+
+```java
+
+public class MyArrayList<E> {
+    private static final int DEFAULT_CAPACITY = 10;
+    private Object[] elements;
+    private int size;
+
+    public MyArrayList() {
+        elements = new Object[DEFAULT_CAPACITY];
+        size = 0;
+    }
+
+    public void add(E element) {
+        if (size == elements.length) {
+            ensureCapacity(); // increase capacity if necessary
+        }
+        elements[size++] = element;
+    }
+
+    public E get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
+        }
+        return (E) elements[index];
+    }
+
+    public int size() {
+        return size;
+    }
+
+    private void ensureCapacity() {
+        int newCapacity = elements.length * 2;
+        Object[] newArray = new Object[newCapacity];
+        System.arraycopy(elements, 0, newArray, 0, size);
+        elements = newArray;
+    }
+}
+```
