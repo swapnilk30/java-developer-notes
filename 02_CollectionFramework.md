@@ -291,3 +291,88 @@ HashSet hs = new HashSet();
 ## What is the difference between HashMap and Hashtable?
 ## How to Use User defined Object as key in HashMap with an example ?
 ## Sort Map based on Values With Custom Objects in Java
+
+## If we want to Create our own HashMap Class, Can We Create ?
+```java
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class MyHashMap<K, V> {
+    private static final int DEFAULT_CAPACITY = 16;
+    private ArrayList<LinkedList<Entry<K, V>>> buckets;
+    private int size;
+
+    public MyHashMap() {
+        buckets = new ArrayList<>(DEFAULT_CAPACITY);
+        for (int i = 0; i < DEFAULT_CAPACITY; i++) {
+            buckets.add(new LinkedList<>());
+        }
+        size = 0;
+    }
+
+    public void put(K key, V value) {
+        int index = getIndex(key);
+        LinkedList<Entry<K, V>> bucket = buckets.get(index);
+
+        for (Entry<K, V> entry : bucket) {
+            if (entry.key.equals(key)) {
+                entry.value = value;
+                return;
+            }
+        }
+
+        bucket.add(new Entry<>(key, value));
+        size++;
+
+        // Optional: Check for load factor and resize if needed
+    }
+
+    public V get(K key) {
+        int index = getIndex(key);
+        LinkedList<Entry<K, V>> bucket = buckets.get(index);
+
+        for (Entry<K, V> entry : bucket) {
+            if (entry.key.equals(key)) {
+                return entry.value;
+            }
+        }
+
+        return null;
+    }
+
+    public boolean containsKey(K key) {
+        int index = getIndex(key);
+        LinkedList<Entry<K, V>> bucket = buckets.get(index);
+
+        for (Entry<K, V> entry : bucket) {
+            if (entry.key.equals(key)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public int size() {
+        return size;
+    }
+
+    private int getIndex(K key) {
+        return Math.abs(key.hashCode() % buckets.size());
+    }
+
+    private static class Entry<K, V> {
+        K key;
+        V value;
+
+        Entry(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
+}
+
+```
+```
+This is a basic implementation of a HashMap using separate chaining for handling collisions. It's important to note that this implementation lacks many features present in built-in HashMap classes like resizing, concurrency handling, and hash collision strategies. Depending on your requirements, you might want to extend or modify this implementation.
+```
