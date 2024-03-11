@@ -522,3 +522,4 @@ spring.h2.console.settings.trace=false
 ## Spring Boot with MySQL Database
 
 ## Spring Boot Profiles
+## Spring Boot Actuator
