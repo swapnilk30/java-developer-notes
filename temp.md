@@ -520,3 +520,5 @@ spring.h2.console.path=/h2-console
 spring.h2.console.settings.trace=false
 ```
 ## Spring Boot with MySQL Database
+
+## Spring Boot Profiles
