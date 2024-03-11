@@ -481,3 +481,22 @@ https://www.youtube.com/watch?v=GqpQ3J40Op8
 
 ## How to Implement Pagination in Spring Boot
 https://www.youtube.com/watch?v=IwNPHoXZCWA
+
+## Spring Boot with H2 Database
+
+### Maven and Gradle Dependencies
+
+- To use H2 in the Spring boot application, we need to add the H2 runtime jar into dependencies. The best way to add is through Maven. The version is maintained by Spring Boot’s BOM file, so we can skip it.
+
+```
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>com.h2database</groupId>
+  <artifactId>h2</artifactId>
+  <scope>runtime</scope>
+</dependency>
+```
