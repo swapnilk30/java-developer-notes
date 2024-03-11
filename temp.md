@@ -1,7 +1,5 @@
 ## Marker Interface ?
-## Various ways to create object ?
-1. By Using new Keyword
-Employee emp = new Employee();
+
 
 ## String Constant Pool ?
 
