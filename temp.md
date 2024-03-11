@@ -484,7 +484,7 @@ https://www.youtube.com/watch?v=IwNPHoXZCWA
 
 ## Spring Boot with H2 Database
 
-### Maven and Gradle Dependencies
+### Maven Dependencies
 
 - To use H2 in the Spring boot application, we need to add the H2 runtime jar into dependencies. The best way to add is through Maven. The version is maintained by Spring Boot’s BOM file, so we can skip it.
 
@@ -500,3 +500,23 @@ https://www.youtube.com/watch?v=IwNPHoXZCWA
   <scope>runtime</scope>
 </dependency>
 ```
+### H2 DataSource Configuration
+- Spring provides effortless configuration options to connect to any database using properties. Below are the configuration properties, we shall have in application.properties file for the most straightforward H2 configuration.
+
+- Please note by default, spring boot configures H2 database connection with the username 'sa' and an empty password. If you wish to change the username and password, override them in the above properties options.
+
+```
+# application.properties
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.h2.console.settings.trace=false
+```
+## Spring Boot with MySQL Database
