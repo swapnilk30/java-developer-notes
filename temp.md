@@ -520,4 +520,10 @@ spring.h2.console.settings.trace=false
 ## Spring Boot with MySQL Database
 
 ## Spring Boot Profiles
+https://www.youtube.com/watch?v=I8r858beW0o
+
 ## Spring Boot Actuator
+https://www.youtube.com/watch?v=lMDZ6dple9Q
+
+## SpringBoot Logging
+https://www.youtube.com/watch?v=awV2rVy-i_8
