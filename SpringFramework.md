@@ -2,7 +2,16 @@
 
 
 ### What are the different bean scopes in spring?
-- singleton
+- singleton (default)
+
+```java
+@Component
+@Scope("singleton")
+public class MySingletonBean {
+    // Bean definition
+}
+
+```
 - prototype
 - request
 - session
