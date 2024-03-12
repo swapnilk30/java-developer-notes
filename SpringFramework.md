@@ -8,6 +8,8 @@
 - session
 - globalsession
 
+- @Component
+- @Scope
 
 
 
