@@ -235,12 +235,15 @@ bring through default methods.
 
 # Stream
 
+https://www.youtube.com/watch?v=PMhrMDHFFW4&t=5s
+
 ```java
-public class Employee{
+public class Employee {
 
 	private int id;
 	private String name;
 	private int age;
+
 	// Getter and Setter
 	// Default Constructor
 	// Parameterised Constructor
@@ -248,6 +251,12 @@ public class Employee{
 }
 ```
 - Group By Age (Map < Integer ,List < Employee > > )
+
 ```java
 Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collectors.groupingBy(emp -> emp.getAge()));
+```
+
+- Group By Age (Map < Integer ,Set < Employee > > )
+```java
+// Here return Map<Ineteger, Set <Employee > > Unique Value by name 
 ```
