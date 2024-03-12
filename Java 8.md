@@ -237,6 +237,7 @@ bring through default methods.
 
 ```java
 public class Employee{
+
 	private int id;
 	private String name;
 	private int age;
@@ -245,4 +246,8 @@ public class Employee{
 	// Parameterised Constructor
 	// toString
 }
+```
+- Group By Age (Map < Integer ,List < Employee > > )
+```java
+Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collectors.groupingBy(emp -> emp.getAge()));
 ```
