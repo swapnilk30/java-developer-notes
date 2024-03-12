@@ -11,6 +11,7 @@
 
 
 
+
 ### find out all the numbers starting with 1 in a list by using Stream API ?
 
     List<Integer> list = Arrays.asList(20,15,80,11,48,25,98,32,17);
