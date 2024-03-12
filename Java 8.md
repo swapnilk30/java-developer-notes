@@ -258,5 +258,10 @@ Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collect
 
 - Group By Age (Map < Integer ,Set < Employee > > )
 ```java
-// Here return Map<Ineteger, Set <Employee > > Unique Value by name 
+// Here return Map<Ineteger, Set <Employee > > Unique Value by name ,need to overide equals() and Hashcode() in employee by name 
+```
+- response will be Sorted 
+```java
+// To Sort here we will use TreeMap is Third Parameter of GroupingBy
+collect(Collectors.groupingBy(emp->emp.getAge(),TreeMap::new,Collectors.toSet()));
 ```
