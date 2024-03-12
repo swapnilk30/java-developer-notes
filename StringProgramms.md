@@ -74,3 +74,57 @@ public class ExpandString {
 	}
 }
 ```
+
+### In a string, count the repeated characters and show in map using Java 8.
+    For Example, "india" -> output is "i->2, n->1,d->1,a->1"
+
+```java
+public class CountChars {
+	
+	public static void main(String[] args) {
+		
+		String str = "india";
+		
+		Map<Character, Long> charCounts = str.chars().mapToObj(c -> (char) c).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+		
+		charCounts.forEach((k,v) -> System.out.print(k +" -> "+ v + " "));
+		
+	}
+}
+```
+
+### Write a program to convert camel case string to snake case string.
+    whatIsYourName -> WHAT_IS_YOUR_NAME
+	
+```java
+
+public class CamelToSnakeCase {
+	
+	public static void main(String[] args) {
+		
+		String str = "whatIsYourName";
+		
+		String snakeCase = convert(str);
+		
+		System.out.println(snakeCase);
+	}
+
+	private static String convert(String str) {
+		
+		String result = str.charAt(0)+"";
+		
+		int len = str.length();
+		
+		int i;
+		
+		for(i=1;i<len;i++) {
+			if(Character.isUpperCase(str.charAt(i))) {
+				result = result + "_" + str.charAt(i);
+			}else {
+				result = result + str.charAt(i);
+			}	
+		}
+		return result.toUpperCase();
+	}
+}
+```
