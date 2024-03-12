@@ -235,3 +235,14 @@ bring through default methods.
 
 # Stream
 
+```java
+public class Employee{
+	private int id;
+	private String name;
+	private int age;
+	// Getter and Setter
+	// Default Constructor
+	// Parameterised Constructor
+	// toString
+}
+```
