@@ -2,6 +2,16 @@
 
 
 ## What are the different bean scopes in spring?
+- singleton
+- prototype
+- request
+- session
+- globalsession
+
+
+
+
+
 
 
 ### What is Spring Bean?
