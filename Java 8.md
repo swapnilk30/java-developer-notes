@@ -234,6 +234,9 @@ bring through default methods.
 
 
 # Stream
+## What is an Intermediate operation
+- The Operations which return another stream as a result are called intermediate operations.
+- filter(), map(), distinct(), sorted(), limit(), skip()
 
 https://www.youtube.com/watch?v=PMhrMDHFFW4&t=5s
 
@@ -265,3 +268,5 @@ Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collect
 // To Sort here we will use TreeMap is Third Parameter of GroupingBy
 collect(Collectors.groupingBy(emp->emp.getAge(),TreeMap::new,Collectors.toSet()));
 ```
+
+- how to sort a Map by its value.
