@@ -10,7 +10,7 @@
 
 
 ### 
-- Configuration
+- @Configuration
 - @Bean
 - @Component
 - @Scope
