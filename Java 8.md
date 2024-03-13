@@ -277,6 +277,9 @@ collect(Collectors.groupingBy(emp->emp.getAge(),TreeMap::new,Collectors.toSet())
 List<Employee> sortByName = listOfEmployee.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName())).collect(Collectors.toList());
 ```
 
-
+- Sort By Age
+```java
+List<Employee> sortByAge = listOfEmployee.stream().sorted(Comparator.comparing(Employee::getAge)).collect(Collectors.toList());
+```
 
 - how to sort a Map by its value.
