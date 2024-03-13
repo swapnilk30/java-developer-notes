@@ -272,7 +272,10 @@ Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collect
 collect(Collectors.groupingBy(emp->emp.getAge(),TreeMap::new,Collectors.toSet()));
 ```
 
-- 
+- Sort By Name
+```java
+List<Employee> sortByName = listOfEmployee.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName())).collect(Collectors.toList());
+```
 
 
 
