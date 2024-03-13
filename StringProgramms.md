@@ -134,3 +134,35 @@ public class CamelToSnakeCase {
 	String str = "AABCDBE";
 	1. Without Using Collections
 	2. Using Collections
+
+```java
+
+public class NonRepeatingChar {
+	
+	public static void main(String[] args) {
+		
+		String str = "AABCDBE";
+		
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+		
+		for(int i = 0; i<str.length() ; i++) {
+			
+			char c = str.charAt(i);
+			
+			if(map.containsKey(c)) {
+				map.put(c, map.get(c)+1);
+			}else {
+				map.put(c, 1);
+			}
+		}
+		
+		for(Entry<Character,Integer> e:map.entrySet()) {
+			
+			if(e.getValue() == 1) {
+				System.out.println(e);
+				break;
+			}
+		}	
+	}
+}
+```
