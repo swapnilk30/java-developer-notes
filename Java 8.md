@@ -248,6 +248,7 @@ public class Employee {
 	private String name;
 	private int age;
 	private String dept;
+	private double salary;
 
 	// Getter and Setter
 	// Default Constructor
@@ -270,5 +271,9 @@ Map<Integer,List<Employee>> groupByAge = listOfEmployee.stream().collect(Collect
 // To Sort here we will use TreeMap is Third Parameter of GroupingBy
 collect(Collectors.groupingBy(emp->emp.getAge(),TreeMap::new,Collectors.toSet()));
 ```
+
+- 
+
+
 
 - how to sort a Map by its value.
