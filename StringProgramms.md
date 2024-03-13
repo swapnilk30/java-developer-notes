@@ -128,3 +128,9 @@ public class CamelToSnakeCase {
 	}
 }
 ```
+
+### Java Program To Find First Non Repeated Character In String
+
+	String str = "AABCDBE";
+	1. Without Using Collections
+	2. Using Collections
