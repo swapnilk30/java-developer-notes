@@ -282,5 +282,9 @@ List<Employee> sortByName = listOfEmployee.stream().sorted((e1,e2)->e1.getName()
 List<Employee> sortByAge = listOfEmployee.stream().sorted(Comparator.comparing(Employee::getAge)).collect(Collectors.toList());
 ```
 
+
+- find list of employee whose age is between 30 and 40
+https://www.youtube.com/watch?v=Ul_7T2WJIuQ&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&index=5
+
 - how to sort a Map by its value.
 https://www.youtube.com/watch?v=eBDN04LlEOg&t=507s
