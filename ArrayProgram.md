@@ -1,4 +1,4 @@
-### Find Missing Number in an Array
+### Find Missing Number in Array
 	int [] arr = {1,2,3,5};
 ```java
 public class MissingNumberInArray {
@@ -29,11 +29,8 @@ public class MissingNumberInArray {
 	}
 }
 ```
-
-
-
 ### Program to find the minimum (or maximum) element of an array
-    int a[]={1,423,6,46,34,23,13,53,4}; 
+    int a[]={1,423,6,46,34,23,13,53,4};	
 ```java
 public class MaxAndMinElementArray {
 	
