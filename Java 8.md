@@ -297,6 +297,7 @@ List<Employee> sortByAge = listOfEmployee.stream().sorted(Comparator.comparing(E
 ```
 
 https://www.youtube.com/watch?v=1pweZskNq7w
+https://www.youtube.com/watch?v=OISIBsuObAw
 
 - find list of employee whose age is between 30 and 40
 
