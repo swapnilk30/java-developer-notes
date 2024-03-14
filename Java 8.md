@@ -1,3 +1,17 @@
+#
+```
+Predefined Functional Interfaces  :
+
+    Predicate 
+    Function
+    Consumer
+    Supplier
+
+
+Write a program to read the CSV data using Java 8 Stream API and group it by ID and covert into JSON
+https://www.youtube.com/watch?v=42UWgTdQwwI
+
+```
 
 # What is Lambda Expression (λ):
 
