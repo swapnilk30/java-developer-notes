@@ -1,3 +1,35 @@
+### Find Missing Number in an Array
+	int [] arr = {1,2,3,5};
+```java
+public class MissingNumberInArray {
+	
+	public static void main(String[] args) {
+		
+		// Array should not have duplicates
+		// Array No need be Sorted order
+		
+		int [] arr = {1,2,3,5};
+		
+		// 1+2+3+5=11
+		
+		int sum1 = 0;
+		for(int i = 0 ; i< arr.length; i++) {
+			sum1 = sum1 + arr[i];
+		}
+		System.out.println("Sum of Elements in Array ="+sum1);
+		
+		// 1+2+3+4+5 = 15
+		int sum2=0;
+		for(int i =1;i<=5;i++) {
+			sum2 = sum2 +i;
+		}
+		System.out.println("Sum Of Range Of Elements in Array ="+sum2);
+		
+		System.out.println("Missing Number is = "+(sum2-sum1));
+	}
+}
+```
+
 
 
 ### Program to find the minimum (or maximum) element of an array
