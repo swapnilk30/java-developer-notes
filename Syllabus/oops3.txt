@@ -1,0 +1,426 @@
+OOPS concept :--
+
+Inheritance, Abstraction, Polymorphism.
+
+Inheritance:--
+
+child - parent relationship. 
+child --- it inherit properties and behaviour from the parent class.--- superclass.
+It allows you to create a new class that is a modified version of an existing class, promoting code reuse and class heirarchy.
+
+Eccommerce:--
+Product class Electronic products , Clothing products.
+
+class Product{
+
+String name;
+double price;
+
+}
+
+
+class ElectronicProduct extends Product{
+
+String brand;
+
+//Additional properties and methods specific to electronic product.
+
+}
+
+
+class ClothingProduct extends Product{
+
+String size;
+
+//Additional properties and methods specific to electronic product.
+
+}
+
+
+so in this example ElectronicProduct , ClothingProduct inherited properties like name and price from the product class.
+
+
+2. Abstraction :
+
+Abstraction is a concept that allows you to hide complex implementation details and only expose the essential features of an object. In java, abstraction is achieved through abstract classes and interfaces.
+
+Example :- Insurance:-
+
+Suppose we have variety of insurance policies like 'CarInsurance' and 'HomeInsurance'.
+
+abstract class InsurancePolicy{
+
+String policyNumber;
+double premiumAmount;
+
+abstract void calculatePremium();
+
+//other methods
+}
+
+
+class CarInsurance extends InsurancePolicy{
+
+int carValue;
+
+void calculatePremium(){
+
+//calculate car insurance premium based on car value.
+
+}
+
+}
+
+3. Polymorphism :-
+it allows objects of different classes to be treated as objects of a common superclass. It allows you to write more generic code that can work with different types of objects.
+
+Types :-
+Static Binding(compile time polymorphis):-
+This is achieved by overloading, where multiple methods with same name but different parameters lists exist in the same class.
+
+class MathUtils{
+
+int add(int a, int b){
+
+return a+b;
+
+}
+
+
+double add(double a, double b){
+
+return a+b;
+
+}
+
+}
+
+
+Run Time polymorphism(Dynamic Binding):-
+it is achieved by method overriding, where subclass provides implementation of a method defined in its superclass.
+
+class Animal{
+
+void makeSound(){
+sysout("animal makes a sound");
+}
+
+}
+
+class Dog extends Animal{
+
+@Override
+void makeSound(){
+sysout("Dog barks.")
+}
+}
+
+polymorphism through interfaces.
+
+interface Shape{
+
+void draw();
+
+}
+
+
+class Cirdle implements Shape{
+
+
+void draw(){
+
+}
+
+}
+
+Example(E-commerce)
+
+public double calculateTotalPrice(List<Product> cart){
+
+double totalPrice = 0.0;
+
+for(Product item : cart){
+totalPrice +=item.getPrice();
+}
+
+}
+
+
+Eccommerce -- Multiple inheritance -- interface based.
+
+Discountable, Membership, Coupon implementation.
+
+interface Discoutable{
+
+double applyDiscount(double originalPrice);
+}
+
+class Membership implements Discountable{
+
+double applyDiscout(double originalPrice){
+
+return originalPrice*0.9;// 10%  discount for members
+
+}
+
+
+class Coupon implements Discountable{
+
+double applyDiscount(double originalPrice){
+return originalPrice*0.8; // 20% discount with a coupon
+}
+
+}
+
+}
+
+
+Multilevel Inheritance :- 
+
+class User{
+
+String username;
+
+// commonn properties and methods for all users
+
+}
+
+
+class Customer extends User{
+
+double calculateDiscount(){
+
+//Calculation logic for customer discount
+
+}
+
+}
+
+
+class PremiumCustomer extends Customer{
+
+double calculateDiscout(){
+//Additional logic for premium customer discount.
+}
+
+}
+
+
+
+Polymorphism:--
+overloading.
+class ShoppingCart{
+
+double calculateShippingCost(double weight){
+
+// calculate shipping cost based on weight
+
+}
+
+double calculateShippingCost(double distance, double weight){
+
+//according distance and weight logic
+
+}
+
+}
+
+
+Method Overrding:--
+
+through interfaces polymorphism:--
+
+interface Pyament{
+
+void processPayment(double amount);
+
+}
+
+class CreditCard implements Payment{
+
+void processPayment(double amount){
+
+
+}
+
+
+class PayPal implement Payment{
+
+void processPayment(double amount){
+
+//Process payment using PayPal
+
+}
+
+}
+
+}
+
+3. Abstraction :--
+
+abstract class PaymentGateway{
+
+abstract void processPayment(double amount);
+
+}
+
+b. Orderable interface for products that can be ordered.
+
+interface Orderable{
+
+void addToCart();
+void removeFromCart();
+void checkOut();
+
+}
+
+class Product implements Orderable{
+
+void addToCart(){
+
+}
+void removeFromCart(){
+
+}
+void checkOut(){
+// proceed to checkout
+}
+
+}
+
+
+----------------------------------------------
+
+
+abstract class TelecomPlan{
+
+abstract double calculateMonthlyCost(int usageMinutes);
+//
+}
+
+
+class BasicPlan extends TelecomPlan{
+
+double calculateMonthlyCost(int usageMinutes){
+///basic plan logic and cost
+}
+
+}
+
+
+class PrmiumPlan extends TelecomPlan{
+double calculateMonthlyCost(int usageMinutes){
+//PrmiumPlan logic and cost
+}
+}
+
+
+Inheritance:---
+
+class TelecomServie{
+
+String serviceName;
+double monthlyCost;
+
+}
+
+
+class MobileService extends TelecomService{
+
+int dataLimit;
+//additional methods
+
+}
+
+class LandlineService extends TelecomService{
+
+String phoneNumber;
+//additional methods
+
+}
+
+
+b. Multiple Inheritance .
+
+interface CallProvider{
+
+void makeCall();
+
+}
+
+
+interface TextProvider{
+
+void sendTextMessage();
+
+}
+
+
+class MobileService implements CallProvider, TextProvider{
+
+//both method for a calling as well as texting
+
+}
+
+
+class InternetService implements TextProvider{
+//implements methods for text-based services
+
+}
+
+
+
+c Mulitlevel Inheritance
+
+classs TelecomUer{
+
+String username;
+//common properties
+
+}
+
+class Mobile User extends TelecomUser{
+
+int dataUsage;
+
+}
+
+class PrepaidMobileUser extends MobileUser{
+
+double balance;
+
+
+}
+
+2. Polymorphism.
+
+class TelecomService{
+
+double calculateCallCharges(int Minute){
+
+}
+
+double caculateCallCharges(int minute, double rate){
+
+
+}
+
+}
+
+
+class TelecomUser{
+
+void showBalance(){
+
+
+}
+
+}
+
+
+class MobileUser extends TelecomUser{
+void showBalance(){
+
+
+}
+}
