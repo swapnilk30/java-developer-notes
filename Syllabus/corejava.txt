@@ -1,20 +1,4 @@
-Core Java FAQ: Frequently Asked Interview Questions and Answers for Java Developers
-https://www.youtube.com/watch?v=07_Vvi_bi6Y
 
-TOP 25 Java Exception Handling Interview Questions & Answers
-https://www.youtube.com/watch?v=uo0CLK3z9Rs&t=14s
-
-TOP 100+ Spring Boot & Microservices Interview Questions and Answers
-https://www.youtube.com/watch?v=cZYJHIgmGaY&list=RDCMUCqCGL2oiIC4sLi1A1n6xHiA&index=4
-
-Real-Time Spring Boot Interview Questions and Answers [All In One Video]
-https://www.youtube.com/watch?v=XilRv9wJhzc
-
-Java multi threading | Session - 01 | Ashok IT
-https://www.youtube.com/watch?v=TXek1PaNmWE&t=88s
-
-Top 25 Java Multi Threading Interview Questions & Answers | Ashok IT
-https://www.youtube.com/watch?v=wE0FPmq63P4
 
 -how memory management or Garbage collection works in java?
 
