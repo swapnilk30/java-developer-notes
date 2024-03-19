@@ -15,6 +15,8 @@ https://www.youtube.com/watch?v=xnj-GjdboGE
 https://www.youtube.com/watch?v=xF3TU-QlhJQ&t=427s
 - Subarray Sum Equals K using hashmap
 
+- Write a Program to find the second largest number in array in Java
+https://bushansirgur.in/write-a-program-to-find-the-second-largest-number-in-array-in-java/
 - Find the Sum of All Even Numbers from the given array using Java8 Features.
 
 ```
