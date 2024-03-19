@@ -8,6 +8,8 @@
 - How to rotate an array by x places in Java
 - How to reverse the array elements in Java
 - Java Program to remove duplicate element from an Array
+- Remove Duplicates from Sorted Array
+https://www.youtube.com/watch?v=xnj-GjdboGE
 
 - Merge Sorted Array 
 https://www.youtube.com/watch?v=xF3TU-QlhJQ&t=427s
