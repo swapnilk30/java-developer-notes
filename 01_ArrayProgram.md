@@ -86,6 +86,59 @@ public class MaxAndMinElementArray {
 ## How to rotate an array by x places in Java
 	int [] arr = {1,2,5,-1,10};
 
+## Merge Sorted Array
+```java
+
+public class MergeSortedArray {
+	
+	public static void main(String[] args) {
+		
+		int[] arr1 = {1,2,3,5,7};
+		int[] arr2 = {3,5,7,9};
+		
+		int [] result = mergeSorted(arr1,arr2);
+		
+		System.out.println(Arrays.toString(result));
+		
+ 	}
+
+	private static int[] mergeSorted(int[] arr1, int[] arr2) {
+		
+		int len1 = arr1.length;
+		int len2 = arr2.length;
+		
+		int [] result = new int[len1+len2];
+		
+		int i=0,j=0,k=0;
+		
+		while(i< len1 && j< len2) {
+			
+			if(arr1[i]<arr2[j]) {
+				result[k] = arr1[i];
+				i++;
+				k++;
+			}else {
+				result[k] = arr2[j];
+				j++;
+				k++;
+			}
+		}
+		
+		while(i<len1) {
+			result[k++]=arr1[i++];
+		}
+		
+		while(j<len2) {
+			result[k++]=arr2[j++];
+		}
+		
+		
+		return result;
+	}
+
+}
+```
+
 ## Find the Sum of All Even Numbers from the given array using Java8 Features.
     int [] arr = {1,2,3,4,5,6,7,8,9,10};
 
