@@ -181,3 +181,39 @@ https://www.javatpoint.com/hibernate-interview-questions
 	</session-factory>
 </hibernate-configuration>
 ```
+
+```
+Basics Commonly used Hibernate Annotations
+@Entity -used to mark class as Entity.
+@Table - used to change table details.
+@Id - use to mark column as id (primary key)
+@GeneratedValue - hibernate automatically generate values for that using an internal sequence. Therefore we dont have to set it manually.
+@Column - used to specify column mappings.to change the column name in the associated table in database.
+@OneToOne
+@OneToMany
+@JoinColumn
+@Transient - this tells hibernate not to save this field in database
+
+            @Entity
+            @Table(name = "products")
+            public class Product{
+
+                @Id
+                private String productId;
+
+                @Column(name ="title")
+                private String title;
+                
+                @Column(length = 1000)
+                private String description;
+                
+                private double price;
+                
+                @Transient
+                private double discount;
+                
+                private boolean live;
+            }
+
+        
+```
