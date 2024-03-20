@@ -25,20 +25,6 @@ find the occurrence of each character without writing any hard code ?
     String s2=new String("abc");
     and with some other scenarios
 
-
-
---- MYSQL---
-
-## What is diff between primary and unique key
-## What is trigger
-
-## write sql query to to fetch all data from specific column?
-## write SQL query to get name starts with "a"
-## write SQL query to get unique name from table
-## How to move data from one table to another table
-## Sql query to Update empname based on empid.
-
-
 ---
 ## Introduce yourself.
 ## tell project description and your role in the project
@@ -161,7 +147,7 @@ Kiwi Technologies
 33)How u provide security to ur project
 34)Which database used  in project and why
 35)how to confugure logger in your project?write a code on notepad?
-36)which mapping is used in your project?perform on notepad?
+
 37)which module have u design in project?explain
 38)which dependencies use in your project?explain each?
 39)project flow?what is ur roles and responsibility?
