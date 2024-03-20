@@ -278,6 +278,30 @@ filteredStream.forEach(System.out::println);
 
 Without boxed(), you would be limited to using only the methods available for primitive streams, which may not be sufficient for many stream processing tasks. So, boxed() provides a convenient way to bridge between primitive streams and streams of objects, allowing for more flexible and powerful stream processing in Java 8 and beyond.
 ```
+## How to convert primitive data type arrays to Wrapper arrays in Java.
+
+```java
+public class PrimitiveArrayToStream {
+	
+	public static void main(String[] args) {
+		
+		//primitive data type array
+		int[] arr = {10,20,30,40,60,30,40,50,60,};
+		
+		IntStream stream = Arrays.stream(arr);
+		
+		Stream<Integer> boxed = stream.boxed();
+		
+		//convert to Wrapper Array
+		
+		Integer[] array = boxed.toArray(Integer[]::new);
+		
+		System.out.println(Arrays.toString(arr));
+		
+		//Integer[] array2 = Arrays.stream(arr).boxed().toArray(Integer[] :: new);	
+	}
+}
+```
 
 ```
 - Java new features - Static method inside interface ? java 8

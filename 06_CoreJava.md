@@ -340,3 +340,10 @@ How to create immutable class
 https://www.youtube.com/watch?v=TXV0_JhP8pY
 
 ```
+
+```
+What is Upcasting in Java
+https://www.youtube.com/watch?v=9ry63PeSl1E
+What is Downcasting in Java
+https://www.youtube.com/watch?v=tiWY-rB86EA
+```
