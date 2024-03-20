@@ -271,6 +271,9 @@ Without boxed(), you would be limited to using only the methods available for pr
 ```
 
 ```
-Java new features - Static method inside interface ? java 8
+- Java new features - Static method inside interface ? java 8
 https://www.youtube.com/watch?v=gD_slsA_VQc
+
+- Java 8 🔥 | Programming Interview FAQs | Stream API & Functions | JavaTechie
+https://www.youtube.com/watch?v=Ul_7T2WJIuQ&t=704s
 ```
