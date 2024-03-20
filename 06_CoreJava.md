@@ -1,9 +1,98 @@
+```
+- What is Immutable object.
+- How To create Immutable Class.
+
+```
+
+# What is Immutable object ?
+- Once we Created an object, we can not change the values of its instance variables.
+- No inheritance.
+
+### How to Change values of instance variable ?
+```java
+List<String> hobbyList = new ArrayList<>();
+hobbyList.add("Swimming");
+
+// Here We Have Created new Object
+Student s = new Student(1,"Swapnil",hobbyList);
+
+// 1. Using objects passed in constructor
+hobbyList.add("Cricket");
+// 2. Using Setter methods
+s.setName("Rahul");
+// 3. Using getter methods
+List<String> list = s.getHobbies();
+list.add("new Hobby");
+```
+
+## How To create Immutable Class
+- Make fields private and final:
+- Do not provide setter methods: 
+- Ensure methods do not modify state:
+- Make the class final or use defensive copying:
+
+```java
+//Make the class final
+final class Student {
+	
+	// Make fields private and final:
+	final private int id;
+	final private String name;
+	final private List<String> hobbies;
+	
+	public int getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	
+	public List<String> getHobbies() {
+		List<String> newList = new ArrayList<String>();
+		for(String h:hobbies) {
+			newList.add(h);
+		}
+		return newList;
+	}
+	
+	// remove Setter Methods
+	
+	public Student(int id, String name, List<String> hobby) {
+		super();
+		this.id = id;
+		this.name = name;
+		// Fixing Constructor Problem
+		this.hobbies = new ArrayList<String>();
+		for(String h:hobby) {
+			hobbies.add(h);	
+		}	
+	}
+}
+```
+```java
+public class StudentTest {
+	
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<String>();
+		
+		list.add("Swimming");
+		
+		Student s = new Student(1, "Swapnil",list );	
+	}
+}
+```
+
+
+
 - Jdbc
 - Hibernate
 - Spring
 - SpringMVC
 - SpringBoot
 - MySQL
+
+
 
 
 ```
@@ -242,4 +331,12 @@ https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
 ```
 - create pdf using pdfbox java library | create pdf in java | read write pdf in java |
 https://www.youtube.com/watch?v=qCBgymqbJtA
+```
+
+```
+Why we can't use this inside static context?
+https://www.youtube.com/watch?v=z5AJ4NK4HpY&list=PLVlQHNRLflP-exWR9yw_Xp29Ctek_GQTG
+How to create immutable class
+https://www.youtube.com/watch?v=TXV0_JhP8pY
+
 ```

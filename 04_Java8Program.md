@@ -1,5 +1,14 @@
 #
 ```
+# Java8 Program
+- Write a java program to find the average salary of each department using java 8 Stream API?
+- sort an employee list using the Stream API in Java
+- find out all the numbers starting with 1 in a list by using Stream API ?
+- Write a java program to find sum of even numbers and sum of odd numbers in a given list using java 8 streams.
+- How to convert primitive data type arrays to Wrapper arrays in Java.
+```
+
+```
 Predefined Functional Interfaces  :
 
     Predicate 
