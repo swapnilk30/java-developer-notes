@@ -238,3 +238,8 @@ Employee{
 How to serialize objects and save to file
 https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
 ```
+
+```
+- create pdf using pdfbox java library | create pdf in java | read write pdf in java |
+https://www.youtube.com/watch?v=qCBgymqbJtA
+```
