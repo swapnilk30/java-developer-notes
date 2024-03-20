@@ -242,3 +242,29 @@ https://www.youtube.com/watch?v=Ul_7T2WJIuQ&list=RDCMUCORuRdpN2QTCKnsuEaeK-kQ&in
 - how to sort a Map by its value.
 
 https://www.youtube.com/watch?v=eBDN04LlEOg&t=507s
+
+
+```
+Why Do We Need Java 8 Boxed() API
+
+The boxed() method in Java 8 is part of the Stream API, which provides a more functional approach to working with collections. This method is particularly useful for converting primitive streams (such as IntStream, LongStream, and DoubleStream) into corresponding streams of wrapper objects (such as Stream<Integer>, Stream<Long>, and Stream<Double>).
+
+The main reason for needing boxed() is to enable the use of methods that are only available for streams of objects, such as map(), filter(), collect(), etc., which are essential for stream processing. These methods typically operate on streams of objects rather than primitive types.
+
+For example, if you have an IntStream and you want to perform some stream operations like mapping or filtering, you first need to convert it into a Stream<Integer> using boxed(). This allows you to use methods like map() or filter() on the stream.
+
+Here's a simple example:
+
+-----
+
+IntStream intStream = IntStream.of(1, 2, 3, 4, 5);
+Stream<Integer> integerStream = intStream.boxed();
+
+// Now you can perform stream operations on integerStream
+Stream<Integer> filteredStream = integerStream.filter(i -> i % 2 == 0);
+filteredStream.forEach(System.out::println);
+
+----
+
+Without boxed(), you would be limited to using only the methods available for primitive streams, which may not be sufficient for many stream processing tasks. So, boxed() provides a convenient way to bridge between primitive streams and streams of objects, allowing for more flexible and powerful stream processing in Java 8 and beyond.
+```
