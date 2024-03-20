@@ -170,7 +170,7 @@ https://www.javatpoint.com/hibernate-interview-questions
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
 		<property name="connection.username">root</property>
-		<property name="connection.password">Skmania@1234</property>
+		<property name="connection.password">root</property>
 
          <!-- Hibernate dialect -->
 		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
@@ -216,4 +216,15 @@ Basics Commonly used Hibernate Annotations
             }
 
         
+```
+
+
+```
+• Step-1 : Create maven project.
+• Step-2 : Add the dependency in pom.xml file
+• -hibernate-core
+• -mysql-connector-java
+• Step-3 : Add the pojo class – Employee class
+• Step-4 : Add the hibernate annotations to pojo class
+• Step-5 : Add the hibernate.cfg.xml file
 ```
