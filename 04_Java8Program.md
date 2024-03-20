@@ -269,3 +269,8 @@ filteredStream.forEach(System.out::println);
 
 Without boxed(), you would be limited to using only the methods available for primitive streams, which may not be sufficient for many stream processing tasks. So, boxed() provides a convenient way to bridge between primitive streams and streams of objects, allowing for more flexible and powerful stream processing in Java 8 and beyond.
 ```
+
+```
+Java new features - Static method inside interface ? java 8
+https://www.youtube.com/watch?v=gD_slsA_VQc
+```
