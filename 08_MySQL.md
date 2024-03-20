@@ -9,3 +9,13 @@
 ## write SQL query to get unique name from table
 ## How to move data from one table to another table
 ## Sql query to Update empname based on empid.
+
+
+
+## To fetch only the first 10 records from a MySQL database, you can use the `LIMIT` clause in your SQL query.
+
+    Here's an example query:
+    
+```sql
+SELECT * FROM your_table_name LIMIT 10;
+```
