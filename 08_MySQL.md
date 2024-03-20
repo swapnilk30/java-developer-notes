@@ -13,9 +13,12 @@
 
 
 ## To fetch only the first 10 records from a MySQL database, you can use the `LIMIT` clause in your SQL query.
-
     Here's an example query:
-    
 ```sql
 SELECT * FROM your_table_name LIMIT 10;
+```
+## To retrieve the last 10 records from a MySQL database, you can combine the `ORDER BY` and `LIMIT` clauses in your SQL query.
+    Here's an example query:
+```sql
+SELECT * FROM your_table_name ORDER BY id DESC LIMIT 10;
 ```
