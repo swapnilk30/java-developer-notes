@@ -347,3 +347,9 @@ https://www.youtube.com/watch?v=9ry63PeSl1E
 What is Downcasting in Java
 https://www.youtube.com/watch?v=tiWY-rB86EA
 ```
+
+# MultiThreading
+```
+- Difference between Volatile & Synchronized - Java
+https://www.youtube.com/watch?v=R9MqDY2SxbA
+```
