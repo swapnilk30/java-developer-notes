@@ -6,6 +6,7 @@
 - find out all the numbers starting with 1 in a list by using Stream API ?
 - Write a java program to find sum of even numbers and sum of odd numbers in a given list using java 8 streams.
 - How to convert primitive data type arrays to Wrapper arrays in Java.
+- Reverse A String In Java using Java8 Stream API 
 ```
 
 ```
