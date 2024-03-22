@@ -5,3 +5,4 @@ https://www.youtube.com/watch?v=-_tPeb3VE6w&t=0s
 
 ## Spring Boot Actuator
 ## Spring Boot Profiles
+## Spring Boot Logging
