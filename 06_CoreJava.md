@@ -32,6 +32,19 @@
 
 ### HashMap
 
+```
+- How Custom Java Object will be used as key in HashMap.
+https://www.youtube.com/watch?v=626jyt0yN4M
+
+- How to Iterate Map in Java Example
+- 5 Best Ways to Iterate Over HashMap in Java
+    1. Iterate through a HashMap EntrySet using Iterator
+    2. Iterate through HashMap KeySet using Iterator
+    3. Iterate HashMap using For-Each Loop
+    4. Iterating through a HashMap using Lambda Expressions
+    5. Loop through a HashMap using Stream Api
+```
+
 ### equals()
 - it checks the equality of two objects.
 - it compares the key, whether they are equal or not.
@@ -75,28 +88,7 @@ if not they can be behave very weirdly.
 ### HashTable
 ### TreeMap
 
-```
-### Internal Working of HashMap
-
-- How Custom Java Object will be used as key in HashMap.
-https://www.youtube.com/watch?v=626jyt0yN4M
-
-- How to Iterate Map in Java Example
-- 5 Best Ways to Iterate Over HashMap in Java
-    1. Iterate through a HashMap EntrySet using Iterator
-    2. Iterate through HashMap KeySet using Iterator
-    3. Iterate HashMap using For-Each Loop
-    4. Iterating through a HashMap using Lambda Expressions
-    5. Loop through a HashMap using Stream Api
-```
-
-```
-- What is Immutable object.
-- How To create Immutable Class.
-
-```
-
-## What is Immutable object ?
+### What is Immutable object ?
 - Once we Created an object, we can not change the values of its instance variables.
 - No inheritance.
 
@@ -117,7 +109,7 @@ List<String> list = s.getHobbies();
 list.add("new Hobby");
 ```
 
-## How To create Immutable Class
+### How To create Immutable Class
 - Make fields private and final:
 - Do not provide setter methods: 
 - Ensure methods do not modify state:
@@ -265,8 +257,6 @@ Garbage collection
     Garbage collection is carried out by a daemon thread called "Garbage collector"
     we can not force gc to happen (System.gc())
 
-Create an Object without ‘new’ Keyword
-
 
 
 Differences between Abstraction and Encapsulation
@@ -382,12 +372,6 @@ When we create an object of subclass of an abstract class, it calls the construc
 This subclass constructor has super in the first line that calls constructor of an abstract class.
 Thus, the constructors of an abstract class are used from constructor of its subclass.
 If the abstract class doesn’t have a constructor, a class that extends that abstract class will not get compiled.
-
-How to create immutable class.
-
-
-
-
 
 
 ----------------------
