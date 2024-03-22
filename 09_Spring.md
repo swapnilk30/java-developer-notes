@@ -6,6 +6,23 @@ https://www.youtube.com/watch?v=-_tPeb3VE6w&t=0s
 https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
 ```
 
+### What are the different bean scopes in spring?
+- singleton (default)
+
+```java
+@Component
+@Scope("singleton")
+public class MySingletonBean {
+    // Bean definition
+}
+
+```
+- prototype
+- request
+- session
+- globalsession
+
+
 ### Spring Boot Autoconfiguration
 
 
