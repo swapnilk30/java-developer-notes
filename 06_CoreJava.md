@@ -1,9 +1,58 @@
+```
+## Various ways to create object ?
+- Using new Keyword
+- Using clone() method
+- Using newInstance() method of the Class class
+- Using newInstance() method of the Constructor class
+- Using Deserialization
+
+```
 # COLLECTION FRAMEWORK
+
+```
+How to make read only ArrayList in java.
+Use Collections.unmodifiableList() method.
+
+                
+                public class ReadOnlyArrayList{
+
+                    public static void main(String[] args){
+                        List list = new ArrayList<>();
+
+                            list.add("Apple");
+                            list.add("Banana");
+                            list.add("Mango");
+
+                        List readOnlyList = Collections.unmodifiableList(list);
+
+                        readOnlyList.add("Kiwi");//UnsupportedOperationException
+
+
+                    }
+
+                }				
+```
 
 ### HashMap
 ### ConcurrentHashMap
 ### HashTable
 ### TreeMap
+
+```
+- Internal Working of HashMap
+
+- How Custom Java Object will be used as key in HashMap.
+https://www.youtube.com/watch?v=626jyt0yN4M
+
+- How to Iterate Map in Java Example
+- 5 Best Ways to Iterate Over HashMap in Java
+    1. Iterate through a HashMap EntrySet using Iterator
+    2. Iterate through HashMap KeySet using Iterator
+    3. Iterate HashMap using For-Each Loop
+    4. Iterating through a HashMap using Lambda Expressions
+    5. Loop through a HashMap using Stream Api
+```
+
 ```
 - What is Immutable object.
 - How To create Immutable Class.

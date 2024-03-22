@@ -24,8 +24,13 @@ public class MySingletonBean {
 
 
 ### Spring Boot Autoconfiguration
-
+```
+### Pagination and Sorting
+https://www.youtube.com/watch?v=fJ914p0A7UA
+https://www.youtube.com/watch?v=CPueZeE1JH8
+```
 
 ## Spring Boot Actuator
 ## Spring Boot Profiles
 ## Spring Boot Logging
+
