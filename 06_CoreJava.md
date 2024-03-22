@@ -1,5 +1,5 @@
 ```
-## Various ways to create object ?
+### Various ways to create object ?
 - Using new Keyword
 - Using clone() method
 - Using newInstance() method of the Class class
@@ -10,10 +10,10 @@
 # COLLECTION FRAMEWORK
 
 ```
-How to make read only ArrayList in java.
-Use Collections.unmodifiableList() method.
+### How to make read only ArrayList in java.
+    Use Collections.unmodifiableList() method.
 
-                
+
                 public class ReadOnlyArrayList{
 
                     public static void main(String[] args){
@@ -26,20 +26,18 @@ Use Collections.unmodifiableList() method.
                         List readOnlyList = Collections.unmodifiableList(list);
 
                         readOnlyList.add("Kiwi");//UnsupportedOperationException
-
-
                     }
-
                 }				
 ```
 
 ### HashMap
+### LinkedHashMap
 ### ConcurrentHashMap
 ### HashTable
 ### TreeMap
 
 ```
-- Internal Working of HashMap
+### Internal Working of HashMap
 
 - How Custom Java Object will be used as key in HashMap.
 https://www.youtube.com/watch?v=626jyt0yN4M
@@ -137,19 +135,6 @@ public class StudentTest {
 	}
 }
 ```
-
-
-
-- Jdbc
-- Hibernate
-- Spring
-- SpringMVC
-- SpringBoot
-- MySQL
-
-
-
-
 ```
 - Core Java FAQ: Frequently Asked Interview Questions and Answers for Java Developers
 https://www.youtube.com/watch?v=07_Vvi_bi6Y
@@ -219,10 +204,6 @@ https://www.youtube.com/watch?v=0QhyHQh0avE
 - @ResponseStatus
 ```
 
-```
-SWAGGER
-LOGGING
-```
 
 ```
 - When to use HTTP POST instead of GET to retrieve data?
