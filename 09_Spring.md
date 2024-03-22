@@ -1,6 +1,9 @@
 ```
 - Spring Boot Interview Mastery | Question & Answer Guide for Developers | Part-1 |
 https://www.youtube.com/watch?v=-_tPeb3VE6w&t=0s
+
+- How One Singleton Bean handles 1000X Requests concurrently in a Spring Boot App?
+https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
 ```
 
 ### Spring Boot Autoconfiguration
