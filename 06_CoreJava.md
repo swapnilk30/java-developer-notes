@@ -1,5 +1,11 @@
 #
 
+### what will happen if we write final keyword with abstarct class?
+- If you declare a class abstract, to use it, you must extend it and if you declare a class final you cannot extend it,
+- since both contradict with each other you cannot declare a class both abstract and final
+if you do so a compile time error will be generated.
+
+
 ### What is public static void main(String[] args) ?
     public - this method is accessible from outside the class.
     static - No object is required to call the main method.
@@ -373,12 +379,6 @@ Abstract Class And Interface
                 Abstract class (0 to 100%)
                 Interface (100%)
             
-what will happen if we write final keyword with abstarct class?
-If you declare a class abstract, to use it, you must extend it and if you declare a class final you cannot extend it,
-since both contradict with each other you cannot declare a class both abstract and final
-if you do so a compile time error will be generated.
-
-
 
 Why Strings are Immutable or final in Java ?
 1. Immutable String or Object that can not be modified once it is created. But We can only change the reference to the object.
