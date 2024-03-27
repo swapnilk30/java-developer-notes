@@ -1,5 +1,17 @@
 #
 
+
+### how memory management or Garbage collection works in java?
+- Garbage collection
+    Java provides automatic memory management through a program called Garbage collector.
+    "Remove objects that are not used anymore."
+    live object = reacheable (referenced by someone else)
+    dead object = unreachable (not referenced from anywhere)
+    Garbage collection is carried out by a daemon thread called "Garbage collector"
+    we can not force gc to happen (System.gc())
+
+
+
 ### Why abstract class has constructor even though we cannot create object?
 - We cannot create an object of abstract class but we can create an object of subclass of abstract class.
 - When we create an object of subclass of an abstract class, it calls the constructor of subclass.
@@ -258,26 +270,8 @@ https://www.youtube.com/watch?v=0QhyHQh0avE
 ```
 
 
-```
-- When to use HTTP POST instead of GET to retrieve data?
-https://www.youtube.com/watch?v=fS8QY7BiDaQ
-
-- Hibernate N+1 Problem Solution
-https://www.youtube.com/watch?v=Txb0YlEVLds
-```
 
 ```
-
-
--how memory management or Garbage collection works in java?
-
-Garbage collection
-    Java provides automatic memory management through a program called Garbage collector.
-    "Remove objects that are not used anymore."
-    live object = reacheable (referenced by someone else)
-    dead object = unreachable (not referenced from anywhere)
-    Garbage collection is carried out by a daemon thread called "Garbage collector"
-    we can not force gc to happen (System.gc())
 
 
 
@@ -440,4 +434,12 @@ https://www.youtube.com/watch?v=TXV0_JhP8pY
 ```
 create pdf using pdfbox java library | create pdf in java | read write pdf in java |
 https://www.youtube.com/watch?v=qCBgymqbJtA
+```
+
+```
+- When to use HTTP POST instead of GET to retrieve data?
+https://www.youtube.com/watch?v=fS8QY7BiDaQ
+
+- Hibernate N+1 Problem Solution
+https://www.youtube.com/watch?v=Txb0YlEVLds
 ```
