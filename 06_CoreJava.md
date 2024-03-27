@@ -1,6 +1,6 @@
 #
 
-### what will happen if we write final keyword with abstarct class?
+### what will happen if we write final keyword with abstract class?
 - If you declare a class abstract, to use it, you must extend it and if you declare a class final you cannot extend it,
 - since both contradict with each other you cannot declare a class both abstract and final
 if you do so a compile time error will be generated.
