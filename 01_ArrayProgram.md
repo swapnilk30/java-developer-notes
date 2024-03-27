@@ -3,23 +3,33 @@
 # ArrayProgram
 
 - Find Missing Number in Array
+
 - Program to find the minimum (or maximum) element of an array
+
 - How to rotate an array in Java
+
 - How to rotate an array by x places in Java
+
 - How to reverse the array elements in Java
+
 - Java Program to remove duplicate element from an Array
+
 - Remove Duplicates from Sorted Array
 https://www.youtube.com/watch?v=xnj-GjdboGE
 
 - Merge Sorted Array 
 https://www.youtube.com/watch?v=xF3TU-QlhJQ&t=427s
+
 - Subarray Sum Equals K using hashmap
 
 - Write a Program to find the second largest number in array in Java
 https://bushansirgur.in/write-a-program-to-find-the-second-largest-number-in-array-in-java/
+
 - Find the Sum of All Even Numbers from the given array using Java8 Features.
 
 ```
+
+
 
 ## Find Missing Number in Array
 	int [] arr = {1,2,3,5};
@@ -148,6 +158,10 @@ public class MergeSortedArray {
     int sum = Arrays.stream(arr).filter(n->n%2 == 0).sum();
     System.out.println(sum);
 ```
+
+
+---
+
 
 ```
 # Examples:
