@@ -412,3 +412,19 @@ https://www.youtube.com/watch?v=tiWY-rB86EA
 - Difference between Volatile & Synchronized - Java
 https://www.youtube.com/watch?v=R9MqDY2SxbA
 ```
+
+#
+
+### What is the command for running the jar file?
+```
+    java -jar yourfile.jar
+```
+
+### What is the command to build the project using Maven?
+
+```
+    mvn package
+    mvn clean package
+    
+    This command will compile the source code, run tests, and package the project into the specified format (usually a JAR file).
+```
