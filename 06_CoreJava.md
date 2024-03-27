@@ -1,5 +1,14 @@
 #
 
+### What is public static void main(String[] args) ?
+    public - this method is accessible from outside the class.
+    static - No object is required to call the main method.
+    void - this method does not return any value.
+    main - Special method name to start the java program execution.
+    String[] args - the arguments passed while running the program.
+
+### Can we change the order of public , static , and void keywords ?
+- Yes can change the order of public and static keywords , but void should come just before the method name.
 
 ### how memory management or Garbage collection works in java?
 - Garbage collection
@@ -9,7 +18,6 @@
     - dead object = unreachable (not referenced from anywhere)
     - Garbage collection is carried out by a daemon thread called "Garbage collector"
     - we can not force gc to happen (System.gc())
-
 
 
 ### Why abstract class has constructor even though we cannot create object?
@@ -200,6 +208,64 @@ public class StudentTest {
 }
 ```
 
+# MultiThreading
+
+### Can We Start Thread Twice ?
+- No. You can not start thread twice
+- This will result in a IllegalThreadStateException
+```java
+                public class StartTwice{
+                    public static void main(String[] args){
+                        Thread t = new Thread();
+                        t.start();
+                        t.start();
+                    }
+
+                }
+```
+### What methods thread use to communicate with each other ?
+- Thread use wait(), notify(), and notifyAll() to communicate with each other.
+
+```
+- Difference between Volatile & Synchronized - Java
+https://www.youtube.com/watch?v=R9MqDY2SxbA
+```
+# 
+
+```
+What is Upcasting in Java
+https://www.youtube.com/watch?v=9ry63PeSl1E
+
+What is Downcasting in Java
+https://www.youtube.com/watch?v=tiWY-rB86EA
+
+```
+
+```
+### Which collections you used in your project?
+```
+
+```
+Why we can't use this inside static context?
+https://www.youtube.com/watch?v=z5AJ4NK4HpY&list=PLVlQHNRLflP-exWR9yw_Xp29Ctek_GQTG
+
+How to create immutable class
+https://www.youtube.com/watch?v=TXV0_JhP8pY
+
+```
+```
+create pdf using pdfbox java library | create pdf in java | read write pdf in java |
+https://www.youtube.com/watch?v=qCBgymqbJtA
+```
+
+```
+- When to use HTTP POST instead of GET to retrieve data?
+https://www.youtube.com/watch?v=fS8QY7BiDaQ
+
+- Hibernate N+1 Problem Solution
+https://www.youtube.com/watch?v=Txb0YlEVLds
+```
+
 ```
 - Core Java FAQ: Frequently Asked Interview Questions and Answers for Java Developers
 https://www.youtube.com/watch?v=07_Vvi_bi6Y
@@ -219,7 +285,8 @@ https://www.youtube.com/watch?v=TXek1PaNmWE&t=88s
 - Top 25 Java Multi Threading Interview Questions & Answers | Ashok IT
 https://www.youtube.com/watch?v=wE0FPmq63P4
 
-
+```
+```
 - Five Different Ways to Create Objects in Java 
 https://www.youtube.com/watch?v=XAM9GwH1bNI
 
@@ -240,59 +307,15 @@ https://www.interviewbit.com/spring-boot-interview-questions/
 ```
 
 ```
-
-```
-
-```
-- What are the key Advantages of spring boot over spring
-- can you explain concept of DI in Spring and why it is beneficial
-- What is role of @SpringBootApplication Annotation
-- How Spring boot achive Auto-Configuration with example.(dataSource Example)
-- What are the steps to Override a specific AutoConfiguration.(application.properties)
-- What annotation used to create restful services in spring boot.(@RestController )
-- How handle exception in spring boot rest aplications
-- approach to secure end points
-https://www.youtube.com/watch?v=0QhyHQh0avE
-```
-
-```
-- @RequestMapping
-- Difference Between @Restcontroller and @Controller
-- @ResponseBody
-- @SpringBootApplication(@SpringBootConfiguration @EnableAutoConfiguration @ComponentScan)
-- @Autowired
-- @Qualifier
-- @Blob
-
-- @RestControllerAdvice
-- @ExceptionHandler
-- @ResponseStatus
-```
-
-
-
-```
-
-
-
 Differences between Abstraction and Encapsulation
 Differences between Interface and Abstract Class
-
-
+```
+```
 realtime example of final class provided by java?
 A real-time example of a final class in Java is the java.lang.String class,
 which is a final class and cannot be extended by any other class.
 This is because the String class is complete in nature and cannot be modified
 
-What is public static void main(String[] args) ?
-public - this method is accessible from outside the class.
-static - No object is required to call the main method.
-void - this method does not return any value.
-main - Special method name to start the java program execution.
-String[] args - the arguments passed while running the program.
-
-Can we change the order of public , static , and void keywords ?
-Yes can change the order of public and static keywords , but void should come just before the method name.
 
 Method Overloading
                 public class Calculator{
@@ -383,62 +406,3 @@ https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
 ```
 
 
-
-
-# MultiThreading
-
-### Can We Start Thread Twice ?
-- No. You can not start thread twice
-- This will result in a IllegalThreadStateException
-```java
-                public class StartTwice{
-                    public static void main(String[] args){
-                        Thread t = new Thread();
-                        t.start();
-                        t.start();
-                    }
-
-                }
-```
-### What methods thread use to communicate with each other ?
-- Thread use wait(), notify(), and notifyAll() to communicate with each other.
-
-```
-- Difference between Volatile & Synchronized - Java
-https://www.youtube.com/watch?v=R9MqDY2SxbA
-```
-# 
-
-```
-What is Upcasting in Java
-https://www.youtube.com/watch?v=9ry63PeSl1E
-
-What is Downcasting in Java
-https://www.youtube.com/watch?v=tiWY-rB86EA
-
-```
-
-```
-### Which collections you used in your project?
-```
-
-```
-Why we can't use this inside static context?
-https://www.youtube.com/watch?v=z5AJ4NK4HpY&list=PLVlQHNRLflP-exWR9yw_Xp29Ctek_GQTG
-
-How to create immutable class
-https://www.youtube.com/watch?v=TXV0_JhP8pY
-
-```
-```
-create pdf using pdfbox java library | create pdf in java | read write pdf in java |
-https://www.youtube.com/watch?v=qCBgymqbJtA
-```
-
-```
-- When to use HTTP POST instead of GET to retrieve data?
-https://www.youtube.com/watch?v=fS8QY7BiDaQ
-
-- Hibernate N+1 Problem Solution
-https://www.youtube.com/watch?v=Txb0YlEVLds
-```
