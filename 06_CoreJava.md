@@ -1,4 +1,3 @@
-```
 ### Various ways to create object ?
 - Using new Keyword
 - Using clone() method
@@ -6,7 +5,7 @@
 - Using newInstance() method of the Constructor class
 - Using Deserialization
 
-```
+
 # COLLECTION FRAMEWORK
 
 ```
