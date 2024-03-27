@@ -4,11 +4,11 @@
 ### how memory management or Garbage collection works in java?
 - Garbage collection
     - Java provides automatic memory management through a program called Garbage collector.
-    "Remove objects that are not used anymore."
-    live object = reacheable (referenced by someone else)
-    dead object = unreachable (not referenced from anywhere)
-    Garbage collection is carried out by a daemon thread called "Garbage collector"
-    we can not force gc to happen (System.gc())
+    - "Remove objects that are not used anymore."
+    - live object = reacheable (referenced by someone else)
+    - dead object = unreachable (not referenced from anywhere)
+    - Garbage collection is carried out by a daemon thread called "Garbage collector"
+    - we can not force gc to happen (System.gc())
 
 
 
@@ -355,20 +355,6 @@ If you declare a class abstract, to use it, you must extend it and if you declar
 since both contradict with each other you cannot declare a class both abstract and final
 if you do so a compile time error will be generated.
 
-Can We Start Thread Twice ?
-No. You can not start thread twice
-This will result in a IllegalThreadStateException
-
-
-                public class StartTwice{
-                    public static void main(String[] args){
-                        Thread t = new Thread();
-                        t.start();
-                        t.start();
-                    }
-
-                }
-            
 
 
 Why Strings are Immutable or final in Java ?
@@ -401,6 +387,19 @@ https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
 
 # MultiThreading
 
+### Can We Start Thread Twice ?
+- No. You can not start thread twice
+- This will result in a IllegalThreadStateException
+```java
+                public class StartTwice{
+                    public static void main(String[] args){
+                        Thread t = new Thread();
+                        t.start();
+                        t.start();
+                    }
+
+                }
+```
 ### What methods thread use to communicate with each other ?
 - Thread use wait(), notify(), and notifyAll() to communicate with each other.
 
