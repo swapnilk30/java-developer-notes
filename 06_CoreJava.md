@@ -6,6 +6,11 @@
 if you do so a compile time error will be generated.
 
 
+### realtime example of final class provided by java?
+- A real-time example of a final class in Java is the java.lang.String class,
+- which is a final class and cannot be extended by any other class.
+- This is because the String class is complete in nature and cannot be modified
+
 ### Why Strings are Immutable or final in Java ?
 1. Immutable String or Object that can not be modified once it is created. But We can only change the reference to the object.
 2. The String is immutable in java because of the security,synchronization and concurrency ,caching and class loading.
@@ -328,10 +333,6 @@ Differences between Abstraction and Encapsulation
 Differences between Interface and Abstract Class
 ```
 ```
-realtime example of final class provided by java?
-A real-time example of a final class in Java is the java.lang.String class,
-which is a final class and cannot be extended by any other class.
-This is because the String class is complete in nature and cannot be modified
 
 
 Method Overloading
