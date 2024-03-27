@@ -1,5 +1,12 @@
 #
 
+### Why abstract class has constructor even though we cannot create object?
+- We cannot create an object of abstract class but we can create an object of subclass of abstract class.
+- When we create an object of subclass of an abstract class, it calls the constructor of subclass.
+- This subclass constructor has super in the first line that calls constructor of an abstract class.
+- Thus, the constructors of an abstract class are used from constructor of its subclass.
+- If the abstract class doesn’t have a constructor, a class that extends that abstract class will not get compiled.
+
 ### Various ways to create object ?
 - Using new Keyword
 - Using clone() method
@@ -368,8 +375,7 @@ This will result in a IllegalThreadStateException
 
                 }
             
-What methods thread use to communicate with each other ?
-Thread use wait(), notify(), and notifyAll() to communicate with each other.
+
 
 Why Strings are Immutable or final in Java ?
 1. Immutable String or Object that can not be modified once it is created. But We can only change the reference to the object.
@@ -381,12 +387,6 @@ When a new string object is created using the string literals ,then JVM first ch
 if it exists ,then it will reference the existing string rather than creating a new object.
 this will help in the speeding up of the application and also helps in saving the memory as no two objects will have the same content.
 
-Why abstract class has constructor even though we cannot create object?
-We cannot create an object of abstract class but we can create an object of subclass of abstract class.
-When we create an object of subclass of an abstract class, it calls the constructor of subclass.
-This subclass constructor has super in the first line that calls constructor of an abstract class.
-Thus, the constructors of an abstract class are used from constructor of its subclass.
-If the abstract class doesn’t have a constructor, a class that extends that abstract class will not get compiled.
 
 
 ----------------------
@@ -402,32 +402,42 @@ How to serialize objects and save to file
 https://www.youtube.com/watch?v=b-KLxooxih4&t=1116s
 ```
 
-```
-- create pdf using pdfbox java library | create pdf in java | read write pdf in java |
-https://www.youtube.com/watch?v=qCBgymqbJtA
-```
 
-```
-Why we can't use this inside static context?
-https://www.youtube.com/watch?v=z5AJ4NK4HpY&list=PLVlQHNRLflP-exWR9yw_Xp29Ctek_GQTG
-How to create immutable class
-https://www.youtube.com/watch?v=TXV0_JhP8pY
 
-```
-
-```
-What is Upcasting in Java
-https://www.youtube.com/watch?v=9ry63PeSl1E
-What is Downcasting in Java
-https://www.youtube.com/watch?v=tiWY-rB86EA
-```
 
 # MultiThreading
+
+### What methods thread use to communicate with each other ?
+- Thread use wait(), notify(), and notifyAll() to communicate with each other.
+
 ```
 - Difference between Volatile & Synchronized - Java
 https://www.youtube.com/watch?v=R9MqDY2SxbA
 ```
 # 
+
+```
+What is Upcasting in Java
+https://www.youtube.com/watch?v=9ry63PeSl1E
+
+What is Downcasting in Java
+https://www.youtube.com/watch?v=tiWY-rB86EA
+
+```
+
 ```
 ### Which collections you used in your project?
+```
+
+```
+Why we can't use this inside static context?
+https://www.youtube.com/watch?v=z5AJ4NK4HpY&list=PLVlQHNRLflP-exWR9yw_Xp29Ctek_GQTG
+
+How to create immutable class
+https://www.youtube.com/watch?v=TXV0_JhP8pY
+
+```
+```
+create pdf using pdfbox java library | create pdf in java | read write pdf in java |
+https://www.youtube.com/watch?v=qCBgymqbJtA
 ```
