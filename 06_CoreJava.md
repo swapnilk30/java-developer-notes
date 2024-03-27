@@ -3,7 +3,7 @@
 
 ### how memory management or Garbage collection works in java?
 - Garbage collection
-    Java provides automatic memory management through a program called Garbage collector.
+    - Java provides automatic memory management through a program called Garbage collector.
     "Remove objects that are not used anymore."
     live object = reacheable (referenced by someone else)
     dead object = unreachable (not referenced from anywhere)
