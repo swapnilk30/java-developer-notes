@@ -2,7 +2,15 @@
 
 
 
-### 2 April |     TUE
+### 2 April |    TUE
+
+
+
+```
+Discussion with Vs2tech
+
+virtual interview @ 4 PM
+```
 
 ### 3 April |     WED
 
@@ -16,7 +24,7 @@ Availability for face to face interview 3April Wed @ 3 pm
 
 ```
 Discussion with yashashree 
-Thursaday morring vailabiltity @ 11:30 AM 4April 
+Thursaday morring ailabiltity @ 11:30 AM 4April 
 Virtual Interview
 ```
 
