@@ -3,6 +3,7 @@
 # ArrayProgram
 
 - Find Missing Number in Array
+	int [] arr = {1,2,3,5};
 
 - Program to find the minimum (or maximum) element of an array
 
