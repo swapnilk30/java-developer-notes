@@ -10,10 +10,10 @@ Virtual Interview
 ```
 
 
-### 2 April
+### 2 April | TUE
 
-### 3 April
+### 3 April | WED
 
-### 4 April
+### 4 April | THU
 
-### 5 April
+### 5 April | 
