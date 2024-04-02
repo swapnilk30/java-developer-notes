@@ -1,8 +1,11 @@
 ### @SpringBootApplication
 
 
+### @RequestMapping 
+- @RequestMapping is an annotation used in Spring MVC to map web requests onto specific handler methods.
+- It's used to define the URI (Uniform Resource Identifier) to access a particular method in a controller.
+
 ```
-- @RequestMapping
 - Difference Between @Restcontroller and @Controller
 - @ResponseBody
 - @SpringBootApplication(@SpringBootConfiguration @EnableAutoConfiguration @ComponentScan)
