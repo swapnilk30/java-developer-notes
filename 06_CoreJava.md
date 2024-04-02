@@ -284,8 +284,6 @@ https://www.youtube.com/watch?v=qCBgymqbJtA
 - When to use HTTP POST instead of GET to retrieve data?
 https://www.youtube.com/watch?v=fS8QY7BiDaQ
 
-- Hibernate N+1 Problem Solution
-https://www.youtube.com/watch?v=Txb0YlEVLds
 ```
 
 ```

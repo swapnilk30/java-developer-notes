@@ -1,3 +1,22 @@
+```
+- Hibernate Caching
+https://www.youtube.com/watch?v=zxgvN-Qs4DU&t=1s
+```
+### Hibernate Caching
+- Hibernate caching is a mechanism provided by the Hibernate ORM (Object-Relational Mapping) framework to improve application performance by reducing the number of database queries.
+
+- Hibernate provides several levels of caching:
+    - First-level cache
+    - Second-level cache
+    - Query cache
+
+    
+```
+- Hibernate N+1 Problem Solution
+https://www.youtube.com/watch?v=Txb0YlEVLds
+```
+
+
 ## Why we need maven
 - No need to add jar files manually.
 - We can directly add the dependency.
