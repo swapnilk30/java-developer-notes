@@ -1,4 +1,12 @@
 ```
+Common examples of Hibernate dialects include:
+
+org.hibernate.dialect.MySQLDialect for MySQL
+org.hibernate.dialect.OracleDialect for Oracle
+org.hibernate.dialect.SQLServerDialect for Microsoft SQL Server
+org.hibernate.dialect.PostgreSQLDialect for PostgreSQL
+```
+```
 - Hibernate Caching
 https://www.youtube.com/watch?v=zxgvN-Qs4DU&t=1s
 ```
