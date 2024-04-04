@@ -1,3 +1,15 @@
+
+### Hibernate Objects States | Persistent Life Cycle | Entity Lifecycle States
+1. Transient
+2. Persistent or Managed
+3. Detached
+4. Removed
+
+```
+Hibernate Objects States | Persistent Life Cycle
+- https://www.youtube.com/watch?v=opOX3Acd0o0&list=PL0zysOflRCekX8OO7V7pGQ9kxZ28JyJlk&index=17
+- https://howtodoinjava.com/hibernate/hibernate-entity-persistence-lifecycle-states/
+```
 ```
 Common examples of Hibernate dialects include:
 
