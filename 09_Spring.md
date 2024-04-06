@@ -1,12 +1,5 @@
-```
-- Spring Boot Interview Mastery | Question & Answer Guide for Developers | Part-1 |
-https://www.youtube.com/watch?v=-_tPeb3VE6w&t=0s
-
-- How One Singleton Bean handles 1000X Requests concurrently in a Spring Boot App?
-https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
-```
-
 ### What are the different bean scopes in spring?
+
 - singleton (default)
 
 ```java
@@ -45,4 +38,12 @@ https://www.youtube.com/watch?v=CPueZeE1JH8
 - How handle exception in spring boot rest aplications
 - approach to secure end points
 https://www.youtube.com/watch?v=0QhyHQh0avE
+```
+
+```
+- Spring Boot Interview Mastery | Question & Answer Guide for Developers | Part-1 |
+https://www.youtube.com/watch?v=-_tPeb3VE6w&t=0s
+
+- How One Singleton Bean handles 1000X Requests concurrently in a Spring Boot App?
+https://www.youtube.com/watch?v=wsq_nhEzWFw&t=200s
 ```
