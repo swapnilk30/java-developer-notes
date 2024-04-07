@@ -13,6 +13,7 @@
 - How to rotate an array by x places in Java
 
 - How to reverse the array elements in Java
+	int [] arr = {1,3,5,7,4,8,9};
 
 - Java Program to remove duplicate element from an Array
 
