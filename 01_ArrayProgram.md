@@ -216,4 +216,37 @@ Employee Table -- Id -- Name -- Salary -- Department id Find one employee from e
 Consider a class A with a synchronized method class A { public void synchronized m1() {Thread.sleep(5000);} } We create two objects of this class - o1 and o2. We call o1.m1() on one thread and o2.m1() on another thread, at the same time. What will be the behaviour? Follow up with - how will you force these calls to execute one after the other
 
 ```
+
+## How to reverse the array elements in Java
+
+```java
+public class ReverseArray {
+	
+	public static void main(String[] args) {
+		
+		int [] arr = {1,3,5,7,4,8,9};
+		
+		System.out.println("before Reverse : "+ Arrays.toString(arr));
+		
+		reverseArray(arr);
+		
+		System.out.println("after Reverse : "+ Arrays.toString(arr));
+	}
+
+	private static void reverseArray(int[] arr) {
+		
+		int i = 0;
+		int j = arr.length-1;
+		
+		while(i<j) {
+			
+			int temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp;
+			
+			i++;
+			j--;
+		}
+	}
+}
 ```
