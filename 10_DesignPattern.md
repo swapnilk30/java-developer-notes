@@ -29,3 +29,8 @@ public class SingletonClass {
 	}
 }
 ```
+
+## Factory Design Pattern Project : Live Example
+
+- create functional Interface in Service Package AccessoriesService { String getSpecificProduct(); }
+- create Classes in Factory Package as AccessoriesFactory ,Camera , Laptop , Mobile , etc.
