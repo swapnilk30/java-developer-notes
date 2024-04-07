@@ -13,6 +13,12 @@ https://www.youtube.com/watch?v=Ul_7T2WJIuQ&t=704s
 
 - Write a program to read the CSV data using Java 8 Stream API and group it by ID and covert into JSON
 https://www.youtube.com/watch?v=42UWgTdQwwI
+
+Sort HashMap By Value Java8
+https://www.youtube.com/watch?v=Yq_OTvYyubY&t=20s
+
+sort map based on value in java 8
+https://www.youtube.com/watch?v=9_SFcKMks50
 ```
 
 
