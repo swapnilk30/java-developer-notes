@@ -1,5 +1,11 @@
 #
 
+
+### Java Program to find common elements from two arrays
+
+
+
+
 ### Second Highest Element
 
 ```java
