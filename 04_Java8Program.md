@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=42UWgTdQwwI
 ```
 
 
-# int[] | List<Integer>
+# int[] | List< Integer >
 
 ### print the sum of all numbers from an array using Java 8
 	int[] numbers = {1, 2, 3, 4, 5};
