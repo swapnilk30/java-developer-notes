@@ -152,7 +152,7 @@ public class FindNthHighestElement {
 }
 ```
 
-# List<String>
+# List< String >
 
 ### Sort a List of String
 	List<String> words = Arrays.asList("banana","apple","mango","date","cherry","grape");
