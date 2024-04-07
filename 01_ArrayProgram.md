@@ -34,11 +34,6 @@ https://bushansirgur.in/write-a-program-to-find-the-second-largest-number-in-arr
     System.out.println(sum);
 ```
 
-
----
-
-
-
 ## Merge Two Arrays Into Single Array In Java
 https://www.youtube.com/watch?v=7PJA0rwt1VQ
 
@@ -73,6 +68,7 @@ Consider a class A with a synchronized method class A { public void synchronized
 
 
 
+---
 
 
 
