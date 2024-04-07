@@ -103,6 +103,23 @@ public class SumOfSquare {
 
 ```
 
+### Double Each Element of List
+	List<Integer> numbers = Arrays.asList(1,2,3,4,5);
+	Output : [2, 4, 6, 8, 10]
+```java
+public class DoubleEachNumber {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> numbers = Arrays.asList(1,2,3,4,5);
+		
+		List<Integer> doubledElements = numbers.stream().map(n -> n * 2).collect(Collectors.toList());
+		
+		System.out.println(doubledElements);
+	}
+}
+```
+
 ### Second Highest Element
 
 ```java
