@@ -4,6 +4,12 @@ https://www.youtube.com/watch?v=BESfZAZnABs
 
 - Java Streams Interview Question
 https://www.youtube.com/watch?v=-ORgK_JkOa4&list=PLFGoYjJG_fqp52WKlmgF4cV72KS9_9tih
+
+- Java new features - Static method inside interface ? java 8
+https://www.youtube.com/watch?v=gD_slsA_VQc
+
+- Java 8 🔥 | Programming Interview FAQs | Stream API & Functions | JavaTechie
+https://www.youtube.com/watch?v=Ul_7T2WJIuQ&t=704s
 ```
 
 ### print the sum of all numbers from an array using Java 8
@@ -408,12 +414,4 @@ public class PrimitiveArrayToStream {
 		//Integer[] array2 = Arrays.stream(arr).boxed().toArray(Integer[] :: new);	
 	}
 }
-```
-
-```
-- Java new features - Static method inside interface ? java 8
-https://www.youtube.com/watch?v=gD_slsA_VQc
-
-- Java 8 🔥 | Programming Interview FAQs | Stream API & Functions | JavaTechie
-https://www.youtube.com/watch?v=Ul_7T2WJIuQ&t=704s
 ```
