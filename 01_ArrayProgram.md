@@ -38,26 +38,6 @@ https://bushansirgur.in/write-a-program-to-find-the-second-largest-number-in-arr
 ---
 
 
-```
-# Examples:
-```java
-
-String str1 = "hello";
-
-String str2 = new String("hello");
-
-String[] stringArray = { "apple", "banana", "orange", "kiwi", "strawberry" };
-
-int[] intArray = { 1, 2, 3, 4, 5 };
-
-List<Integer> listOfIntger = Arrays.asList();
-
-List<String> listOfString = Arrays.asList();
-
-List<Employee> employees = Arrays.asList();
-
-```
-
 
 ## Merge Two Arrays Into Single Array In Java
 https://www.youtube.com/watch?v=7PJA0rwt1VQ
