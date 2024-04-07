@@ -3,7 +3,6 @@
     The java class which is managed by IOC is called as Spring Bean.
 
 
-
 ### How to represent java class as Spring Bean?
 - Using Xml configuration
 ```
@@ -35,6 +34,10 @@ public class MySingletonBean {
 - request
 - session
 - globalsession
+
+
+
+### What is Dependency Injection and IOC in Spring ?
 
 
 ### Spring Boot Autoconfiguration
