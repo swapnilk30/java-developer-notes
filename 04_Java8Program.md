@@ -1,10 +1,47 @@
 #
 
 
-### Java Program to find common elements from two arrays
+### print the sum of all numbers from an array using Java 8
+	int[] numbers = {1, 2, 3, 4, 5};
 
+```java
+public class SumOfIntArray {
 
+    public static void main(String[] args) {
 
+        int[] numbers = {1, 2, 3, 4, 5};
+        
+        int sum = Arrays.stream(numbers).sum();
+
+        System.out.println("Sum of all numbers: " + sum);
+    }
+}
+```
+
+### print the sum of all numbers from a List using Java 8
+	List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+
+```java
+
+public class SumOfIntList {
+
+    public static void main(String[] args) {
+
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        
+
+		// mapToInt() to convert each Integer to an int value
+
+        int sum = numbers.stream().mapToInt(Integer::intValue).sum();
+
+		// Alternate Ways : the lambda expression num -> num is used as the mapper function inside the mapToInt() method. It simply returns the same value it receives, effectively converting each Integer to an int.
+
+		int sum = numbers.stream().mapToInt(num -> num).sum();
+
+        System.out.println("Sum of all numbers: " + sum);
+    }
+}
+```
 
 ### Second Highest Element
 
