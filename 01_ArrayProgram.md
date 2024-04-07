@@ -15,6 +15,9 @@
 - How to reverse the array elements in Java
 	int [] arr = {1,3,5,7,4,8,9};
 
+- Find Sub Array Of An Array
+	int [] arr = {1,2,3,4,5};
+
 - Java Program to remove duplicate element from an Array
 
 - Remove Duplicates from Sorted Array
@@ -250,4 +253,46 @@ public class ReverseArray {
 		}
 	}
 }
+```
+
+### Find Sub Array Of An Array
+
+```java
+public class SubArray {
+	
+	public static void main(String[] args) {
+		
+		int [] arr = {1,2,3,4,5};
+		
+		for(int i = 0; i< arr.length ; i++) {
+			
+			for(int j = i; j<arr.length; j++) {
+				
+				for(int k = i; k<=j; k++) {
+					System.out.print(arr[k]+ " ");
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+```
+```
+Output : 
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+2 
+2 3 
+2 3 4 
+2 3 4 5 
+3 
+3 4 
+3 4 5 
+4 
+4 5 
+5 
 ```
