@@ -1,4 +1,37 @@
 #
+
+### Second Highest Element
+
+```java
+public class FindNthHighestElement {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> list = Arrays.asList(10,20,40,20,10,50,90,4,70);
+		
+		// Sorted in Ascending
+		List<Integer> sortedAsc = list.stream().sorted().collect(Collectors.toList());
+		
+		System.out.println(sortedAsc);
+		
+		// Sorted in Descending
+		List<Integer> sortedDesc = list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
+		
+		System.out.println(sortedDesc);
+		
+		// remove duplicates
+		List<Integer> unique = list.stream().distinct().sorted().collect(Collectors.toList());
+		
+		System.out.println(unique);
+		
+		// Second Highest Number From List
+		Integer secondHighest = list.stream().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+		
+		System.out.println(secondHighest);
+	}
+}
+```
+
 ```
 # Java8 Program
 - Write a java program to find the average salary of each department using java 8 Stream API?
