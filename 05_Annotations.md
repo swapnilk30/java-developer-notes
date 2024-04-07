@@ -1,4 +1,9 @@
+
+
+
+
 ### @SpringBootApplication
+
 
 
 ### @RequestMapping 
@@ -39,6 +44,7 @@ spring core module related annotations
 @Configuration
 @Bean
 
-@Autowired
-@Qualifier
+
+### @Autowired
+### @Qualifier
 
