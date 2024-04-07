@@ -10,7 +10,13 @@ https://www.youtube.com/watch?v=gD_slsA_VQc
 
 - Java 8 🔥 | Programming Interview FAQs | Stream API & Functions | JavaTechie
 https://www.youtube.com/watch?v=Ul_7T2WJIuQ&t=704s
+
+- Write a program to read the CSV data using Java 8 Stream API and group it by ID and covert into JSON
+https://www.youtube.com/watch?v=42UWgTdQwwI
 ```
+
+
+
 
 ### print the sum of all numbers from an array using Java 8
 	int[] numbers = {1, 2, 3, 4, 5};
@@ -129,6 +135,27 @@ public class FindNthHighestElement {
 }
 ```
 
+---
+
+### Sort a List of String
+	List<String> words = Arrays.asList("banana","apple","mango","date","cherry","grape");
+```java
+public class SortList {
+	
+	public static void main(String[] args) {
+		
+		List<String> words = Arrays.asList("banana","apple","mango","date","cherry","grape");
+		
+		List<String> sortedAsc = words.stream().sorted().collect(Collectors.toList());
+		
+		System.out.println(sortedAsc);
+	}
+}
+```
+
+---
+
+
 ```
 # Java8 Program
 - Write a java program to find the average salary of each department using java 8 Stream API?
@@ -148,8 +175,7 @@ Predefined Functional Interfaces  :
     Supplier
 
 
-Write a program to read the CSV data using Java 8 Stream API and group it by ID and covert into JSON
-https://www.youtube.com/watch?v=42UWgTdQwwI
+
 
 ```
 
