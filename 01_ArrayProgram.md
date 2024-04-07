@@ -106,6 +106,16 @@ Consider a class A with a synchronized method class A { public void synchronized
 - Program to find the minimum (or maximum) element of an array
 	int a[]={1,423,6,46,34,23,13,53,4};
 	
+- How to reverse the array elements in Java
+	int [] arr = {1,3,5,7,4,8,9};
+
+- Find Sub Array Of An Array
+	int [] arr = {1,2,3,4,5};
+
+- Merge Sorted Array
+	int[] arr1 = {1,2,3,5,7};
+	int[] arr2 = {3,5,7,9};
+
 ```
 
 ## Find Missing Number in Array
@@ -171,18 +181,6 @@ public class MaxAndMinElementArray {
 		System.out.println("Minimum Element is : " + min);	
 	}
 }
-```
-
-
-
-
-```
-- How to reverse the array elements in Java
-	int [] arr = {1,3,5,7,4,8,9};
-
-- Find Sub Array Of An Array
-	int [] arr = {1,2,3,4,5};
-
 ```
 
 ## How to reverse the array elements in Java
@@ -261,12 +259,6 @@ Output :
 5 
 ```
 
-```
-- Merge Sorted Array
-	int[] arr1 = {1,2,3,5,7};
-	int[] arr2 = {3,5,7,9};
-
-```
 ## Merge Sorted Array
 
 ```java
