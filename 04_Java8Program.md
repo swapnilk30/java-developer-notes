@@ -19,6 +19,31 @@ public class SumOfIntArray {
     }
 }
 ```
+### Filter Even Odd Numbers from List
+	List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,0);
+
+```java
+
+public class EvenOddNumber {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,0);
+		
+		//Filter Even Numbers from List
+		
+		List<Integer> EvenNumbers = list.stream().filter(n -> n%2 == 0).collect(Collectors.toList());
+		
+		System.out.println(EvenNumbers);
+		
+		//Filter Odd Numbers from List
+		List<Integer> OddNumbers = list.stream().filter(n -> n % 2 == 1).collect(Collectors.toList());
+
+		System.out.println(OddNumbers);
+	}
+}
+```
+
 
 ### print the sum of all numbers from a List using Java 8
 	List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
