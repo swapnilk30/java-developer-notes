@@ -39,6 +39,20 @@
     • Accurate knowledge to work with Agile Methodology.
     • Sophisticated knowledge of Apache tomcat.
 
+```
+Professional Summary:	
+
+Having 4.5 years of IT experience as a Software Development Engineer.
+Strong programming knowledge in JAVA/J2EE, Hibernate, Spring MVC, Spring Boot.
+Hands on experience Web based, Client/Server, Distributed architecture, Object oriented architecture applications using Java, J2EE and XMLtechnologies.
+Extensive knowledge in developing applications using Angular 8.
+Good exposure to OOPs concepts and Collections.
+Experience with database MySQL, Oracle and PostgreSQL.
+Hands on experience in using Eclipse, IDE for developing software applications.
+Having good analytical and programming skills.
+
+```
+
 ---
 
 ## TECHNICAL SKILLS
