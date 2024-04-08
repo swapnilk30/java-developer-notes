@@ -1,5 +1,45 @@
+## CAREER OBJECTIVE
+    Creative Java Developer having 2.7 years of progressive
+    experience. Expert at designing, developing and maintaining
+    wide range of new and existing applications. Clear communicator
+    and effective project leader. Forward-thinking professional in
+    development of programming languages.
 
+---
 
+## PROFESSIONAL EXPERIENCE
+    • Having 2.7 years of Experience in software development
+    using Java technology.
+    • Good Exposure in Exception Handling.
+    • Broad Experience to work on Java 1.8 features.
+    • Expanded in databases using MySQL.
+    • Broad understanding with Spring IOC, Spring MVC.
+    • Expert in Web application using Spring Boot only.
+    • Skilled in Producing and consuming the rest API.
+    • Top notch skills to work on Hibernate mapping.
+    • Have extensive experience to work on coding standards as per
+    industry design patterns like Singleton, Factory.
+    • Professional Experience in Creating detailed documents related
+    to projects.
+    • Excellent in Core Java, OOP’s Concepts, String class, Arrays
+    along with Collections Framework.
+    • team player with excellent communication, Presentation and
+    reporting skills.
+    • excellent in version control tool GitHub.
+    • Practical knowledge to creation of Web services using REST.
+    • Concise and clear in API Testing Tool using Postman.
+    • Proficient in designing the different document such as Manual,
+    developer guide, Rest API guide, known issue list, Release
+    notes etc.
+    • Proven Experience as a Java backend developer.
+    • Prior knowledge to Work on Log management tool like a
+    Logger.
+    • Extensive knowledge of pom.xml file to add maven dependency.
+    • Precise knowledge in project management tool like a JIRA.
+    • Accurate knowledge to work with Agile Methodology.
+    • Sophisticated knowledge of Apache tomcat.
+
+---
 
 ## TECHNICAL SKILLS
 - Languages : Java 8
