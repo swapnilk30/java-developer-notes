@@ -23,3 +23,16 @@
 - IDE	: Eclipse, NetBeans.
 - Operating Systems	: MS DOS, Windows 7/8/10 and Linux.
 ```
+
+---
+## PROJECT
+
+### Project name- Benemart
+### Domain: E-commerce domain
+### Project description
+    The online shopping platforms helps you to purchase the goods,
+    products, services online by selecting product on website. The
+    proposed agreements require creation of market place via
+    internet connection for purchase, delivery or online sale of
+    products. Consumers can select various products; can select
+    various brands depending upon categories, delivery option. etc
