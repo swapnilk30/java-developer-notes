@@ -1,3 +1,14 @@
+### Hibernate Mappings
+```
+Product
+Category
+User
+Cart
+
+```
+
+
+
 
 ### Hibernate Objects States | Persistent Life Cycle | Entity Lifecycle States
 1. Transient
