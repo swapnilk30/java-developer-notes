@@ -14,6 +14,9 @@ wait()
 notify()
 notifyAll()
 toString()
+clone()
+equals()
+finalize()
 ```
 
 ### what will happen if we write final keyword with abstract class?
