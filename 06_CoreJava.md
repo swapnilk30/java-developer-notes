@@ -7,6 +7,14 @@ https://www.youtube.com/watch?v=AfpuuGUBTIQ&t=672s
 
 
 ### What are Object class methods?
+```
+getClass()
+hashCode()
+wait()
+notify()
+notifyAll()
+toString()
+```
 
 ### what will happen if we write final keyword with abstract class?
 - If you declare a class abstract, to use it, you must extend it and if you declare a class final you can not extend it,
