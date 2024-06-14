@@ -7,26 +7,6 @@ https://www.youtube.com/watch?v=AfpuuGUBTIQ&t=672s
 
 # COLLECTION FRAMEWORK
 
-```
-### How to make read only ArrayList in java.
-    Use Collections.unmodifiableList() method.
-
-
-                public class ReadOnlyArrayList{
-
-                    public static void main(String[] args){
-                        List list = new ArrayList<>();
-
-                            list.add("Apple");
-                            list.add("Banana");
-                            list.add("Mango");
-
-                        List readOnlyList = Collections.unmodifiableList(list);
-
-                        readOnlyList.add("Kiwi");//UnsupportedOperationException
-                    }
-                }				
-```
 
 ### HashMap
 
