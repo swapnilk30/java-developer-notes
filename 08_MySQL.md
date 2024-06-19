@@ -107,29 +107,6 @@ TRUNCATE table table_name;
 TRUNCATE table_name;
 ```
 
-
-## INDEX
-- Indexes are used to retrieve data from the database more quickly than otherwise. The users cannot see the indexes, they are just used to speed up searches/queries.
-
-> Note: Updating a table with indexes takes more time than updating a table without (because the indexes also need an update). So, only create indexes on columns that will be frequently searched against.
-
-```sql
-CREATE INDEX index_name
-ON table_name (column1, column2, ...);
-
-CREATE UNIQUE INDEX index_name
-ON table_name (column1, column2, ...);
-
-CREATE INDEX idx_lastname
-ON Persons (LastName);
-
-CREATE INDEX idx_pname
-ON Persons (LastName, FirstName);
-
-ALTER TABLE table_name
-DROP INDEX index_name;
-```
-
 ## VIEW
 - In SQL, a view is a virtual table based on the result-set of an SQL statement.
 - A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
