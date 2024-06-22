@@ -34,17 +34,4 @@
 
 
 
-## Frequently Used Annotations From Spring Framework.
-
-spring core module related annotations
-- @Component
-- @Service 
-- @Repository
-
-@Configuration
-@Bean
-
-
-### @Autowired
-### @Qualifier
 
