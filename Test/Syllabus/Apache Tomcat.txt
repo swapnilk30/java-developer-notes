@@ -1,16 +1,1 @@
-// https://www.youtube.com/watch?v=c7qZAL1bHi0
-Mastering Apache Tomcat : A Comprehensive Guide For Webserver Setup
 
-change port number
-- go to conf >> server.xml
-
-
--Add Users to Tomcat
-    go to tomcat-users.xml >> 
-        <user username="admin" password="admin" roles="manager-gui" />
-
-
-Use of Servers Using Eclips IDE
-    - go to windows >> show view >> Server 
-    -now we will see at bottom server tab then click on it.
-        press right click New >> Server >> Apache >> 
