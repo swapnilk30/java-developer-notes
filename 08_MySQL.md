@@ -1,7 +1,7 @@
 
 --- MYSQL---
 
-## What is diff between primary and unique key
+
 ## What is trigger
 
 ## write sql query to to fetch all data from specific column?
