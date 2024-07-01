@@ -299,9 +299,7 @@ bring through default methods.
 
 
 # Stream
-## What is an Intermediate operation
-- The Operations which return another stream as a result are called intermediate operations.
-- filter(), map(), distinct(), sorted(), limit(), skip()
+
 
 https://www.youtube.com/watch?v=PMhrMDHFFW4&t=5s
 
