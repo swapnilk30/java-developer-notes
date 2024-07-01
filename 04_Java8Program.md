@@ -189,25 +189,9 @@ public class SortList {
 - Reverse A String In Java using Java8 Stream API 
 ```
 
-```
-Predefined Functional Interfaces  :
-
-    Predicate 
-    Function
-    Consumer
-    Supplier
 
 
 
-
-```
-
-# What is Lambda Expression (λ):
-
-### The Main Objective of Lambda Expression is to bring benefits of functional programming into Java.
-    • Lambda Expression is just an anonymous (nameless) function. That means the function which
-    doesn’t have the name, return type and access modifiers.
-    • Lambda Expression also known as anonymous functions or closures.
 
 # Default Methods
 - Until 1.7 version onwards inside interface we can take only public abstract methods and public
