@@ -5,15 +5,9 @@ https://www.youtube.com/watch?v=AfpuuGUBTIQ&t=672s
 ```
 
 
-# COLLECTION FRAMEWORK
 
 
 
-
-### LinkedHashMap
-### ConcurrentHashMap
-### HashTable
-### TreeMap
 
 ### What is Immutable object ?
 - Once we Created an object, we can not change the values of its instance variables.
